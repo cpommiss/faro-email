@@ -4,6 +4,8 @@
 var app;
 
 jQuery( window ).on( 'load', function() {
+    new ClipboardJS( '.button__copy' );
+
     Vue.directive( 'sortable', {
         // When the bound element is inserted into the DOM...
         inserted: function ( el, binding ) {
@@ -87,6 +89,12 @@ jQuery( window ).on( 'load', function() {
                             }
                         }
                     }
+                },
+
+                copy_code: function() {
+                    jQuery( app.$refs.copy ).addClass( 'copied' );
+
+                    setTimeout( function() { jQuery( app.$refs.copy ).removeClass( 'copied' ); }, 2000 );
                 },
 
                 rearrange: function( event ) {

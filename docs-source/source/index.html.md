@@ -24,10 +24,16 @@ In order to send an e-mail created in MJML, you must first convert it into HTML 
 * Use the **[MJML Website](https://mjml.io/try-it-live)** to convert your MJML code into HTML code in real time.
 * Use the **[MJML Desktop App](https://mjmlio.github.io/mjml-app/)** to convert your MJML code into HTML code in real time on your desktop (without the need for an Internet connection).
 
-When using either option, for best results, make sure the option to **Minify HTML** is enabled.
+<aside class="notice warning">When using either option, for best results, make sure the option to <strong>Minify HTML</strong> is enabled.</aside>
 
 * On the **[MJML Website](https://mjml.io/try-it-live)**, this option is located at the top of the screen, above the preview area.
 * In the **[MJML Desktop App](https://mjmlio.github.io/mjml-app/)**, this option is located in the settings area.
+
+# MJML Documentation
+
+The MJML site contains documentation and examples of all the MJML tags that are supported. Each tag contains examples and a list of all supported attributes, such as attributes to allow for hyperlinking, alternative text tagging, width, height, and more.
+
+See the **[MJML documentation site](https://mjml.io/documentation/)** for more information on using and extending the MJML templates and snippets seen here.
 
 # Getting Started
 
@@ -1919,8 +1925,17 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
       <div class="builder__preview-tabs-panel">
         <div class="builder__preview-code">
           <p>Cut and paste the MJML code below into your choice of MJML editor, and then make your text and image edits.</p>
+          <ul>
+            <li>You can paste the code below into the <a href="https://mjml.io/try-it-live" target="_blank">online MJML editor</a>.</li>
+            <li>You can also download the MJML desktop application and make your edits offline.</li>
+            <li>See the <a href="#mjml-overview">MJML Overview</a> section for more information.</li>
+          </ul>
           
-          <textarea class="builder__preview-code-textarea" rows="2">
+          <div class="builder__preview-code-controls">
+            <a href="javascript:;" ref="copy" class="button button__copy" data-clipboard-target="#builder_code" v-on:click="copy_code">Copy to Clipboard</a>
+          </div>
+          
+          <textarea class="builder__preview-code-textarea" id="builder_code" rows="2">
 <mjml lang="en">
     <mj-head>
         <mj-preview>FARO: Preview text goes here</mj-preview>

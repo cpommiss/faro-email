@@ -202,6 +202,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.4/lodash.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.4.2/Sortable.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
 
       <script src="javascripts/all.js"></script>
   </head>
@@ -228,6 +229,9 @@
           </li>
           <li>
             <a href="#mjml-overview" class="toc-h1 toc-link" data-title="MJML Overview">MJML Overview</a>
+          </li>
+          <li>
+            <a href="#mjml-documentation" class="toc-h1 toc-link" data-title="MJML Documentation">MJML Documentation</a>
           </li>
           <li>
             <a href="#getting-started" class="toc-h1 toc-link" data-title="Getting Started">Getting Started</a>
@@ -411,12 +415,16 @@
 <li>Use the <strong><a href="https://mjmlio.github.io/mjml-app/">MJML Desktop App</a></strong> to convert your MJML code into HTML code in real time on your desktop (without the need for an Internet connection).</li>
 </ul>
 
-<p>When using either option, for best results, make sure the option to <strong>Minify HTML</strong> is enabled.</p>
+<aside class="notice warning">When using either option, for best results, make sure the option to <strong>Minify HTML</strong> is enabled.</aside>
 
 <ul>
 <li>On the <strong><a href="https://mjml.io/try-it-live">MJML Website</a></strong>, this option is located at the top of the screen, above the preview area.</li>
 <li>In the <strong><a href="https://mjmlio.github.io/mjml-app/">MJML Desktop App</a></strong>, this option is located in the settings area.</li>
 </ul>
+<h1 id='mjml-documentation'>MJML Documentation</h1>
+<p>The MJML site contains documentation and examples of all the MJML tags that are supported. Each tag contains examples and a list of all supported attributes, such as attributes to allow for hyperlinking, alternative text tagging, width, height, and more.</p>
+
+<p>See the <strong><a href="https://mjml.io/documentation/">MJML documentation site</a></strong> for more information on using and extending the MJML templates and snippets seen here.</p>
 <h1 id='getting-started'>Getting Started</h1><h2 id='blank-template'>Blank Template</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mjml</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;mj-head&gt;</span>
         <span class="nt">&lt;mj-preview&gt;</span>FARO: Preview text goes here<span class="nt">&lt;/mj-preview&gt;</span>
@@ -2439,8 +2447,17 @@
       <div class="builder__preview-tabs-panel">
         <div class="builder__preview-code">
           <p>Cut and paste the MJML code below into your choice of MJML editor, and then make your text and image edits.</p>
+          <ul>
+            <li>You can paste the code below into the <a href="https://mjml.io/try-it-live" target="_blank">online MJML editor</a>.</li>
+            <li>You can also download the MJML desktop application and make your edits offline.</li>
+            <li>See the <a href="#mjml-overview">MJML Overview</a> section for more information.</li>
+          </ul>
           
-          <textarea class="builder__preview-code-textarea" rows="2">
+          <div class="builder__preview-code-controls">
+            <a href="javascript:;" ref="copy" class="button button__copy" data-clipboard-target="#builder_code" v-on:click="copy_code">Copy to Clipboard</a>
+          </div>
+          
+          <textarea class="builder__preview-code-textarea" id="builder_code" rows="2">
 <mjml lang="en">
     <mj-head>
         <mj-preview>FARO: Preview text goes here</mj-preview>

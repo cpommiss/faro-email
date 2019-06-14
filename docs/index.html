@@ -336,6 +336,9 @@
                   <li>
                     <a href="#two-column-with-image-right" class="toc-h2 toc-link" data-title="Two-Column with Image (Right)">Two-Column with Image (Right)</a>
                   </li>
+                  <li>
+                    <a href="#image-full-width" class="toc-h2 toc-link" data-title="Image (Full-width)">Image (Full-width)</a>
+                  </li>
               </ul>
           </li>
           <li>
@@ -1641,6 +1644,32 @@
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 <li>You can change the orientation of the image (i.e., place it on the right) by switching the order of the <code>&lt;mj-column&gt;</code> tags (i.e., swap the positions of the <code>&lt;mj-column&gt;</code> containing the image and the <code>&lt;mj-column&gt;</code> containing the paragraph text).</li>
 </ul>
+<h2 id='image-full-width'>Image (Full-width)</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">padding=</span><span class="s">"10px 20px"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;mj-column</span> <span class="na">width=</span><span class="s">"100%"</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
+            <span class="c">&lt;!-- *** START: Image Content *** --&gt;</span>
+            <span class="nt">&lt;mj-image</span> <span class="na">mj-class=</span><span class="s">"image__bordered color__zenith-blue--border"</span>
+                      <span class="na">padding=</span><span class="s">"5px 0px 20px 0px"</span>
+                      <span class="na">src=</span><span class="s">"http://placeimg.com/680/360/any"</span>
+                      <span class="na">href=</span><span class="s">"http://faro.com/"</span>
+                      <span class="na">align=</span><span class="s">"center"</span>
+                      <span class="na">alt=</span><span class="s">"Full-width Image"</span> <span class="nt">/&gt;</span>
+            <span class="c">&lt;!-- *** END: Image Content *** --&gt;</span>
+        <span class="nt">&lt;/mj-column&gt;</span>
+    <span class="nt">&lt;/mj-section&gt;</span>
+<span class="nt">&lt;/mj-wrapper&gt;</span>
+</code></pre>
+<p>Shown on the right is the MJML code to generate and display a full-width image.</p>
+
+<p>This code will look like this when rendered:</p>
+
+<aside>
+<img src="images/template--content--image.png" alt="Full-width Image">
+</aside>
+<h3 id='options-and-notes-15'>Options and Notes</h3>
+<ul>
+<li>You can hyperlink the image by modifying the <code>href</code> attribute on the <code>&lt;mj-image&gt;</code> tag. If you do not want the image to be hyperlinked, simply remove (or do not specify) the <code>href</code> attribute.</li>
+</ul>
 <h1 id='lists'>Lists</h1><h2 id='wide'>Wide</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">padding=</span><span class="s">"10px 0px"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;mj-column</span> <span class="na">width=</span><span class="s">"100%"</span> <span class="na">padding=</span><span class="s">"0px 20px"</span><span class="nt">&gt;</span>
@@ -1670,7 +1699,7 @@
 <aside>
 <img src="images/template--content--list-wide.png" alt="List (Wide)">
 </aside>
-<h3 id='options-and-notes-15'>Options and Notes</h3>
+<h3 id='options-and-notes-16'>Options and Notes</h3>
 <ul>
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 </ul>
@@ -1712,7 +1741,7 @@
 <aside>
 <img src="images/template--content--list-two-column-unaligned.png" alt="List (Two-Column, Unaligned)">
 </aside>
-<h3 id='options-and-notes-16'>Options and Notes</h3>
+<h3 id='options-and-notes-17'>Options and Notes</h3>
 <ul>
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 </ul>
@@ -1779,7 +1808,7 @@
 <aside>
 <img src="images/template--content--list-two-column-aligned.png" alt="List (Two-Column, Aligned)">
 </aside>
-<h3 id='options-and-notes-17'>Options and Notes</h3>
+<h3 id='options-and-notes-18'>Options and Notes</h3>
 <ul>
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 <li>Copy/Paste the code in between the <code>START: Row</code> and <code>END: Row</code> comments to add additional list items as denoted in the HTML comments.</li>
@@ -1879,7 +1908,7 @@
 <aside>
 <img src="images/template--content--list-icons.png" alt="List (Icons)">
 </aside>
-<h3 id='options-and-notes-18'>Options and Notes</h3>
+<h3 id='options-and-notes-19'>Options and Notes</h3>
 <ul>
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 <li>Refer to the <strong><a href="#icons">Icons</a></strong> section of this documentation to find the icon you&#39;re looking for.</li>
@@ -1912,7 +1941,7 @@
 <aside>
 <img src="images/template--buttons--single.png" alt="Buttons (Single)">
 </aside>
-<h3 id='options-and-notes-19'>Options and Notes</h3>
+<h3 id='options-and-notes-20'>Options and Notes</h3>
 <ul>
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 <li>Standard buttons require the <code>css-class=&quot;button-full&quot;</code> CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.</li>
@@ -1939,7 +1968,7 @@
 <aside>
 <img src="images/template--buttons--single-full.png" alt="Buttons (Single, Full-Width)">
 </aside>
-<h3 id='options-and-notes-20'>Options and Notes</h3>
+<h3 id='options-and-notes-21'>Options and Notes</h3>
 <ul>
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 <li>Standard buttons require the <code>css-class=&quot;button-full&quot;</code> CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.</li>
@@ -1977,7 +2006,7 @@
 <aside>
 <img src="images/template--buttons--two-columns.png" alt="Buttons (Two Across)">
 </aside>
-<h3 id='options-and-notes-21'>Options and Notes</h3>
+<h3 id='options-and-notes-22'>Options and Notes</h3>
 <ul>
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 <li>Standard buttons require the <code>css-class=&quot;button-full&quot;</code> CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.</li>
@@ -2027,7 +2056,7 @@
 <aside>
 <img src="images/template--buttons--three-columns.png" alt="Buttons (Three Across)">
 </aside>
-<h3 id='options-and-notes-22'>Options and Notes</h3>
+<h3 id='options-and-notes-23'>Options and Notes</h3>
 <ul>
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 <li>Standard buttons require the <code>css-class=&quot;button-full&quot;</code> CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.</li>
@@ -2093,7 +2122,7 @@
 <aside>
 <img src="images/template--special--highlight.png" alt="CTA with Background">
 </aside>
-<h3 id='options-and-notes-23'>Options and Notes</h3>
+<h3 id='options-and-notes-24'>Options and Notes</h3>
 <ul>
 <li>This combination utilizes the <strong><a href="#with-icon">Headline With Icon</a></strong> headline layout. You can switch this out for a standard headline if you wish.</li>
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
@@ -2213,7 +2242,7 @@
 <aside>
 <img src="images/template--special--mono.png" alt="CTA with Icon (Monochrome)">
 </aside>
-<h3 id='options-and-notes-24'>Options and Notes</h3>
+<h3 id='options-and-notes-25'>Options and Notes</h3>
 <ul>
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 <li>Refer to the <strong><a href="#icons">Icons</a></strong> section of this documentation to find the icon you&#39;re looking for.</li>
@@ -2330,7 +2359,7 @@
 <aside>
 <img src="images/template--special--two-tone.png" alt="CTA with Icon (Monochrome)">
 </aside>
-<h3 id='options-and-notes-25'>Options and Notes</h3>
+<h3 id='options-and-notes-26'>Options and Notes</h3>
 <ul>
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 <li>Refer to the <strong><a href="#icons">Icons</a></strong> section of this documentation to find the icon you&#39;re looking for.</li>
@@ -2368,6 +2397,7 @@
           <option value="template--content--two-column-text">Content Block: Two Column Text</option>
           <option value="template--content--two-column-left">Content Block: Two Column with Image (Left)</option>
           <option value="template--content--two-column-right">Content Block: Two Column with Image (Right)</option>
+          <option value="template--content--image">Content Block: Image (Full-width)</option>
         </optgroup>
         <optgroup label="Lists">
           <option value="template--content--list-wide">List: Wide</option>

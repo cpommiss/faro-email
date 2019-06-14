@@ -1069,6 +1069,36 @@ This code will look like this when rendered:
 * You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
 * You can change the orientation of the image (i.e., place it on the right) by switching the order of the `<mj-column>` tags (i.e., swap the positions of the `<mj-column>` containing the image and the `<mj-column>` containing the paragraph text).
 
+## Image (Full-width)
+
+```html
+<mj-wrapper padding="10px 20px">
+    <mj-section padding="0px">
+        <mj-column width="100%" padding="0px">
+            <!-- *** START: Image Content *** -->
+            <mj-image mj-class="image__bordered color__zenith-blue--border"
+                      padding="5px 0px 20px 0px"
+                      src="http://placeimg.com/680/360/any"
+                      href="http://faro.com/"
+                      align="center"
+                      alt="Full-width Image" />
+            <!-- *** END: Image Content *** -->
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
+```
+Shown on the right is the MJML code to generate and display a full-width image.
+
+This code will look like this when rendered:
+
+<aside>
+<img src="images/template--content--image.png" alt="Full-width Image">
+</aside>
+
+### Options and Notes
+
+* You can hyperlink the image by modifying the `href` attribute on the `<mj-image>` tag. If you do not want the image to be hyperlinked, simply remove (or do not specify) the `href` attribute.
+
 # Lists
 
 ## Wide
@@ -1847,6 +1877,7 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
           <option value="template--content--two-column-text">Content Block: Two Column Text</option>
           <option value="template--content--two-column-left">Content Block: Two Column with Image (Left)</option>
           <option value="template--content--two-column-right">Content Block: Two Column with Image (Right)</option>
+          <option value="template--content--image">Content Block: Image (Full-width)</option>
         </optgroup>
         <optgroup label="Lists">
           <option value="template--content--list-wide">List: Wide</option>

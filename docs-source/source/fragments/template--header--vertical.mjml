@@ -1,0 +1,40 @@
+
+        <!--
+        ***
+        *** START: Vertical Header
+        ***
+        -->
+        <mj-wrapper padding="0px">
+            <mj-section padding="0px 10px" css-class="vertical-header">
+                <mj-group width="100%">
+                    <mj-column width="35%" padding="0px" vertical-align="middle">
+                        <mj-image width="120px"
+                                  padding="0px"
+                                  align="left"
+                                  src="http://s94149.gridserver.com/clients/faro/email/2019/images/logo-blue.jpg"
+                                  alt="FARO Logo"
+                                  href="https://www.faro.com/" />
+                    </mj-column>
+                    <mj-column width="57%" padding="20px 0px 20px 20px" vertical-align="middle">
+                        <mj-text mj-class="text__vertical-primary color__faro-blue">
+                            3D Design
+                        </mj-text>
+                        <mj-text mj-class="text__vertical-secondary color__carbon-black">
+                            Digital Creation
+                        </mj-text>
+                    </mj-column>
+                    <mj-column width="8%" padding="0px" vertical-align="middle">
+                        <mj-image padding="0px"
+                                  width="40px"
+                                  align="right"
+                                  src="http://s94149.gridserver.com/clients/faro/email/2019/images/vertical/3d-design.jpg"
+                                  alt="3D Design" />
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Vertical Header
+        ***
+        -->

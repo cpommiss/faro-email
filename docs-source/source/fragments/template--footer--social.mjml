@@ -1,0 +1,48 @@
+
+        <!--
+        ***
+        *** START: Social Links Footer
+        ***
+        -->
+        <mj-wrapper padding="10px 0px">
+            <mj-section padding="0px">
+                <mj-column width="100%" padding="0px">
+                    <mj-social icon-size="35px"
+                               mode="horizontal">
+                        <mj-social-element padding="0px"
+                                           name="facebook"
+                                           href="https://www.facebook.com/FAROTechnologies"
+                                           background-color="#ffffff"
+                                           src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/social/fb_round.png"
+                                           alt="Facebook">
+                        </mj-social-element>
+                        <mj-social-element padding="0px"
+                                           name="twitter"
+                                           href="https://twitter.com/faro_hq"
+                                           background-color="#ffffff"
+                                           src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/social/tw_round.png"
+                                           alt="Twitter">
+                        </mj-social-element>
+                        <mj-social-element padding="0px"
+                                           name="linkedin"
+                                           href="https://www.linkedin.com/company/faro-technologies"
+                                           background-color="#ffffff"
+                                           src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/social/ln_round.png"
+                                           alt="LinkedIn">
+                        </mj-social-element>
+                        <mj-social-element padding="0px"
+                                           name="feed"
+                                           href="https://insights.faro.com/"
+                                           background-color="#ffffff"
+                                           src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/social/feed_round.png"
+                                           alt="Feed/RSS">
+                        </mj-social-element>
+                    </mj-social>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Social Links Footer
+        ***
+        -->

@@ -1,0 +1,47 @@
+
+        <!--
+        ***
+        *** START: Top Image (Single Column)
+        ***
+        -->
+        <mj-wrapper mj-class="color__white--bg"
+                    padding="0px"
+                    background-url="http://s94149.gridserver.com/clients/faro/email/2019/images/cta-triangles-grey.jpg"
+                    background-size="680px"
+                    background-repeat="no-repeat">
+            <mj-section padding="0px">
+                <mj-column width="100%">
+                    <mj-spacer height="70px" />
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="0px">
+                <mj-column width="100%" padding="0px">
+                    <mj-divider mj-class="line__cta-primary color__zenith-blue--border"
+                                css-class="divider-left" />
+
+                    <!-- *** START: Headline Text *** -->
+                    <mj-text mj-class="text__cta-primary color__faro-blue">
+                        Dive Deeper Into Our Solutions
+                    </mj-text>
+                    <!-- *** END: Headline Text *** -->
+
+                    <!-- *** START: Sub-Headline Text *** -->
+                    <mj-text mj-class="text__cta-secondary color__metal-gray">
+                        Subheadline Here
+                    </mj-text>
+                    <!-- *** END: Sub-Headline Text *** -->
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="0px">
+                <mj-column width="100%">
+                    <mj-spacer height="70px" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Top Image (Single Column)
+        ***
+        -->

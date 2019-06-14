@@ -228,7 +228,7 @@ When using either option, for best results, make sure the option to **Minify HTM
             <!-- Template-Specific Styles -->
             <mj-class name="block__grey--faded"
                       background-color="#fff"
-                      background-url="http://s94149.gridserver.com/clients/faro/email/2019/images/bg-triangles-grey-faded.jpg"
+                      background-url="http://cpommiss.github.io/faro-email/images/elements/bg-triangles-grey-faded.jpg"
                       border-top="1px #01426a solid"
                       border-bottom="1px #01426a solid"
                       vertical-align="middle" />
@@ -277,11 +277,11 @@ At the bottom of all the boilerplate code for colors, fonts and styles, is a sec
 
 ### Standard FARO Template
 
-You can download a quick-start Standard FARO MJML template with all the bells-and-whistles **[here](images/basic.zip)**.
+You can download a quick-start Standard FARO MJML template with all the bells-and-whistles **[here](downloads/basic.zip)**.
 
 ### Vertical-Specific Template
 
-You can download a quick-start Vertical-Specific FARO MJML template with all the bells-and-whistles **[here](images/vertical.zip)**.
+You can download a quick-start Vertical-Specific FARO MJML template with all the bells-and-whistles **[here](downloads/vertical.zip)**.
 
 # Colors
 
@@ -333,48 +333,48 @@ The following icon filenames are available:
 
 Icon | Image Filename | Description
 --------- | ------- | -----------
-<img src="images/icons/large/blue/accurate.jpg" alt="Accurate Icon"> | accurate.jpg | Accurate
-<img src="images/icons/large/blue/advance-performance.jpg" alt="Advance Performance Icon"> | advance-performance.jpg | Advance Performance
-<img src="images/icons/large/blue/alert.jpg" alt="Alert Icon"> | alert.jpg | Alert
-<img src="images/icons/large/blue/anytime.jpg" alt="Anytime Icon"> | anytime.jpg | Anytime
-<img src="images/icons/large/blue/capture-in-3d.jpg" alt="Capture In 3d Icon"> | capture-in-3d.jpg | Capture In 3d
-<img src="images/icons/large/blue/collaboration.jpg" alt="Collaboration Icon"> | collaboration.jpg | Collaboration
-<img src="images/icons/large/blue/compelling-presentation.jpg" alt="Compelling Presentation Icon"> | compelling-presentation.jpg | Compelling Presentation
-<img src="images/icons/large/blue/complete.jpg" alt="Complete Icon"> | complete.jpg | Complete
-<img src="images/icons/large/blue/direct-comparison.jpg" alt="Direct Comparison Icon"> | direct-comparison.jpg | Direct Comparison
-<img src="images/icons/large/blue/easy-repair.jpg" alt="Easy Repair Icon"> | easy-repair.jpg | Easy Repair
-<img src="images/icons/large/blue/easy-to-process.jpg" alt="Easy To Process Icon"> | easy-to-process.jpg | Easy To Process
-<img src="images/icons/large/blue/easy-to-share-data.jpg" alt="Easy To Share Data Icon"> | easy-to-share-data.jpg | Easy To Share Data
-<img src="images/icons/large/blue/easy-to-use.jpg" alt="Easy To Use Icon"> | easy-to-use.jpg | Easy To Use
-<img src="images/icons/large/blue/efficient.jpg" alt="Efficient Icon"> | efficient.jpg | Efficient
-<img src="images/icons/large/blue/eliminate-manual-drawings.jpg" alt="Eliminate Manual Drawings Icon"> | eliminate-manual-drawings.jpg | Eliminate Manual Drawings
-<img src="images/icons/large/blue/eliminate-scrap.jpg" alt="Eliminate Scrap Icon"> | eliminate-scrap.jpg | Eliminate Scrap
-<img src="images/icons/large/blue/faster.jpg" alt="Faster Icon"> | faster.jpg | Faster
-<img src="images/icons/large/blue/flexible.jpg" alt="Flexible Icon"> | flexible.jpg | Flexible
-<img src="images/icons/large/blue/flexible-capture.jpg" alt="Flexible Capture Icon"> | flexible-capture.jpg | Flexible Capture
-<img src="images/icons/large/blue/gentle.jpg" alt="Gentle Icon"> | gentle.jpg | Gentle
-<img src="images/icons/large/blue/implementation.jpg" alt="Implementation Icon"> | implementation.jpg | Implementation
-<img src="images/icons/large/blue/in-the-field-deliverable.jpg" alt="In The Field Deliverable Icon"> | in-the-field-deliverable.jpg | In The Field Deliverable
-<img src="images/icons/large/blue/limit-road-time-closure.jpg" alt="Limit Road Time Closure Icon"> | limit-road-time-closure.jpg | Limit Road Time Closure
-<img src="images/icons/large/blue/money-saving.jpg" alt="Money Saving Icon"> | money-saving.jpg | Money Saving
-<img src="images/icons/large/blue/portable.jpg" alt="Portable Icon"> | portable.jpg | Portable
-<img src="images/icons/large/blue/preserve-evidence.jpg" alt="Preserve Evidence Icon"> | preserve-evidence.jpg | Preserve Evidence
-<img src="images/icons/large/blue/provide-clarity.jpg" alt="Provide Clarity Icon"> | provide-clarity.jpg | Provide Clarity
-<img src="images/icons/large/blue/reduce-cost.jpg" alt="Reduce Cost Icon"> | reduce-cost.jpg | Reduce Cost
-<img src="images/icons/large/blue/reduce-exposure.jpg" alt="Reduce Exposure Icon"> | reduce-exposure.jpg | Reduce Exposure
-<img src="images/icons/large/blue/reduce-officers.jpg" alt="Reduce Officers Icon"> | reduce-officers.jpg | Reduce Officers
-<img src="images/icons/large/blue/reduce-risk.jpg" alt="Reduce Risk Icon"> | reduce-risk.jpg | Reduce Risk
-<img src="images/icons/large/blue/reliable.jpg" alt="Reliable Icon"> | reliable.jpg | Reliable
-<img src="images/icons/large/blue/reliable-alt.jpg" alt="Reliable (Alternate) Icon"> | reliable-alt.jpg | Reliable (Alternate)
-<img src="images/icons/large/blue/reverse-engineering.jpg" alt="Reverse Engineering Icon"> | reverse-engineering.jpg | Reverse Engineering
-<img src="images/icons/large/blue/safe.jpg" alt="Safe Icon"> | safe.jpg | Safe
-<img src="images/icons/large/blue/standard-catalogs.jpg" alt="Standard Catalogs Icon"> | standard-catalogs.jpg | Standard Catalogs
-<img src="images/icons/large/blue/thorough.jpg" alt="Thorough Icon"> | thorough.jpg | Thorough
-<img src="images/icons/large/blue/time-saving.jpg" alt="Time Saving Icon"> | time-saving.jpg | Time Saving
-<img src="images/icons/large/blue/trend-analysis.jpg" alt="Trend Analysis Icon"> | trend-analysis.jpg | Trend Analysis
-<img src="images/icons/large/blue/user-control.jpg" alt="User Control Icon"> | user-control.jpg | User Control
-<img src="images/icons/large/blue/verifications.jpg" alt="Verifications Icon"> | verifications.jpg | Verifications
-<img src="images/icons/large/blue/wet-and-dark-conditions.jpg" alt="Wet And Dark Conditions Icon"> | wet-and-dark-conditions.jpg | Wet And Dark Conditions
+<img src="images/elements/icons/large/blue/accurate.jpg" alt="Accurate Icon"> | accurate.jpg | Accurate
+<img src="images/elements/icons/large/blue/advance-performance.jpg" alt="Advance Performance Icon"> | advance-performance.jpg | Advance Performance
+<img src="images/elements/icons/large/blue/alert.jpg" alt="Alert Icon"> | alert.jpg | Alert
+<img src="images/elements/icons/large/blue/anytime.jpg" alt="Anytime Icon"> | anytime.jpg | Anytime
+<img src="images/elements/icons/large/blue/capture-in-3d.jpg" alt="Capture In 3d Icon"> | capture-in-3d.jpg | Capture In 3d
+<img src="images/elements/icons/large/blue/collaboration.jpg" alt="Collaboration Icon"> | collaboration.jpg | Collaboration
+<img src="images/elements/icons/large/blue/compelling-presentation.jpg" alt="Compelling Presentation Icon"> | compelling-presentation.jpg | Compelling Presentation
+<img src="images/elements/icons/large/blue/complete.jpg" alt="Complete Icon"> | complete.jpg | Complete
+<img src="images/elements/icons/large/blue/direct-comparison.jpg" alt="Direct Comparison Icon"> | direct-comparison.jpg | Direct Comparison
+<img src="images/elements/icons/large/blue/easy-repair.jpg" alt="Easy Repair Icon"> | easy-repair.jpg | Easy Repair
+<img src="images/elements/icons/large/blue/easy-to-process.jpg" alt="Easy To Process Icon"> | easy-to-process.jpg | Easy To Process
+<img src="images/elements/icons/large/blue/easy-to-share-data.jpg" alt="Easy To Share Data Icon"> | easy-to-share-data.jpg | Easy To Share Data
+<img src="images/elements/icons/large/blue/easy-to-use.jpg" alt="Easy To Use Icon"> | easy-to-use.jpg | Easy To Use
+<img src="images/elements/icons/large/blue/efficient.jpg" alt="Efficient Icon"> | efficient.jpg | Efficient
+<img src="images/elements/icons/large/blue/eliminate-manual-drawings.jpg" alt="Eliminate Manual Drawings Icon"> | eliminate-manual-drawings.jpg | Eliminate Manual Drawings
+<img src="images/elements/icons/large/blue/eliminate-scrap.jpg" alt="Eliminate Scrap Icon"> | eliminate-scrap.jpg | Eliminate Scrap
+<img src="images/elements/icons/large/blue/faster.jpg" alt="Faster Icon"> | faster.jpg | Faster
+<img src="images/elements/icons/large/blue/flexible.jpg" alt="Flexible Icon"> | flexible.jpg | Flexible
+<img src="images/elements/icons/large/blue/flexible-capture.jpg" alt="Flexible Capture Icon"> | flexible-capture.jpg | Flexible Capture
+<img src="images/elements/icons/large/blue/gentle.jpg" alt="Gentle Icon"> | gentle.jpg | Gentle
+<img src="images/elements/icons/large/blue/implementation.jpg" alt="Implementation Icon"> | implementation.jpg | Implementation
+<img src="images/elements/icons/large/blue/in-the-field-deliverable.jpg" alt="In The Field Deliverable Icon"> | in-the-field-deliverable.jpg | In The Field Deliverable
+<img src="images/elements/icons/large/blue/limit-road-time-closure.jpg" alt="Limit Road Time Closure Icon"> | limit-road-time-closure.jpg | Limit Road Time Closure
+<img src="images/elements/icons/large/blue/money-saving.jpg" alt="Money Saving Icon"> | money-saving.jpg | Money Saving
+<img src="images/elements/icons/large/blue/portable.jpg" alt="Portable Icon"> | portable.jpg | Portable
+<img src="images/elements/icons/large/blue/preserve-evidence.jpg" alt="Preserve Evidence Icon"> | preserve-evidence.jpg | Preserve Evidence
+<img src="images/elements/icons/large/blue/provide-clarity.jpg" alt="Provide Clarity Icon"> | provide-clarity.jpg | Provide Clarity
+<img src="images/elements/icons/large/blue/reduce-cost.jpg" alt="Reduce Cost Icon"> | reduce-cost.jpg | Reduce Cost
+<img src="images/elements/icons/large/blue/reduce-exposure.jpg" alt="Reduce Exposure Icon"> | reduce-exposure.jpg | Reduce Exposure
+<img src="images/elements/icons/large/blue/reduce-officers.jpg" alt="Reduce Officers Icon"> | reduce-officers.jpg | Reduce Officers
+<img src="images/elements/icons/large/blue/reduce-risk.jpg" alt="Reduce Risk Icon"> | reduce-risk.jpg | Reduce Risk
+<img src="images/elements/icons/large/blue/reliable.jpg" alt="Reliable Icon"> | reliable.jpg | Reliable
+<img src="images/elements/icons/large/blue/reliable-alt.jpg" alt="Reliable (Alternate) Icon"> | reliable-alt.jpg | Reliable (Alternate)
+<img src="images/elements/icons/large/blue/reverse-engineering.jpg" alt="Reverse Engineering Icon"> | reverse-engineering.jpg | Reverse Engineering
+<img src="images/elements/icons/large/blue/safe.jpg" alt="Safe Icon"> | safe.jpg | Safe
+<img src="images/elements/icons/large/blue/standard-catalogs.jpg" alt="Standard Catalogs Icon"> | standard-catalogs.jpg | Standard Catalogs
+<img src="images/elements/icons/large/blue/thorough.jpg" alt="Thorough Icon"> | thorough.jpg | Thorough
+<img src="images/elements/icons/large/blue/time-saving.jpg" alt="Time Saving Icon"> | time-saving.jpg | Time Saving
+<img src="images/elements/icons/large/blue/trend-analysis.jpg" alt="Trend Analysis Icon"> | trend-analysis.jpg | Trend Analysis
+<img src="images/elements/icons/large/blue/user-control.jpg" alt="User Control Icon"> | user-control.jpg | User Control
+<img src="images/elements/icons/large/blue/verifications.jpg" alt="Verifications Icon"> | verifications.jpg | Verifications
+<img src="images/elements/icons/large/blue/wet-and-dark-conditions.jpg" alt="Wet And Dark Conditions Icon"> | wet-and-dark-conditions.jpg | Wet And Dark Conditions
 
 These icons are available in a few different sizes, which are pre-set based on the path of the filename for the icon. For example, the icons located in the `icons/large/blue` path are shown above, and are used in the **[Icon List](#icon-list)** snippet/layout. If you only change the filename as directed, you should not need to worry about the correct pathname for the snippet you're using. 
 
@@ -387,7 +387,7 @@ These icons are available in a few different sizes, which are pre-set based on t
     <mj-section padding="0px">
         <mj-column width="100%" padding="20px 0px">
             <mj-image width="140px"
-                      src="http://s94149.gridserver.com/clients/faro/email/2019/images/logo-blue.jpg"
+                      src="http://cpommiss.github.io/faro-email/images/elements/logo-blue.jpg"
                       alt="FARO Logo"
                       href="https://www.faro.com/" />
         </mj-column>
@@ -416,7 +416,7 @@ There are no configuration options for this snippet. Just cut and paste!
                 <mj-image width="120px"
                           padding="0px"
                           align="left"
-                          src="http://s94149.gridserver.com/clients/faro/email/2019/images/logo-blue.jpg"
+                          src="http://cpommiss.github.io/faro-email/images/elements/logo-blue.jpg"
                           alt="FARO Logo"
                           href="https://www.faro.com/" />
             </mj-column>
@@ -435,7 +435,7 @@ There are no configuration options for this snippet. Just cut and paste!
                 <mj-image padding="0px"
                           width="40px"
                           align="right"
-                          src="http://s94149.gridserver.com/clients/faro/email/2019/images/vertical/3d-design.jpg"
+                          src="http://cpommiss.github.io/faro-email/images/elements/vertical/3d-design.jpg"
                           alt="3D Design" />
                 <!-- *** END: Vertical Image Icon *** -->
             </mj-column>
@@ -460,11 +460,11 @@ The following vertical icons are available:
 
 Icon | Image Filename | Description
 --------- | ------- | -----------
-<img src="images/icons/verticals/3d-design.jpg" alt="3D Design Vertical Icon"> | 3d-design.jpg | 3D Design
-<img src="images/icons/verticals/construction.jpg" alt="Construction Vertical Icon"> | construction.jpg | Construction
-<img src="images/icons/verticals/manufacturing.jpg" alt="Manufacturing Vertical Icon"> | manufacturing.jpg | Manufacturing
-<img src="images/icons/verticals/photonics.jpg" alt="Photonics Vertical Icon"> | photonics.jpg | Photonics
-<img src="images/icons/verticals/public-safety.jpg" alt="Public Safety Vertical Icon"> | public-safety.jpg | Public Safety
+<img src="images/elements/vertical/3d-design.jpg" alt="3D Design Vertical Icon"> | 3d-design.jpg | 3D Design
+<img src="images/elements/vertical/construction.jpg" alt="Construction Vertical Icon"> | construction.jpg | Construction
+<img src="images/elements/vertical/manufacturing.jpg" alt="Manufacturing Vertical Icon"> | manufacturing.jpg | Manufacturing
+<img src="images/elements/vertical/photonics.jpg" alt="Photonics Vertical Icon"> | photonics.jpg | Photonics
+<img src="images/elements/vertical/public-safety.jpg" alt="Public Safety Vertical Icon"> | public-safety.jpg | Public Safety
 
 You can find the proper places to change the image filename and the vertical header/sub-header annotated with HTML comments in the code shown on the right.
 
@@ -482,28 +482,28 @@ You can find the proper places to change the image filename and the vertical hea
                                    name="facebook"
                                    href="https://www.facebook.com/FAROTechnologies"
                                    background-color="#ffffff"
-                                   src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/social/fb_round.png"
+                                   src="http://cpommiss.github.io/faro-email/images/elements/icons/social/fb_round.png"
                                    alt="Facebook">
                 </mj-social-element>
                 <mj-social-element padding="0px"
                                    name="twitter"
                                    href="https://twitter.com/faro_hq"
                                    background-color="#ffffff"
-                                   src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/social/tw_round.png"
+                                   src="http://cpommiss.github.io/faro-email/images/elements/icons/social/tw_round.png"
                                    alt="Twitter">
                 </mj-social-element>
                 <mj-social-element padding="0px"
                                    name="linkedin"
                                    href="https://www.linkedin.com/company/faro-technologies"
                                    background-color="#ffffff"
-                                   src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/social/ln_round.png"
+                                   src="http://cpommiss.github.io/faro-email/images/elements/icons/social/ln_round.png"
                                    alt="LinkedIn">
                 </mj-social-element>
                 <mj-social-element padding="0px"
                                    name="feed"
                                    href="https://insights.faro.com/"
                                    background-color="#ffffff"
-                                   src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/social/feed_round.png"
+                                   src="http://cpommiss.github.io/faro-email/images/elements/icons/social/feed_round.png"
                                    alt="Feed/RSS">
                 </mj-social-element>
             </mj-social>
@@ -631,7 +631,7 @@ This code will look like this when rendered:
                       height="36px"
                       padding="0px"
                       align="left"
-                      src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/header/white/wide/left/capture-in-3d.jpg"
+                      src="http://cpommiss.github.io/faro-email/images/elements/icons/header/white/wide/left/capture-in-3d.jpg"
                       alt="Capture in 3D" />
             <!-- *** END: Headline Icon *** -->
         </mj-column>
@@ -670,7 +670,7 @@ This code will look like this when rendered:
                       height="48px"
                       padding="0px"
                       align="left"
-                      src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/header/blue/reliable.jpg"
+                      src="http://cpommiss.github.io/faro-email/images/elements/icons/header/blue/reliable.jpg"
                       alt="Reliable" />
             <!-- *** END: Headline Icon *** -->
         </mj-column>
@@ -705,7 +705,7 @@ This code will look like this when rendered:
 ```html
 <mj-wrapper mj-class="color__white--bg"
             padding="0px"
-            background-url="http://s94149.gridserver.com/clients/faro/email/2019/images/cta-triangles-grey.jpg"
+            background-url="http://cpommiss.github.io/faro-email/images/elements/cta-triangles-grey.jpg"
             background-size="680px"
             background-repeat="no-repeat">
     <mj-section padding="0px">
@@ -757,7 +757,7 @@ This code will look like this when rendered:
 ```html
 <mj-wrapper mj-class="color__white--bg"
             padding="0px"
-            background-url="http://s94149.gridserver.com/clients/faro/email/2019/images/cta-triangles-grey.jpg"
+            background-url="http://cpommiss.github.io/faro-email/images/elements/cta-triangles-grey.jpg"
             background-size="680px"
             background-repeat="no-repeat">
     <mj-section padding="0px">
@@ -1205,7 +1205,7 @@ This code will look like this when rendered:
             <mj-image width="48px"
                       padding="0px 0px 0px 6px"
                       align="left"
-                      src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/large/blue/advance-performance.jpg"
+                      src="http://cpommiss.github.io/faro-email/images/elements/icons/large/blue/advance-performance.jpg"
                       alt="Advance Performance" />
             <!-- *** END: Icon Image *** -->
         </mj-column>
@@ -1233,7 +1233,7 @@ This code will look like this when rendered:
             <mj-image width="48px"
                       padding="0px 0px 0px 6px"
                       align="left"
-                      src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/large/blue/efficient.jpg"
+                      src="http://cpommiss.github.io/faro-email/images/elements/icons/large/blue/efficient.jpg"
                       alt="Efficient" />
             <!-- *** END: Icon Image *** -->
         </mj-column>
@@ -1260,7 +1260,7 @@ This code will look like this when rendered:
             <mj-image width="48px"
                       padding="0px 0px 0px 6px"
                       align="left"
-                      src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/large/blue/provide-clarity.jpg"
+                      src="http://cpommiss.github.io/faro-email/images/elements/icons/large/blue/provide-clarity.jpg"
                       alt="Provide Clarity" />
             <!-- *** END: Icon Image *** -->
         </mj-column>
@@ -1477,7 +1477,7 @@ This code will look like this when rendered:
                       height="36px"
                       padding="0px"
                       align="left"
-                      src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/header/white/wide/left/capture-in-3d.jpg"
+                      src="http://cpommiss.github.io/faro-email/images/elements/icons/header/white/wide/left/capture-in-3d.jpg"
                       alt="Capture in 3D" />
             <!-- *** END: Icon Image *** -->
         </mj-column>
@@ -1548,7 +1548,7 @@ This code will look like this when rendered:
                       height="48px"
                       padding="0px 0px 0px 0px"
                       align="center"
-                      src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/header/blue/trend-analysis.jpg"
+                      src="http://cpommiss.github.io/faro-email/images/elements/icons/header/blue/trend-analysis.jpg"
                       alt="Create Trend Analysis" />
             <!-- *** END: Icon Image *** -->
         </mj-column>
@@ -1600,7 +1600,7 @@ This code will look like this when rendered:
                             style="background-color: #fff; color: #00416b; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
                             <a href="#"
                                style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
-                                <img src="http://s94149.gridserver.com/clients/faro/email/2019/images/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                <img src="http://cpommiss.github.io/faro-email/images/elements/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
                             </a>
                         </td>
                     </tr>
@@ -1620,7 +1620,7 @@ This code will look like this when rendered:
                                style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
                                 <img width="48px"
                                      height="32px"
-                                     src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/button/faro-blue_x_white.jpg"
+                                     src="http://cpommiss.github.io/faro-email/images/elements/icons/button/faro-blue_x_white.jpg"
                                      alt="Chevron" />
                             </a>
                         </td>
@@ -1632,7 +1632,7 @@ This code will look like this when rendered:
                             style="background-color: #fff; color: #00416b; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
                             <a href="#"
                                style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
-                                <img src="http://s94149.gridserver.com/clients/faro/email/2019/images/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                <img src="http://cpommiss.github.io/faro-email/images/elements/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
                             </a>
                         </td>
                     </tr>
@@ -1672,7 +1672,7 @@ This code will look like this when rendered:
                       height="48px"
                       padding="0px"
                       align="center"
-                      src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/header/blue/reduce-cost.jpg"
+                      src="http://cpommiss.github.io/faro-email/images/elements/icons/header/blue/reduce-cost.jpg"
                       alt="Reduce Cost" />
             <!-- *** END: Icon Image *** -->
         </mj-column>
@@ -1721,7 +1721,7 @@ This code will look like this when rendered:
                             style="background-color: #009cde; color: #ffffff; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
                             <a href="#"
                                style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
-                                <img src="http://s94149.gridserver.com/clients/faro/email/2019/images/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                <img src="http://cpommiss.github.io/faro-email/images/elements/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
                             </a>
                         </td>
                     </tr>
@@ -1741,7 +1741,7 @@ This code will look like this when rendered:
                                style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
                                 <img width="48px"
                                      height="32px"
-                                     src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/button/white_x_zenith-blue.jpg"
+                                     src="http://cpommiss.github.io/faro-email/images/elements/icons/button/white_x_zenith-blue.jpg"
                                      alt="Chevron" />
                             </a>
                         </td>
@@ -1753,7 +1753,7 @@ This code will look like this when rendered:
                             style="background-color: #009cde; color: #ffffff; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
                             <a href="#"
                                style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
-                                <img src="http://s94149.gridserver.com/clients/faro/email/2019/images/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                <img src="http://cpommiss.github.io/faro-email/images/elements/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
                             </a>
                         </td>
                     </tr>
@@ -2052,7 +2052,7 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
             <!-- Template-Specific Styles -->
             <mj-class name="block__grey--faded"
                       background-color="#fff"
-                      background-url="http://s94149.gridserver.com/clients/faro/email/2019/images/bg-triangles-grey-faded.jpg"
+                      background-url="http://cpommiss.github.io/faro-email/images/elements/bg-triangles-grey-faded.jpg"
                       border-top="1px #01426a solid"
                       border-bottom="1px #01426a solid"
                       vertical-align="middle" />

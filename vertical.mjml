@@ -192,7 +192,7 @@
             <!-- Template-Specific Styles -->
             <mj-class name="block__grey--faded"
                       background-color="#fff"
-                      background-url="http://s94149.gridserver.com/clients/faro/email/2019/images/bg-triangles-grey-faded.jpg"
+                      background-url="http://cpommiss.github.io/faro-email/images/elements/images/bg-triangles-grey-faded.jpg"
                       border-top="1px #01426a solid"
                       border-bottom="1px #01426a solid"
                       vertical-align="middle" />
@@ -231,7 +231,7 @@
                         <mj-image width="120px"
                                   padding="0px"
                                   align="left"
-                                  src="http://s94149.gridserver.com/clients/faro/email/2019/images/logo-blue.jpg"
+                                  src="http://cpommiss.github.io/faro-email/images/elements/images/logo-blue.jpg"
                                   alt="FARO Logo"
                                   href="https://www.faro.com/" />
                     </mj-column>
@@ -247,7 +247,7 @@
                         <mj-image padding="0px"
                                   width="40px"
                                   align="right"
-                                  src="http://s94149.gridserver.com/clients/faro/email/2019/images/vertical/3d-design.jpg"
+                                  src="http://cpommiss.github.io/faro-email/images/elements/images/vertical/3d-design.jpg"
                                   alt="3D Design" />
                     </mj-column>
                 </mj-group>
@@ -256,7 +256,7 @@
 
         <mj-wrapper mj-class="color__white--bg"
                     padding="0px"
-                    background-url="http://s94149.gridserver.com/clients/faro/email/2019/images/cta-triangles-grey.jpg"
+                    background-url="http://cpommiss.github.io/faro-email/images/elements/images/cta-triangles-grey.jpg"
                     background-size="680px"
                     background-repeat="no-repeat">
             <mj-section padding="0px">
@@ -376,7 +376,7 @@
                               height="36px"
                               padding="0px"
                               align="left"
-                              src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/header/white/wide/left/capture-in-3d.jpg"
+                              src="http://cpommiss.github.io/faro-email/images/elements/images/icons/header/white/wide/left/capture-in-3d.jpg"
                               alt="Capture in 3D" />
                 </mj-column>
                 <mj-column width="90%" padding="0px">
@@ -420,7 +420,7 @@
                               height="48px"
                               padding="0px"
                               align="left"
-                              src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/header/blue/reliable.jpg"
+                              src="http://cpommiss.github.io/faro-email/images/elements/images/icons/header/blue/reliable.jpg"
                               alt="Reliable" />
                 </mj-column>
                 <mj-column mj-class="color__white--bg" width="90%" padding="0px">
@@ -462,7 +462,7 @@
                     <mj-image width="48px"
                               padding="0px 0px 0px 6px"
                               align="left"
-                              src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/large/blue/advance-performance.jpg"
+                              src="http://cpommiss.github.io/faro-email/images/elements/images/icons/large/blue/advance-performance.jpg"
                               alt="Advance Performance" />
                 </mj-column>
                 <mj-column width="90%"
@@ -481,7 +481,7 @@
                     <mj-image width="48px"
                               padding="0px 0px 0px 6px"
                               align="left"
-                              src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/large/blue/efficient.jpg"
+                              src="http://cpommiss.github.io/faro-email/images/elements/images/icons/large/blue/efficient.jpg"
                               alt="Efficient" />
                 </mj-column>
                 <mj-column width="90%" padding="10px 10px 0px 10px">
@@ -499,7 +499,7 @@
                     <mj-image width="48px"
                               padding="0px 0px 0px 6px"
                               align="left"
-                              src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/large/blue/provide-clarity.jpg"
+                              src="http://cpommiss.github.io/faro-email/images/elements/images/icons/large/blue/provide-clarity.jpg"
                               alt="Provide Clarity" />
                 </mj-column>
                 <mj-column width="90%" padding="10px 10px 0px 10px">
@@ -547,7 +547,7 @@
                               height="48px"
                               padding="0px 0px 0px 0px"
                               align="center"
-                              src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/header/blue/trend-analysis.jpg"
+                              src="http://cpommiss.github.io/faro-email/images/elements/images/icons/header/blue/trend-analysis.jpg"
                               alt="Create Trend Analysis" />
                 </mj-column>
                 <mj-column width="2%" padding="0px">
@@ -587,7 +587,7 @@
                                     style="background-color: #fff; color: #00416b; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
                                     <a href="#"
                                        style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
-                                        <img src="http://s94149.gridserver.com/clients/faro/email/2019/images/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                        <img src="http://cpommiss.github.io/faro-email/images/elements/images/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
                                     </a>
                                 </td>
                             </tr>
@@ -607,7 +607,7 @@
                                        style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
                                         <img width="48px"
                                              height="32px"
-                                             src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/button/faro-blue_x_white.jpg"
+                                             src="http://cpommiss.github.io/faro-email/images/elements/images/icons/button/faro-blue_x_white.jpg"
                                              alt="Chevron" />
                                     </a>
                                 </td>
@@ -619,7 +619,7 @@
                                     style="background-color: #fff; color: #00416b; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
                                     <a href="#"
                                        style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
-                                        <img src="http://s94149.gridserver.com/clients/faro/email/2019/images/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                        <img src="http://cpommiss.github.io/faro-email/images/elements/images/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
                                     </a>
                                 </td>
                             </tr>
@@ -636,7 +636,7 @@
                               height="48px"
                               padding="0px"
                               align="center"
-                              src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/header/blue/reduce-cost.jpg"
+                              src="http://cpommiss.github.io/faro-email/images/elements/images/icons/header/blue/reduce-cost.jpg"
                               alt="Reduce Cost" />
                 </mj-column>
                 <mj-column mj-class="color__white--bg" width="90%" padding="5px 20px 0px 20px">
@@ -673,7 +673,7 @@
                                     style="background-color: #4c8c2b; color: #ffffff; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
                                     <a href="#"
                                        style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
-                                        <img src="http://s94149.gridserver.com/clients/faro/email/2019/images/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                        <img src="http://cpommiss.github.io/faro-email/images/elements/images/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
                                     </a>
                                 </td>
                             </tr>
@@ -693,7 +693,7 @@
                                        style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
                                         <img width="48px"
                                              height="32px"
-                                             src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/button/white_x_forest-green.jpg"
+                                             src="http://cpommiss.github.io/faro-email/images/elements/images/icons/button/white_x_forest-green.jpg"
                                              alt="Chevron" />
                                     </a>
                                 </td>
@@ -705,7 +705,7 @@
                                     style="background-color: #4c8c2b; color: #ffffff; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
                                     <a href="#"
                                        style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
-                                        <img src="http://s94149.gridserver.com/clients/faro/email/2019/images/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                        <img src="http://cpommiss.github.io/faro-email/images/elements/images/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
                                     </a>
                                 </td>
                             </tr>
@@ -722,7 +722,7 @@
                               height="48px"
                               padding="0px"
                               align="center"
-                              src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/header/blue/user-control.jpg"
+                              src="http://cpommiss.github.io/faro-email/images/elements/images/icons/header/blue/user-control.jpg"
                               alt="User Control" />
                 </mj-column>
                 <mj-column mj-class="color__white--bg" width="90%" padding="5px 20px 0px 20px">
@@ -759,7 +759,7 @@
                                     style="background-color: #4c8c2b; color: #ffffff; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
                                     <a href="#"
                                        style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
-                                        <img src="http://s94149.gridserver.com/clients/faro/email/2019/images/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                        <img src="http://cpommiss.github.io/faro-email/images/elements/images/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
                                     </a>
                                 </td>
                             </tr>
@@ -779,7 +779,7 @@
                                        style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
                                         <img width="48px"
                                              height="32px"
-                                             src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/button/white_x_forest-green.jpg"
+                                             src="http://cpommiss.github.io/faro-email/images/elements/images/icons/button/white_x_forest-green.jpg"
                                              alt="Chevron" />
                                     </a>
                                 </td>
@@ -791,7 +791,7 @@
                                     style="background-color: #4c8c2b; color: #ffffff; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
                                     <a href="#"
                                        style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
-                                        <img src="http://s94149.gridserver.com/clients/faro/email/2019/images/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                        <img src="http://cpommiss.github.io/faro-email/images/elements/images/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
                                     </a>
                                 </td>
                             </tr>
@@ -815,28 +815,28 @@
                                            name="facebook"
                                            href="https://www.facebook.com/FAROTechnologies"
                                            background-color="#ffffff"
-                                           src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/social/fb_round.png"
+                                           src="http://cpommiss.github.io/faro-email/images/elements/images/icons/social/fb_round.png"
                                            alt="Facebook">
                         </mj-social-element>
                         <mj-social-element padding="0px"
                                            name="twitter"
                                            href="https://twitter.com/faro_hq"
                                            background-color="#ffffff"
-                                           src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/social/tw_round.png"
+                                           src="http://cpommiss.github.io/faro-email/images/elements/images/icons/social/tw_round.png"
                                            alt="Twitter">
                         </mj-social-element>
                         <mj-social-element padding="0px"
                                            name="linkedin"
                                            href="https://www.linkedin.com/company/faro-technologies"
                                            background-color="#ffffff"
-                                           src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/social/ln_round.png"
+                                           src="http://cpommiss.github.io/faro-email/images/elements/images/icons/social/ln_round.png"
                                            alt="LinkedIn">
                         </mj-social-element>
                         <mj-social-element padding="0px"
                                            name="feed"
                                            href="https://insights.faro.com/"
                                            background-color="#ffffff"
-                                           src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/social/feed_round.png"
+                                           src="http://cpommiss.github.io/faro-email/images/elements/images/icons/social/feed_round.png"
                                            alt="Feed/RSS">
                         </mj-social-element>
                     </mj-social>

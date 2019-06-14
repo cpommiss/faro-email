@@ -198,21 +198,25 @@
                       vertical-align="middle" />
         </mj-attributes>
         <mj-style>
-            .divider-left {
-                display: inline-block;
-                text-align: left;
-            }
-            .divider-left p {
-                display: inline-block;
-            }
-            .button-full a {
-                display: block !important;
-            }
+            .color__faro-blue { color: #01426a; }
+            .color__white { color: #ffffff; }
+            .color__anthracite-gray { color: #2f3234; }
+            .color__metal-gray { color: #52595d; }
+            .color__light-metal-gray { color: #8d9295; }
+            .color__white-gray { color: #e2e2e2; }
+            .color__zenith-blue { color: #009cde; }
+            .color__sunny-orange { color: #eaaa00; }
+            .color__carbon-black { color: #000000; }
+            .color__on-site-orange { color: #ff6a13; }
+            .color__forest-green { color: #4c8c2b; }
+            .color__pursuit-blue { color: #0070c8; }
+            .color__beaming-red { color: #d50037; }
+            .divider-left { display: inline-block; text-align: left; }
+            .divider-left p { display: inline-block; }
+            .button-full a { display: block !important; }
+            .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
             @media screen and (min-width: 697px) {
-                .vertical-header > table > tbody > tr > td {
-                    padding-left: 0 !important;
-                    padding-right: 0 !important;
-                }
+                .vertical-header > table > tbody > tr > td { padding-left: 0 !important; padding-right: 0 !important; }
             }
         </mj-style>
         <!--[if gte mso 9]>
@@ -251,6 +255,7 @@
         ***
         -->
         <mj-wrapper mj-class="color__white--bg"
+                    css-class="top-image"
                     padding="0px"
                     background-url="http://cpommiss.github.io/faro-email/images/elements/cta-triangles-grey.jpg"
                     background-size="680px"
@@ -300,6 +305,7 @@
         ***
         -->
         <mj-wrapper mj-class="color__white--bg"
+                    css-class="top-image"
                     padding="0px"
                     background-url="http://cpommiss.github.io/faro-email/images/elements/cta-triangles-grey.jpg"
                     background-size="680px"
@@ -421,7 +427,7 @@
                     </mj-text>
 
                     <mj-text mj-class="text__normal color__anthracite-gray">
-                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        <span class="color__on-site-orange">Maecenas sed ante</span> pellentesque, posuere leo id, eleifend dolor. <span class="color__forest-green"><strong>Class aptent taciti sociosqu ad litora</strong></span> torquent per conubia nostra, per inceptos himenaeos.
                     </mj-text>
 
                     <mj-text mj-class="text__normal color__anthracite-gray">
@@ -997,6 +1003,36 @@
 
         <!--
         ***
+        *** START: Call-to-Action Buttons (Single, Centered)
+        ***
+        -->
+        <mj-wrapper padding="10px 0px">
+            <mj-section padding="0px">
+                <mj-column padding="0px" width="26%">
+                    <mj-spacer height="10px" />
+                </mj-column>
+                <mj-column padding="0px" width="48%">
+                    <mj-button mj-class="button__primary color__zenith-blue--bg color__white"
+                               css-class="button-full"
+                               width="100%"
+                               padding="0px"
+                               href="#">
+                        Button Text
+                    </mj-button>
+                </mj-column>
+                <mj-column padding="0px" width="26%">
+                    <mj-spacer height="10px" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Call-to-Action Buttons (Single, Centered)
+        ***
+        -->
+
+        <!--
+        ***
         *** START: Call-to-Action Buttons (Single, Full-Width)
         ***
         -->
@@ -1016,7 +1052,7 @@
         </mj-wrapper>
         <!--
         ***
-        *** END: Call-to-Action Buttons (Single)
+        *** END: Call-to-Action Buttons (Single, Full-Width)
         ***
         -->
 

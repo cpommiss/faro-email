@@ -5,6 +5,7 @@
         ***
         -->
         <mj-wrapper mj-class="color__white--bg"
+                    css-class="top-image"
                     padding="0px"
                     background-url="http://s94149.gridserver.com/clients/faro/email/2019/images/cta-triangles-grey.jpg"
                     background-size="680px"

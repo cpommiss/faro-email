@@ -234,21 +234,25 @@ When using either option, for best results, make sure the option to **Minify HTM
                       vertical-align="middle" />
         </mj-attributes>
         <mj-style>
-            .divider-left {
-                display: inline-block;
-                text-align: left;
-            }
-            .divider-left p {
-                display: inline-block;
-            }
-            .button-full a {
-                display: block !important;
-            }
+            .color__faro-blue { color: #01426a; }
+            .color__white { color: #ffffff; }
+            .color__anthracite-gray { color: #2f3234; }
+            .color__metal-gray { color: #52595d; }
+            .color__light-metal-gray { color: #8d9295; }
+            .color__white-gray { color: #e2e2e2; }
+            .color__zenith-blue { color: #009cde; }
+            .color__sunny-orange { color: #eaaa00; }
+            .color__carbon-black { color: #000000; }
+            .color__on-site-orange { color: #ff6a13; }
+            .color__forest-green { color: #4c8c2b; }
+            .color__pursuit-blue { color: #0070c8; }
+            .color__beaming-red { color: #d50037; }
+            .divider-left { display: inline-block; text-align: left; }
+            .divider-left p { display: inline-block; }
+            .button-full a { display: block !important; }
+            .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
             @media screen and (min-width: 697px) {
-                .vertical-header > table > tbody > tr > td {
-                    padding-left: 0 !important;
-                    padding-right: 0 !important;
-                }
+                .vertical-header > table > tbody > tr > td { padding-left: 0 !important; padding-right: 0 !important; }
             }
         </mj-style>
         <!--[if gte mso 9]>
@@ -324,6 +328,32 @@ Beaming Red | #D50037 | <div style="background-color: #D50037; margin-top: 4px; 
 For any of the colors listed above, you can add the `--bg` or `--border` suffix to the CSS class name to change the background color of border color of an element (where it is supported) to that color. You will see syntax being used in various snippets.
 
 For example, to change the background color of something that is white to **On-Site Orange**, you would add the `color__on-site-orange--bg` class to the `mj-class` attribute of the element you're trying to change the background color of.
+
+### Inline Colors
+
+If at any time you want to use a particular color within a paragraph, there are also plain CSS classes provided with the same class names shown above. 
+
+So, for example, the following code:
+
+`<span class="color__on-site-orange">This text will be in the On-Site Orange color</span>`
+
+...will output the following (note the text in on-site-orange, as a result of the `<span class="color__on-site-orange>` code):
+
+<p style="color: #FF6A13;">This text will be in the On-Site Orange color</p>
+
+You can do this within an `<mj-text>` block, or any MJML text input area. 
+
+For example, the following code:
+
+`<mj-text mj-class="text__normal color__anthracite-gray">`<br />
+&nbsp;&nbsp;&nbsp;&nbsp;`Maecenas sed ante pellentesque, <span class="color__forest-green">posuere leo id</span>`<br />
+`</mj-text>`<br />
+
+...will output the following (note the text in forest-green, as a result of the `<span class="color__forest-green>` code):
+
+<p style="color: #000000; font-size: 14px; line-height: 20px; font-weight: normal; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; text-align: left;">
+    Maecenas sed ante pellentesque, <span style="color: #4C8C2B;">posuere leo id</span>
+</p>
 
 # Icons
 
@@ -704,6 +734,7 @@ This code will look like this when rendered:
 
 ```html
 <mj-wrapper mj-class="color__white--bg"
+            css-class="top-image"
             padding="0px"
             background-url="http://cpommiss.github.io/faro-email/images/elements/cta-triangles-grey.jpg"
             background-size="680px"
@@ -756,6 +787,7 @@ This code will look like this when rendered:
 
 ```html
 <mj-wrapper mj-class="color__white--bg"
+            css-class="top-image" 
             padding="0px"
             background-url="http://cpommiss.github.io/faro-email/images/elements/cta-triangles-grey.jpg"
             background-size="680px"
@@ -2058,21 +2090,25 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
                       vertical-align="middle" />
         </mj-attributes>
         <mj-style>
-            .divider-left {
-                display: inline-block;
-                text-align: left;
-            }
-            .divider-left p {
-                display: inline-block;
-            }
-            .button-full a {
-                display: block !important;
-            }
+            .color__faro-blue { color: #01426a; }
+            .color__white { color: #ffffff; }
+            .color__anthracite-gray { color: #2f3234; }
+            .color__metal-gray { color: #52595d; }
+            .color__light-metal-gray { color: #8d9295; }
+            .color__white-gray { color: #e2e2e2; }
+            .color__zenith-blue { color: #009cde; }
+            .color__sunny-orange { color: #eaaa00; }
+            .color__carbon-black { color: #000000; }
+            .color__on-site-orange { color: #ff6a13; }
+            .color__forest-green { color: #4c8c2b; }
+            .color__pursuit-blue { color: #0070c8; }
+            .color__beaming-red { color: #d50037; }
+            .divider-left { display: inline-block; text-align: left; }
+            .divider-left p { display: inline-block; }
+            .button-full a { display: block !important; }
+            .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
             @media screen and (min-width: 697px) {
-                .vertical-header > table > tbody > tr > td {
-                    padding-left: 0 !important;
-                    padding-right: 0 !important;
-                }
+                .vertical-header > table > tbody > tr > td { padding-left: 0 !important; padding-right: 0 !important; }
             }
         </mj-style>
         <!--[if gte mso 9]>

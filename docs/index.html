@@ -263,6 +263,9 @@
                   <li>
                     <a href="#backgrounds-and-borders" class="toc-h2 toc-link" data-title="Backgrounds and Borders">Backgrounds and Borders</a>
                   </li>
+                  <li>
+                    <a href="#inline-colors" class="toc-h2 toc-link" data-title="Inline Colors">Inline Colors</a>
+                  </li>
               </ul>
           </li>
           <li>
@@ -611,21 +614,25 @@
                       <span class="na">vertical-align=</span><span class="s">"middle"</span> <span class="nt">/&gt;</span>
         <span class="nt">&lt;/mj-attributes&gt;</span>
         <span class="nt">&lt;mj-style&gt;</span>
-            .divider-left {
-                display: inline-block;
-                text-align: left;
-            }
-            .divider-left p {
-                display: inline-block;
-            }
-            .button-full a {
-                display: block !important;
-            }
+            .color__faro-blue { color: #01426a; }
+            .color__white { color: #ffffff; }
+            .color__anthracite-gray { color: #2f3234; }
+            .color__metal-gray { color: #52595d; }
+            .color__light-metal-gray { color: #8d9295; }
+            .color__white-gray { color: #e2e2e2; }
+            .color__zenith-blue { color: #009cde; }
+            .color__sunny-orange { color: #eaaa00; }
+            .color__carbon-black { color: #000000; }
+            .color__on-site-orange { color: #ff6a13; }
+            .color__forest-green { color: #4c8c2b; }
+            .color__pursuit-blue { color: #0070c8; }
+            .color__beaming-red { color: #d50037; }
+            .divider-left { display: inline-block; text-align: left; }
+            .divider-left p { display: inline-block; }
+            .button-full a { display: block !important; }
+            .top-image, .top-image &gt; div &gt; table { background-size: cover !important; background-position: center top !important; }
             @media screen and (min-width: 697px) {
-                .vertical-header &gt; table &gt; tbody &gt; tr &gt; td {
-                    padding-left: 0 !important;
-                    padding-right: 0 !important;
-                }
+                .vertical-header &gt; table &gt; tbody &gt; tr &gt; td { padding-left: 0 !important; padding-right: 0 !important; }
             }
         <span class="nt">&lt;/mj-style&gt;</span>
         <span class="c">&lt;!--[if gte mso 9]&gt;
@@ -770,6 +777,30 @@
 <p>For any of the colors listed above, you can add the <code>--bg</code> or <code>--border</code> suffix to the CSS class name to change the background color of border color of an element (where it is supported) to that color. You will see syntax being used in various snippets.</p>
 
 <p>For example, to change the background color of something that is white to <strong>On-Site Orange</strong>, you would add the <code>color__on-site-orange--bg</code> class to the <code>mj-class</code> attribute of the element you&#39;re trying to change the background color of.</p>
+<h3 id='inline-colors'>Inline Colors</h3>
+<p>If at any time you want to use a particular color within a paragraph, there are also plain CSS classes provided with the same class names shown above. </p>
+
+<p>So, for example, the following code:</p>
+
+<p><code>&lt;span class=&quot;color__on-site-orange&quot;&gt;This text will be in the On-Site Orange color&lt;/span&gt;</code></p>
+
+<p>...will output the following (note the text in on-site-orange, as a result of the <code>&lt;span class=&quot;color__on-site-orange&gt;</code> code):</p>
+
+<p style="color: #FF6A13;">This text will be in the On-Site Orange color</p>
+
+<p>You can do this within an <code>&lt;mj-text&gt;</code> block, or any MJML text input area. </p>
+
+<p>For example, the following code:</p>
+
+<p><code>&lt;mj-text mj-class=&quot;text__normal color__anthracite-gray&quot;&gt;</code><br />
+&nbsp;&nbsp;&nbsp;&nbsp;<code>Maecenas sed ante pellentesque, &lt;span class=&quot;color__forest-green&quot;&gt;posuere leo id&lt;/span&gt;</code><br />
+<code>&lt;/mj-text&gt;</code><br /></p>
+
+<p>...will output the following (note the text in forest-green, as a result of the <code>&lt;span class=&quot;color__forest-green&gt;</code> code):</p>
+
+<p style="color: #000000; font-size: 14px; line-height: 20px; font-weight: normal; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; text-align: left;">
+    Maecenas sed ante pellentesque, <span style="color: #4C8C2B;">posuere leo id</span>
+</p>
 <h1 id='icons'>Icons</h1>
 <p>If you wish to change the icon being used in a snippet found here, simply change the filename of the icon to the one you want to use shown below.</p>
 
@@ -1298,6 +1329,7 @@
 <li>Refer to the <strong><a href="#icons">Icons</a></strong> section of this documentation to find the icon you&#39;re looking for.</li>
 </ul>
 <h1 id='top-image-title'>Top Image/Title</h1><h2 id='single-column'>Single-column</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">mj-class=</span><span class="s">"color__white--bg"</span>
+            <span class="na">css-class=</span><span class="s">"top-image"</span>
             <span class="na">padding=</span><span class="s">"0px"</span>
             <span class="na">background-url=</span><span class="s">"http://cpommiss.github.io/faro-email/images/elements/cta-triangles-grey.jpg"</span>
             <span class="na">background-size=</span><span class="s">"680px"</span>
@@ -1346,6 +1378,7 @@
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 </ul>
 <h2 id='two-column'>Two-column</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">mj-class=</span><span class="s">"color__white--bg"</span>
+            <span class="na">css-class=</span><span class="s">"top-image"</span> 
             <span class="na">padding=</span><span class="s">"0px"</span>
             <span class="na">background-url=</span><span class="s">"http://cpommiss.github.io/faro-email/images/elements/cta-triangles-grey.jpg"</span>
             <span class="na">background-size=</span><span class="s">"680px"</span>
@@ -2578,21 +2611,25 @@
                       vertical-align="middle" />
         </mj-attributes>
         <mj-style>
-            .divider-left {
-                display: inline-block;
-                text-align: left;
-            }
-            .divider-left p {
-                display: inline-block;
-            }
-            .button-full a {
-                display: block !important;
-            }
+            .color__faro-blue { color: #01426a; }
+            .color__white { color: #ffffff; }
+            .color__anthracite-gray { color: #2f3234; }
+            .color__metal-gray { color: #52595d; }
+            .color__light-metal-gray { color: #8d9295; }
+            .color__white-gray { color: #e2e2e2; }
+            .color__zenith-blue { color: #009cde; }
+            .color__sunny-orange { color: #eaaa00; }
+            .color__carbon-black { color: #000000; }
+            .color__on-site-orange { color: #ff6a13; }
+            .color__forest-green { color: #4c8c2b; }
+            .color__pursuit-blue { color: #0070c8; }
+            .color__beaming-red { color: #d50037; }
+            .divider-left { display: inline-block; text-align: left; }
+            .divider-left p { display: inline-block; }
+            .button-full a { display: block !important; }
+            .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
             @media screen and (min-width: 697px) {
-                .vertical-header > table > tbody > tr > td {
-                    padding-left: 0 !important;
-                    padding-right: 0 !important;
-                }
+                .vertical-header > table > tbody > tr > td { padding-left: 0 !important; padding-right: 0 !important; }
             }
         </mj-style>
         <!--[if gte mso 9]>

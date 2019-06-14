@@ -281,11 +281,11 @@ At the bottom of all the boilerplate code for colors, fonts and styles, is a sec
 
 ### Standard FARO Template
 
-You can download a quick-start Standard FARO MJML template with all the bells-and-whistles **[here](downloads/basic.zip)**.
+You can download a quick-start Standard FARO MJML template with all the bells-and-whistles **[here](https://github.com/cpommiss/faro-email/raw/master/basic-template.zip)**.
 
 ### Vertical-Specific Template
 
-You can download a quick-start Vertical-Specific FARO MJML template with all the bells-and-whistles **[here](downloads/vertical.zip)**.
+You can download a quick-start Vertical-Specific FARO MJML template with all the bells-and-whistles **[here](https://github.com/cpommiss/faro-email/raw/master/vertical-template.zip)**.
 
 # Colors
 

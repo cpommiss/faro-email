@@ -12,7 +12,7 @@
                               height="48px"
                               padding="0px"
                               align="center"
-                              src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/header/blue/reduce-cost.jpg"
+                              src="https://cpommiss.github.io/faro-email/images/elements/icons/header/blue/reduce-cost.jpg"
                               alt="Reduce Cost" />
                     <!-- *** END: Icon Image *** -->
                 </mj-column>
@@ -55,7 +55,7 @@
                                     style="background-color: #009cde; color: #ffffff; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
                                     <a href="#"
                                        style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
-                                        <img src="http://s94149.gridserver.com/clients/faro/email/2019/images/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                        <img src="https://cpommiss.github.io/faro-email/images/elements/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
                                     </a>
                                 </td>
                             </tr>
@@ -75,7 +75,7 @@
                                        style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
                                         <img width="48px"
                                              height="32px"
-                                             src="http://s94149.gridserver.com/clients/faro/email/2019/images/icons/button/white_x_zenith-blue.jpg"
+                                             src="https://cpommiss.github.io/faro-email/images/elements/icons/button/white_x_zenith-blue.jpg"
                                              alt="Chevron" />
                                     </a>
                                 </td>
@@ -87,7 +87,7 @@
                                     style="background-color: #009cde; color: #ffffff; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
                                     <a href="#"
                                        style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
-                                        <img src="http://s94149.gridserver.com/clients/faro/email/2019/images/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                        <img src="https://cpommiss.github.io/faro-email/images/elements/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
                                     </a>
                                 </td>
                             </tr>

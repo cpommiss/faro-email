@@ -47,97 +47,71 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
         <mj-attributes>
             <!-- core palette -->
             <mj-class name="color__faro-blue" color="#01426a" />
-            <mj-class name="color__faro-blue--bg" background-color="#01426a">
-                <mj-button background-color="#01426a" />
-            </mj-class>
+            <mj-class name="color__faro-blue--bg" background-color="#01426a" />
             <mj-class name="color__faro-blue--border" border-color="#01426a">
                 <mj-divider border-color="#01426a" />
             </mj-class>
             <mj-class name="color__white" color="#fff" />
-            <mj-class name="color__white--bg" background-color="#fff">
-                <mj-button background-color="#fff" />
-            </mj-class>
+            <mj-class name="color__white--bg" background-color="#fff" />
             <mj-class name="color__white--border" border-color="#fff">
                 <mj-divider border-color="#fff" />
             </mj-class>
             <mj-class name="color__anthracite-gray" color="#2f3234" />
-            <mj-class name="color__anthracite-gray--bg" background-color="#2f3234">
-                <mj-button background-color="#2f3234" />
-            </mj-class>
+            <mj-class name="color__anthracite-gray--bg" background-color="#2f3234" />
             <mj-class name="color__anthracite-gray--border" border-color="#2f3234">
                 <mj-divider border-color="#2f3234" />
             </mj-class>
             <mj-class name="color__metal-gray" color="#52595d" />
-            <mj-class name="color__metal-gray--bg" background-color="#52595d">
-                <mj-button background-color="#52595d" />
-            </mj-class>
+            <mj-class name="color__metal-gray--bg" background-color="#52595d" />
             <mj-class name="color__metal-gray--border" border-color="#52595d">
                 <mj-divider border-color="#52595d" />
             </mj-class>
             <mj-class name="color__light-metal-gray" color="#8d9295" />
-            <mj-class name="color__light-metal-gray--bg" background-color="#8d9295">
-                <mj-button background-color="#8d9295" />
-            </mj-class>
+            <mj-class name="color__light-metal-gray--bg" background-color="#8d9295" />
             <mj-class name="color__light-metal-gray--border" border-color="#8d9295">
                 <mj-divider border-color="#8d9295" />
             </mj-class>
             <mj-class name="color__white-gray" color="#e2e2e2" />
-            <mj-class name="color__white-gray--bg" background-color="#e2e2e2">
-                <mj-button background-color="#e2e2e2" />
-            </mj-class>
+            <mj-class name="color__white-gray--bg" background-color="#e2e2e2" />
             <mj-class name="color__white-gray--border" border-color="#e2e2e2">
                 <mj-divider border-color="#e2e2e2" />
             </mj-class>
 
             <!-- accent palette -->
             <mj-class name="color__zenith-blue" color="#009cde" />
-            <mj-class name="color__zenith-blue--bg" background-color="#009cde">
-                <mj-button background-color="#009cde" />
-            </mj-class>
+            <mj-class name="color__zenith-blue--bg" background-color="#009cde" />
             <mj-class name="color__zenith-blue--border" border-color="#009cde">
                 <mj-divider border-color="#009cde" />
             </mj-class>
             <mj-class name="color__sunny-orange" color="#eaaa00" />
-            <mj-class name="color__sunny-orange--bg" background-color="#eaaa00">
-                <mj-button background-color="#eaaa00" />
-            </mj-class>
+            <mj-class name="color__sunny-orange--bg" background-color="#eaaa00" />
             <mj-class name="color__sunny-orange--border" border-color="#eaaa00">
                 <mj-divider border-color="#eaaa00" />
             </mj-class>
 
             <!-- vertical palette -->
             <mj-class name="color__carbon-black" color="#000" />
-            <mj-class name="color__carbon-black--bg" background-color="#000">
-                <mj-button background-color="#000" />
-            </mj-class>
+            <mj-class name="color__carbon-black--bg" background-color="#000" />
             <mj-class name="color__carbon-black--border" border-color="#000">
                 <mj-divider border-color="#000" />
             </mj-class>
             <mj-class name="color__on-site-orange" color="#ff6a13" />
-            <mj-class name="color__on-site-orange--bg" background-color="#ff6a13">
-                <mj-button background-color="#ff6a13" />
-            </mj-class>
+            <mj-class name="color__on-site-orange--bg" background-color="#ff6a13" />
             <mj-class name="color__on-site-orange--border" border-color="#ff6a13">
                 <mj-divider border-color="#ff6a13" />
             </mj-class>
             <mj-class name="color__forest-green" color="#4c8c2b" />
-            <mj-class name="color__forest-green--bg" background-color="#4c8c2b">
-                <mj-button background-color="#4c8c2b" />
-            </mj-class>
+            <mj-class name="color__forest-green--bg" background-color="#4c8c2b" />
             <mj-class name="color__forest-green--border" border-color="#4c8c2b">
                 <mj-divider border-color="#4c8c2b" />
             </mj-class>
             <mj-class name="color__pursuit-blue" color="#0070c8" />
-            <mj-class name="color__pursuit-blue--bg" background-color="#0070c8">
-                <mj-button background-color="#0070c8" />
-            </mj-class>
+            <mj-class name="color__pursuit-blue--bg" background-color="#0070c8" />
             <mj-class name="color__pursuit-blue--border" border-color="#0070c8">
                 <mj-divider border-color="#0070c8" />
             </mj-class>
             <mj-class name="color__beaming-red" color="#d50037" />
-            <mj-class name="color__beaming-red--bg" background-color="#d50037">
-                <mj-button background-color="#d50037" />
-            </mj-class>
+            <mj-class name="color__beaming-red--bg" background-color="#d50037" />
             <mj-class name="color__beaming-red--border" border-color="#d50037">
                 <mj-divider border-color="#d50037" />
             </mj-class>
@@ -196,6 +170,16 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
                       border-width="2px"
                       padding="5px 0px" />
 
+            <!-- Sub Headline Styles -->
+            <mj-class name="text__headline-sub"
+                      color="#2f3234"
+                      font-size="18px"
+                      line-height="20px"
+                      font-weight="bold"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      align="left"
+                      padding="10px 0px 2px 0px" />
+
             <!-- Normal/Inline Text Styles -->
             <mj-class name="text__normal-heading"
                       color="#000000"
@@ -213,6 +197,15 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
                       font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
                       align="left"
                       padding="0px 0px 15px 0px" />
+            <mj-class name="text__note"
+                      color="#2f3234"
+                      font-size="12px"
+                      line-height="16px"
+                      font-weight="normal"
+                      font-style="italic"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      align="left"
+                      padding="10px 0px 15px 0px" />
             <mj-class name="line__normal"
                       border-color="#000000"
                       border-width="1px"
@@ -257,9 +250,26 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
             .divider-left p { display: inline-block; }
             .button-full a { display: block !important; }
             .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
+            sup { vertical-align: baseline; position: relative; top: -4px; }
             @media screen and (min-width: 697px) {
                 .vertical-header > table > tbody > tr > td { padding-left: 0 !important; padding-right: 0 !important; }
             }
+            @media only screen and (max-width:697px) {
+                table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
+                td.full-width-mobile { width: auto !important; }
+            }
+            @media only screen and (max-width: 479px) {
+                .emailfooter, .emailheader { width: 100% !important; }
+                .unscribe { padding-top:0 !important;padding-bottom:0 !important;text-align: center !important;margin-left: 0 !important;margin-right: 0 !important; }
+                .mblnavtop { padding-top:0 !important;text-align: center !important;margin-left: 0 !important;margin-right: 0 !important; }
+                td.hl2 { text-align:center !important;padding-top:10px !important; }
+                span.hl { font-size:18px !important;line-height: 20px !important; }
+                span.hl2 { font-size:16px !important;line-height: 18px !important; }
+                .hide { display:none; }
+                span.rmbtn { color:#ffffff !important; }
+                a.rmbtn { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;text-align:center!important;color:#ffffff !important;font-weight: bold !important;font-size:16px !important;text-decoration: none !important;display:block; padding:15px; width:90%;background-color: #009cde; }
+                .mblnav { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;color:#ffffff !important; font-weight: bold !important;font-size:14px !important;text-decoration: none !important;display:block; padding:15px; width:90%; background-color: #939598; }
+            }        
         </mj-style>
         <!--[if gte mso 9]>
         <style>
@@ -471,7 +481,7 @@ There are no configuration options for this snippet. Just cut and paste!
                 <mj-image padding="0px"
                           width="40px"
                           align="right"
-                          src="http://cpommiss.github.io/faro-email/images/elements/vertical/3d-design.jpg"
+                          src="https://img.en25.com/EloquaImages/clients/Faro/%7B31096aae-9c97-4996-bd9c-5ab618c89b26%7D_3d-design.jpg"
                           alt="3D Design" />
                 <!-- *** END: Vertical Image Icon *** -->
             </mj-column>
@@ -494,13 +504,13 @@ This code will look like this when rendered:
 
 The following vertical icons are available:
 
-Icon | Image Filename | Description
---------- | ------- | -----------
-<img src="images/elements/vertical/3d-design.jpg" alt="3D Design Vertical Icon"> | 3d-design.jpg | 3D Design
-<img src="images/elements/vertical/construction.jpg" alt="Construction Vertical Icon"> | construction.jpg | Construction
-<img src="images/elements/vertical/manufacturing.jpg" alt="Manufacturing Vertical Icon"> | manufacturing.jpg | Manufacturing
-<img src="images/elements/vertical/photonics.jpg" alt="Photonics Vertical Icon"> | photonics.jpg | Photonics
-<img src="images/elements/vertical/public-safety.jpg" alt="Public Safety Vertical Icon"> | public-safety.jpg | Public Safety
+Icon | Image URL | Vertical Name | Vertical Tagline
+--------- | ------- | ----------- | -----------
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B31096aae-9c97-4996-bd9c-5ab618c89b26%7D_3d-design.jpg" alt="3D Design Vertical Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B31096aae-9c97-4996-bd9c-5ab618c89b26%7D_3d-design.jpg" target="_blank">Link</a> | 3D Design | Digital Creation
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Be60129de-6d7a-486f-a5fb-515852edff8a%7D_manufacturing.jpg" alt="3D Manufacturing Vertical Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Be60129de-6d7a-486f-a5fb-515852edff8a%7D_manufacturing.jpg" target="_blank">Link</a> | 3D Manufacturing | The Measure of Success&reg;
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bca0d09b0-02fa-44ed-a83c-581974558f4b%7D_construction.jpg" alt="Construction Vertical Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bca0d09b0-02fa-44ed-a83c-581974558f4b%7D_construction.jpg" target="_blank">Link</a> | Construction BIM | Informed Lifecycle 
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B303a08db-a0e3-4b5b-adc9-ccdf7c565caa%7D_photonics.jpg" alt="Photonics Vertical Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B303a08db-a0e3-4b5b-adc9-ccdf7c565caa%7D_photonics.jpg" target="_blank">Link</a> | Photonics | Steering Innovation
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B4130d2c9-a898-4da2-b526-97353e70058a%7D_public-safety.jpg" alt="Public Safety Vertical Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B4130d2c9-a898-4da2-b526-97353e70058a%7D_public-safety.jpg" target="_blank">Link</a> | Public Safety - Forensics | Preserve. Prepare. Protect. 
 
 You can find the proper places to change the image filename and the vertical header/sub-header annotated with HTML comments in the code shown on the right.
 
@@ -518,28 +528,35 @@ You can find the proper places to change the image filename and the vertical hea
                                    name="facebook"
                                    href="https://www.facebook.com/FAROTechnologies"
                                    background-color="#ffffff"
-                                   src="http://cpommiss.github.io/faro-email/images/elements/icons/social/fb_round.png"
+                                   src="https://img.en25.com/eloquaimages/clients/Faro/%7Bc3f3e238-704f-42f9-81cd-593cbe544f9d%7D_fb_round.png"
                                    alt="Facebook">
                 </mj-social-element>
                 <mj-social-element padding="0px"
                                    name="twitter"
                                    href="https://twitter.com/faro_hq"
                                    background-color="#ffffff"
-                                   src="http://cpommiss.github.io/faro-email/images/elements/icons/social/tw_round.png"
+                                   src="https://img.en25.com/eloquaimages/clients/Faro/%7B72de1589-3d0d-421e-83bf-7355a61f0e66%7D_tw_round.png"
                                    alt="Twitter">
                 </mj-social-element>
                 <mj-social-element padding="0px"
                                    name="linkedin"
                                    href="https://www.linkedin.com/company/faro-technologies"
                                    background-color="#ffffff"
-                                   src="http://cpommiss.github.io/faro-email/images/elements/icons/social/ln_round.png"
+                                   src="https://img.en25.com/eloquaimages/clients/Faro/%7Bffba39d5-f886-4700-a096-2b441d5edbb5%7D_ln_round.png"
                                    alt="LinkedIn">
+                </mj-social-element>
+                <mj-social-element padding="0px"
+                                   name="instagram"
+                                   href="https://www.instagram.com/farotechnologies/"
+                                   background-color="#ffffff"
+                                   src="https://img.en25.com/eloquaimages/clients/Faro/%7B539d5a7a-762b-4971-aeb4-13fd2a05cf38%7D_ig_round.png"
+                                   alt="Instagram">
                 </mj-social-element>
                 <mj-social-element padding="0px"
                                    name="feed"
                                    href="https://insights.faro.com/"
                                    background-color="#ffffff"
-                                   src="http://cpommiss.github.io/faro-email/images/elements/icons/social/feed_round.png"
+                                   src="https://img.en25.com/EloquaImages/clients/Faro/%7B46836e15-a1c8-473b-9bd1-027f3eea0a96%7D_feed_round.png"
                                    alt="Feed/RSS">
                 </mj-social-element>
             </mj-social>
@@ -614,6 +631,41 @@ This code will look like this when rendered:
 
 <aside>
 <img src="images/template--headline--centered.png" alt="Centered Headline">
+</aside>
+
+### Options and Notes
+
+* You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
+* Due to the fact that this headline has an underline below it, you should not change the `align` attribute on the `mj-text` tag.
+
+## Centered with Subheadline
+
+```html
+<mj-wrapper padding="10px 0px">
+    <mj-section padding="0px">
+        <mj-column width="100%" padding="0px">
+            <mj-text mj-class="text__headline-secondary color__faro-blue"
+                     align="center">
+                Secondary Headline
+            </mj-text>
+
+            <mj-divider mj-class="line__headline-secondary color__zenith-blue--border"
+                        width="95px" />
+
+            <mj-text mj-class="text__headline-sub"
+                     align="center">
+                Subheadline Text
+            </mj-text>
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
+```
+Shown on the right is the MJML code to generate and display a centered headline with a subheadline below it.
+
+This code will look like this when rendered:
+
+<aside>
+<img src="images/template--headline--subheadline.png" alt="Centered Headline with Subheadline">
 </aside>
 
 ### Options and Notes
@@ -1116,7 +1168,7 @@ This code will look like this when rendered:
             <mj-text mj-class="text__normal color__anthracite-gray"
                      padding="0px 0px 0px 20px">
                 <!-- *** START: Basic List Content *** -->
-                <ul style="padding: 0; Madding: 0;">
+                <ul style="padding: 0; Margin: 0;">
                     <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
                     <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
                     <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
@@ -1429,6 +1481,50 @@ This code will look like this when rendered:
 
 <aside>
 <img src="images/template--buttons--single-full.png" alt="Buttons (Single, Full-Width)">
+</aside>
+
+### Options and Notes
+
+* You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
+* Standard buttons require the `css-class="button-full"` CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.
+
+## Single with Title
+
+```html
+<mj-wrapper padding="10px 0px">
+    <mj-section mj-class="color__white-gray--bg" padding="10px 0px 0px 0px">
+        <mj-column padding="0px" width="100%">
+            <mj-text mj-class="text__headline-secondary color__faro-blue"
+                     align="center">
+                Headline Text
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section mj-class="color__white-gray--bg" padding="10px 0px 20px 0px">
+        <mj-column padding="0px" width="26%">
+            <mj-spacer height="10px" />
+        </mj-column>
+        <mj-column padding="0px" width="48%">
+            <mj-button mj-class="button__primary color__zenith-blue--bg color__white"
+                       css-class="button-full"
+                       width="100%"
+                       padding="0px"
+                       href="#">
+                Button Text
+            </mj-button>
+        </mj-column>
+        <mj-column padding="0px" width="26%">
+            <mj-spacer height="10px" />
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
+```
+Shown on the right is the MJML code to generate and display a single button with a title above it.
+
+This code will look like this when rendered:
+
+<aside>
+<img src="images/template--buttons--single-title.png" alt="Buttons (Single with Title)">
 </aside>
 
 ### Options and Notes
@@ -1870,13 +1966,14 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
         <optgroup label="Headlines">
           <option value="template--headline--left-no-line">Headline: Basic</option>
           <option value="template--headline--centered">Headline: Centered (with line)</option>
+          <option value="template--headline--subheadline">Headline: Centered (with Subheadline)</option>
           <option value="template--headline--left">Headline: Left-justified (with line)</option>
           <option value="template--headline--icon">Headline: With Icon</option>
           <option value="template--headline--icon-blue">Headline: With Icon (Inverted)</option>
         </optgroup>
         <optgroup label="Top Image/Title">
           <option value="template--cta--single-column">Top Image/Title: Single Column</option>
-          <option value="template--cta--two-column">Top Image/Title: Two Column
+          <option value="template--cta--two-column">Top Image/Title: Two Column</option>
         </optgroup>
         <optgroup label="Content Blocks">
           <option value="template--content--basic">Content Block: One Column Text</option>
@@ -1894,6 +1991,7 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
         <optgroup label="Buttons">
           <option value="template--buttons--single">Buttons: Single</option>
           <option value="template--buttons--single-full">Buttons: Single (Full-width)</option>
+          <option value="template--buttons--single-title">Buttons: Single (with Title)</option>
           <option value="template--buttons--two-columns">Buttons: Two Across</option>
           <option value="template--buttons--three-columns">Buttons: Three Across</option>
         </optgroup>
@@ -1943,97 +2041,71 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
         <mj-attributes>
             <!-- core palette -->
             <mj-class name="color__faro-blue" color="#01426a" />
-            <mj-class name="color__faro-blue--bg" background-color="#01426a">
-                <mj-button background-color="#01426a" />
-            </mj-class>
+            <mj-class name="color__faro-blue--bg" background-color="#01426a" />
             <mj-class name="color__faro-blue--border" border-color="#01426a">
                 <mj-divider border-color="#01426a" />
             </mj-class>
             <mj-class name="color__white" color="#fff" />
-            <mj-class name="color__white--bg" background-color="#fff">
-                <mj-button background-color="#fff" />
-            </mj-class>
+            <mj-class name="color__white--bg" background-color="#fff" />
             <mj-class name="color__white--border" border-color="#fff">
                 <mj-divider border-color="#fff" />
             </mj-class>
             <mj-class name="color__anthracite-gray" color="#2f3234" />
-            <mj-class name="color__anthracite-gray--bg" background-color="#2f3234">
-                <mj-button background-color="#2f3234" />
-            </mj-class>
+            <mj-class name="color__anthracite-gray--bg" background-color="#2f3234" />
             <mj-class name="color__anthracite-gray--border" border-color="#2f3234">
                 <mj-divider border-color="#2f3234" />
             </mj-class>
             <mj-class name="color__metal-gray" color="#52595d" />
-            <mj-class name="color__metal-gray--bg" background-color="#52595d">
-                <mj-button background-color="#52595d" />
-            </mj-class>
+            <mj-class name="color__metal-gray--bg" background-color="#52595d" />
             <mj-class name="color__metal-gray--border" border-color="#52595d">
                 <mj-divider border-color="#52595d" />
             </mj-class>
             <mj-class name="color__light-metal-gray" color="#8d9295" />
-            <mj-class name="color__light-metal-gray--bg" background-color="#8d9295">
-                <mj-button background-color="#8d9295" />
-            </mj-class>
+            <mj-class name="color__light-metal-gray--bg" background-color="#8d9295" />
             <mj-class name="color__light-metal-gray--border" border-color="#8d9295">
                 <mj-divider border-color="#8d9295" />
             </mj-class>
             <mj-class name="color__white-gray" color="#e2e2e2" />
-            <mj-class name="color__white-gray--bg" background-color="#e2e2e2">
-                <mj-button background-color="#e2e2e2" />
-            </mj-class>
+            <mj-class name="color__white-gray--bg" background-color="#e2e2e2" />
             <mj-class name="color__white-gray--border" border-color="#e2e2e2">
                 <mj-divider border-color="#e2e2e2" />
             </mj-class>
 
             <!-- accent palette -->
             <mj-class name="color__zenith-blue" color="#009cde" />
-            <mj-class name="color__zenith-blue--bg" background-color="#009cde">
-                <mj-button background-color="#009cde" />
-            </mj-class>
+            <mj-class name="color__zenith-blue--bg" background-color="#009cde" />
             <mj-class name="color__zenith-blue--border" border-color="#009cde">
                 <mj-divider border-color="#009cde" />
             </mj-class>
             <mj-class name="color__sunny-orange" color="#eaaa00" />
-            <mj-class name="color__sunny-orange--bg" background-color="#eaaa00">
-                <mj-button background-color="#eaaa00" />
-            </mj-class>
+            <mj-class name="color__sunny-orange--bg" background-color="#eaaa00" />
             <mj-class name="color__sunny-orange--border" border-color="#eaaa00">
                 <mj-divider border-color="#eaaa00" />
             </mj-class>
 
             <!-- vertical palette -->
             <mj-class name="color__carbon-black" color="#000" />
-            <mj-class name="color__carbon-black--bg" background-color="#000">
-                <mj-button background-color="#000" />
-            </mj-class>
+            <mj-class name="color__carbon-black--bg" background-color="#000" />
             <mj-class name="color__carbon-black--border" border-color="#000">
                 <mj-divider border-color="#000" />
             </mj-class>
             <mj-class name="color__on-site-orange" color="#ff6a13" />
-            <mj-class name="color__on-site-orange--bg" background-color="#ff6a13">
-                <mj-button background-color="#ff6a13" />
-            </mj-class>
+            <mj-class name="color__on-site-orange--bg" background-color="#ff6a13" />
             <mj-class name="color__on-site-orange--border" border-color="#ff6a13">
                 <mj-divider border-color="#ff6a13" />
             </mj-class>
             <mj-class name="color__forest-green" color="#4c8c2b" />
-            <mj-class name="color__forest-green--bg" background-color="#4c8c2b">
-                <mj-button background-color="#4c8c2b" />
-            </mj-class>
+            <mj-class name="color__forest-green--bg" background-color="#4c8c2b" />
             <mj-class name="color__forest-green--border" border-color="#4c8c2b">
                 <mj-divider border-color="#4c8c2b" />
             </mj-class>
             <mj-class name="color__pursuit-blue" color="#0070c8" />
-            <mj-class name="color__pursuit-blue--bg" background-color="#0070c8">
-                <mj-button background-color="#0070c8" />
-            </mj-class>
+            <mj-class name="color__pursuit-blue--bg" background-color="#0070c8" />
             <mj-class name="color__pursuit-blue--border" border-color="#0070c8">
                 <mj-divider border-color="#0070c8" />
             </mj-class>
             <mj-class name="color__beaming-red" color="#d50037" />
-            <mj-class name="color__beaming-red--bg" background-color="#d50037">
-                <mj-button background-color="#d50037" />
-            </mj-class>
+            <mj-class name="color__beaming-red--bg" background-color="#d50037" />
             <mj-class name="color__beaming-red--border" border-color="#d50037">
                 <mj-divider border-color="#d50037" />
             </mj-class>
@@ -2092,6 +2164,16 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
                       border-width="2px"
                       padding="5px 0px" />
 
+            <!-- Sub Headline Styles -->
+            <mj-class name="text__headline-sub"
+                      color="#2f3234"
+                      font-size="18px"
+                      line-height="20px"
+                      font-weight="bold"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      align="left"
+                      padding="10px 0px 2px 0px" />
+
             <!-- Normal/Inline Text Styles -->
             <mj-class name="text__normal-heading"
                       color="#000000"
@@ -2109,6 +2191,15 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
                       font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
                       align="left"
                       padding="0px 0px 15px 0px" />
+            <mj-class name="text__note"
+                      color="#2f3234"
+                      font-size="12px"
+                      line-height="16px"
+                      font-weight="normal"
+                      font-style="italic"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      align="left"
+                      padding="10px 0px 15px 0px" />
             <mj-class name="line__normal"
                       border-color="#000000"
                       border-width="1px"
@@ -2155,6 +2246,22 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
             .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
             @media screen and (min-width: 697px) {
                 .vertical-header > table > tbody > tr > td { padding-left: 0 !important; padding-right: 0 !important; }
+            }
+            @media only screen and (max-width:697px) {
+                table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
+                td.full-width-mobile { width: auto !important; }
+            }
+            @media only screen and (max-width: 479px) {
+                .emailfooter, .emailheader { width: 100% !important; }
+                .unscribe { padding-top:0 !important;padding-bottom:0 !important;text-align: center !important;margin-left: 0 !important;margin-right: 0 !important; }
+                .mblnavtop { padding-top:0 !important;text-align: center !important;margin-left: 0 !important;margin-right: 0 !important; }
+                td.hl2 { text-align:center !important;padding-top:10px !important; }
+                span.hl { font-size:18px !important;line-height: 20px !important; }
+                span.hl2 { font-size:16px !important;line-height: 18px !important; }
+                .hide { display:none; }
+                span.rmbtn { color:#ffffff !important; }
+                a.rmbtn { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;text-align:center!important;color:#ffffff !important;font-weight: bold !important;font-size:16px !important;text-decoration: none !important;display:block; padding:15px; width:90%;background-color: #009cde; }
+                .mblnav { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;color:#ffffff !important; font-weight: bold !important;font-size:14px !important;text-decoration: none !important;display:block; padding:15px; width:90%; background-color: #939598; }
             }
         </mj-style>
         <!--[if gte mso 9]>

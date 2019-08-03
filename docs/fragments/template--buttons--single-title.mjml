@@ -1,11 +1,21 @@
 
         <!--
         ***
-        *** START: Button (Single, Centered)
+        *** START: Call-to-Action Button (Single, Centered) with Title
         ***
         -->
         <mj-wrapper padding="10px 0px">
-            <mj-section padding="0px">
+            <mj-section mj-class="color__white-gray--bg" padding="10px 0px 0px 0px">
+                <mj-column padding="0px" width="100%">
+                    <!-- *** START: Headline Text *** -->
+                    <mj-text mj-class="text__headline-secondary color__faro-blue"
+                             align="center">
+                        Secondary Headline
+                    </mj-text>
+                    <!-- *** END: Headline Text *** -->
+                </mj-column>
+            </mj-section>
+            <mj-section mj-class="color__white-gray--bg" padding="10px 0px 20px 0px">
                 <mj-column padding="0px" width="26%">
                     <mj-spacer height="10px" />
                 </mj-column>
@@ -25,6 +35,6 @@
         </mj-wrapper>
         <!--
         ***
-        *** END: Button (Single, Centered)
+        *** END: Call-to-Action Button (Single, Centered) with Title
         ***
         -->

@@ -1,7 +1,7 @@
 
         <!--
         ***
-        *** START: Headline (Centered)
+        *** START: Centered Headline and Subheadline with Divider Line
         ***
         -->
         <mj-wrapper padding="10px 0px">
@@ -10,17 +10,24 @@
                     <!-- *** START: Headline Text *** -->
                     <mj-text mj-class="text__headline-secondary color__faro-blue"
                              align="center">
-                        Headline Text
+                        Secondary Headline
                     </mj-text>
                     <!-- *** END: Headline Text *** -->
 
                     <mj-divider mj-class="line__headline-secondary color__zenith-blue--border"
                                 width="95px" />
+
+                    <!-- *** START: Subheadline Text *** -->
+                    <mj-text mj-class="text__headline-sub"
+                             align="center">
+                        Subheadline Text
+                    </mj-text>
+                    <!-- *** END: Subheadline Text *** -->
                 </mj-column>
             </mj-section>
         </mj-wrapper>
         <!--
         ***
-        *** END: Headline (Centered)
+        *** END: Centered Headline and Subheadline with Divider Line
         ***
         -->

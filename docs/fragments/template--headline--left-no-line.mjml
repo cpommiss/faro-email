@@ -4,7 +4,7 @@
         *** START: Headline (Basic)
         ***
         -->
-        <mj-wrapper padding="10px 0px">
+        <mj-wrapper padding="10px 20px">
             <mj-section padding="0px">
                 <mj-column width="100%" padding="0px">
                     <!-- *** START: Headline Text *** -->

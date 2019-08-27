@@ -11,9 +11,11 @@
                     <mj-text mj-class="text__normal color__anthracite-gray"
                              padding="0px 0px 0px 20px">
                         <!-- *** START: Basic List Content *** -->
-                        <ul style="padding: 0; Margin: 0;">
-                            <li style="Margin: 0;">Text goes here.</li>
-                        </ul>
+                        <div class="list">
+                            <ul>
+                                <li>Text goes here.</li>
+                            </ul>
+                        </div>
                         <!-- *** END: Basic List Content *** -->
                     </mj-text>
                 </mj-column>
@@ -21,9 +23,11 @@
                     <mj-text mj-class="text__normal color__anthracite-gray"
                              padding="0px 0px 0px 20px">
                         <!-- *** START: Basic List Content *** -->
-                        <ul style="padding: 0; Margin: 0;">
-                            <li style="Margin: 0;">Text goes here.</li>
-                        </ul>
+                        <div class="list">
+                            <ul>
+                                <li>Text goes here.</li>
+                            </ul>
+                        </div>
                         <!-- *** END: Basic List Content *** -->
                     </mj-text>
                 </mj-column>

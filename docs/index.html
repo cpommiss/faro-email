@@ -559,6 +559,7 @@
             <span class="nt">&lt;mj-class</span> <span class="na">name=</span><span class="s">"line__headline-secondary"</span>
                       <span class="na">border-color=</span><span class="s">"#000000"</span>
                       <span class="na">border-width=</span><span class="s">"2px"</span>
+                      <span class="na">align=</span><span class="s">"left"</span> 
                       <span class="na">padding=</span><span class="s">"5px 0px"</span> <span class="nt">/&gt;</span>
 
             <span class="c">&lt;!-- Sub Headline Styles --&gt;</span>
@@ -639,11 +640,13 @@
             .color__beaming-red { color: #d50037; }
             .divider-left { display: inline-block; text-align: left; }
             .divider-left p { display: inline-block; }
+            .button-full { padding-left:20px !important; padding-right:px !important; }
             .button-full a { display: block !important; }
             .top-image, .top-image &gt; div &gt; table { background-size: cover !important; background-position: center top !important; }
             sup { vertical-align: baseline; position: relative; top: -4px; }
             @media screen and (min-width: 697px) {
                 .vertical-header &gt; table &gt; tbody &gt; tr &gt; td { padding-left: 0 !important; padding-right: 0 !important; }
+                .button-full { padding-left:0 !important; padding-right:0 !important; }
             }
             @media only screen and (max-width:697px) {
                 table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
@@ -662,11 +665,14 @@
                 .mblnav { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;color:#ffffff !important; font-weight: bold !important;font-size:14px !important;text-decoration: none !important;display:block; padding:15px; width:90%; background-color: #939598; }
             }        
         <span class="nt">&lt;/mj-style&gt;</span>
+        <span class="nt">&lt;mj-style</span> <span class="na">inline=</span><span class="s">"inline"</span><span class="nt">&gt;</span>
+            div.list ul, div.list ol { padding-inline-start: 20px; -webkit-padding-start: 20px; margin-top: 0; }
+            div.list ul li { list-style: disc outside; mso-special-format: bullet; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
+            div.list ol li { list-style: decimal outside; mso-special-format: decimal; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
+        <span class="nt">&lt;/mj-style&gt;</span>
         <span class="c">&lt;!--[if gte mso 9]&gt;
         &lt;style&gt;
-            li {
-                text-indent: -1em;
-            }
+            div.list { Margin: 0 0 0 -20px; }
         &lt;/style&gt;
         &lt;![endif]--&gt;</span>
     <span class="nt">&lt;/mj-head&gt;</span>
@@ -1217,7 +1223,7 @@
 </aside>
 <h3 id='options-and-notes-3'>Options and Notes</h3>
 <p>There are no configuration options for this snippet. Just cut and paste!</p>
-<h1 id='headlines'>Headlines</h1><h2 id='basic'>Basic</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">padding=</span><span class="s">"10px 0px"</span><span class="nt">&gt;</span>
+<h1 id='headlines'>Headlines</h1><h2 id='basic'>Basic</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">padding=</span><span class="s">"10px 20px"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;mj-column</span> <span class="na">width=</span><span class="s">"100%"</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
             <span class="c">&lt;!-- *** START: Headline Text *** --&gt;</span>
@@ -1239,7 +1245,7 @@
 </aside>
 <h3 id='options-and-notes-4'>Options and Notes</h3>
 <p>You can change the <code>align</code> attribute on the <code>mj-text</code> tag to be either <code>left</code>, <code>right</code>, or <code>center</code> to change the text alignment of the headline.</p>
-<h2 id='centered-with-line'>Centered with Line</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">padding=</span><span class="s">"10px 0px"</span><span class="nt">&gt;</span>
+<h2 id='centered-with-line'>Centered with Line</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">padding=</span><span class="s">"10px 20px"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;mj-column</span> <span class="na">width=</span><span class="s">"100%"</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
             <span class="c">&lt;!-- *** START: Headline Text *** --&gt;</span>
@@ -1248,7 +1254,11 @@
                 Headline Text
             <span class="nt">&lt;/mj-text&gt;</span>
             <span class="c">&lt;!-- *** END: Headline Text *** --&gt;</span>
+        <span class="nt">&lt;/mj-column&gt;</span>
+    <span class="nt">&lt;/mj-section&gt;</span>
 
+    <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span> <span class="na">text-align=</span><span class="s">"center"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;mj-column</span> <span class="na">width=</span><span class="s">"95px"</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;mj-divider</span> <span class="na">mj-class=</span><span class="s">"line__headline-secondary color__zenith-blue--border"</span>
                         <span class="na">width=</span><span class="s">"95px"</span> <span class="nt">/&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
@@ -1267,21 +1277,33 @@
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 <li>Due to the fact that this headline has an underline below it, you should not change the <code>align</code> attribute on the <code>mj-text</code> tag.</li>
 </ul>
-<h2 id='centered-with-subheadline'>Centered with Subheadline</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">padding=</span><span class="s">"10px 0px"</span><span class="nt">&gt;</span>
+<h2 id='centered-with-subheadline'>Centered with Subheadline</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">padding=</span><span class="s">"10px 20px"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;mj-column</span> <span class="na">width=</span><span class="s">"100%"</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
+            <span class="c">&lt;!-- *** START: Headline Text *** --&gt;</span>
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__headline-secondary color__faro-blue"</span>
                      <span class="na">align=</span><span class="s">"center"</span><span class="nt">&gt;</span>
                 Secondary Headline
             <span class="nt">&lt;/mj-text&gt;</span>
+            <span class="c">&lt;!-- *** END: Headline Text *** --&gt;</span>
+        <span class="nt">&lt;/mj-column&gt;</span>
+    <span class="nt">&lt;/mj-section&gt;</span>
 
+    <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span> <span class="na">text-align=</span><span class="s">"center"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;mj-column</span> <span class="na">width=</span><span class="s">"95px"</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;mj-divider</span> <span class="na">mj-class=</span><span class="s">"line__headline-secondary color__zenith-blue--border"</span>
                         <span class="na">width=</span><span class="s">"95px"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;/mj-column&gt;</span>
+    <span class="nt">&lt;/mj-section&gt;</span>
 
+    <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;mj-column</span> <span class="na">width=</span><span class="s">"100%"</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
+            <span class="c">&lt;!-- *** START: Subheadline Text *** --&gt;</span>
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__headline-sub"</span>
                      <span class="na">align=</span><span class="s">"center"</span><span class="nt">&gt;</span>
                 Subheadline Text
             <span class="nt">&lt;/mj-text&gt;</span>
+            <span class="c">&lt;!-- *** END: Subheadline Text *** --&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
     <span class="nt">&lt;/mj-section&gt;</span>
 <span class="nt">&lt;/mj-wrapper&gt;</span>
@@ -1298,20 +1320,23 @@
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 <li>Due to the fact that this headline has an underline below it, you should not change the <code>align</code> attribute on the <code>mj-text</code> tag.</li>
 </ul>
-<h2 id='left-justified-with-line'>Left-justified with Line</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">padding=</span><span class="s">"10px 0px"</span><span class="nt">&gt;</span>
+<h2 id='left-justified-with-line'>Left-justified with Line</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">padding=</span><span class="s">"10px 20px"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;mj-column</span> <span class="na">width=</span><span class="s">"100%"</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
             <span class="c">&lt;!-- *** START: Headline Text *** --&gt;</span>
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__headline-secondary color__faro-blue"</span>
-                     <span class="na">padding-left=</span><span class="s">"20px"</span>
                      <span class="na">align=</span><span class="s">"left"</span><span class="nt">&gt;</span>
                 Headline Text
             <span class="nt">&lt;/mj-text&gt;</span>
             <span class="c">&lt;!-- *** END: Headline Text *** --&gt;</span>
 
+        <span class="nt">&lt;/mj-column&gt;</span>
+    <span class="nt">&lt;/mj-section&gt;</span>
+
+    <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span> <span class="na">text-align=</span><span class="s">"left"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;mj-column</span> <span class="na">width=</span><span class="s">"95px"</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;mj-divider</span> <span class="na">mj-class=</span><span class="s">"line__headline-secondary color__zenith-blue--border"</span>
                         <span class="na">css-class=</span><span class="s">"divider-left"</span>
-                        <span class="na">padding-left=</span><span class="s">"20px"</span>
                         <span class="na">width=</span><span class="s">"95px"</span> <span class="nt">/&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
     <span class="nt">&lt;/mj-section&gt;</span>
@@ -1402,7 +1427,7 @@
 <h1 id='top-image-title'>Top Image/Title</h1><h2 id='single-column'>Single-column</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">mj-class=</span><span class="s">"color__white--bg"</span>
             <span class="na">css-class=</span><span class="s">"top-image"</span>
             <span class="na">padding=</span><span class="s">"0px"</span>
-            <span class="na">background-url=</span><span class="s">"http://cpommiss.github.io/faro-email/images/elements/cta-triangles-grey.jpg"</span>
+            <span class="na">background-url=</span><span class="s">"https://cpommiss.github.io/faro-email/images/elements/cta-triangles-grey.jpg"</span>
             <span class="na">background-size=</span><span class="s">"680px"</span>
             <span class="na">background-repeat=</span><span class="s">"no-repeat"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
@@ -1411,11 +1436,15 @@
         <span class="nt">&lt;/mj-column&gt;</span>
     <span class="nt">&lt;/mj-section&gt;</span>
 
-    <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;mj-column</span> <span class="na">width=</span><span class="s">"100%"</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span> <span class="na">text-align=</span><span class="s">"left"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;mj-column</span> <span class="na">width=</span><span class="s">"85px"</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;mj-divider</span> <span class="na">mj-class=</span><span class="s">"line__cta-primary color__zenith-blue--border"</span>
                         <span class="na">css-class=</span><span class="s">"divider-left"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;/mj-column&gt;</span>
+    <span class="nt">&lt;/mj-section&gt;</span>
 
+    <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;mj-column</span> <span class="na">width=</span><span class="s">"100%"</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
             <span class="c">&lt;!-- *** START: Headline Text *** --&gt;</span>
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__cta-primary color__faro-blue"</span><span class="nt">&gt;</span>
                 Dive Deeper Into Our Solutions
@@ -1449,9 +1478,9 @@
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 </ul>
 <h2 id='two-column'>Two-column</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">mj-class=</span><span class="s">"color__white--bg"</span>
-            <span class="na">css-class=</span><span class="s">"top-image"</span> 
+            <span class="na">css-class=</span><span class="s">"top-image"</span>
             <span class="na">padding=</span><span class="s">"0px"</span>
-            <span class="na">background-url=</span><span class="s">"http://cpommiss.github.io/faro-email/images/elements/cta-triangles-grey.jpg"</span>
+            <span class="na">background-url=</span><span class="s">"https://cpommiss.github.io/faro-email/images/elements/cta-triangles-grey.jpg"</span>
             <span class="na">background-size=</span><span class="s">"680px"</span>
             <span class="na">background-repeat=</span><span class="s">"no-repeat"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
@@ -1460,11 +1489,15 @@
         <span class="nt">&lt;/mj-column&gt;</span>
     <span class="nt">&lt;/mj-section&gt;</span>
 
-    <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;mj-column</span> <span class="na">width=</span><span class="s">"55%"</span> <span class="na">padding=</span><span class="s">"10px 0px"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span> <span class="na">text-align=</span><span class="s">"left"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;mj-column</span> <span class="na">width=</span><span class="s">"85px"</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;mj-divider</span> <span class="na">mj-class=</span><span class="s">"line__cta-primary color__zenith-blue--border"</span>
                         <span class="na">css-class=</span><span class="s">"divider-left"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;/mj-column&gt;</span>
+    <span class="nt">&lt;/mj-section&gt;</span>
 
+    <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;mj-column</span> <span class="na">width=</span><span class="s">"55%"</span> <span class="na">padding=</span><span class="s">"10px 0px"</span><span class="nt">&gt;</span>
             <span class="c">&lt;!-- *** START: Headline Text *** --&gt;</span>
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__cta-primary color__faro-blue"</span>
                      <span class="na">padding-right=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
@@ -1567,12 +1600,14 @@
             <span class="c">&lt;!-- *** START: Basic List Content *** --&gt;</span>
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__normal color__anthracite-gray"</span>
                      <span class="na">padding=</span><span class="s">"0px 0px 15px 20px"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;ul</span> <span class="na">style=</span><span class="s">"padding: 0; Margin: 0;"</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque<span class="nt">&lt;/li&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>posuere leeo id, eleifend dolor.<span class="nt">&lt;/li&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Class aptent taciti sociosqu ad litora torquent per<span class="nt">&lt;/li&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>conubia nostra, per inceptos himenaeos.<span class="nt">&lt;/li&gt;</span>
-                <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"list"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;ul&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>posuere leeo id, eleifend dolor.<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Class aptent taciti sociosqu ad litora torquent per<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>conubia nostra, per inceptos himenaeos.<span class="nt">&lt;/li&gt;</span>
+                    <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;/div&gt;</span>
             <span class="nt">&lt;/mj-text&gt;</span>
             <span class="c">&lt;!-- *** END: Basic List Content *** --&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
@@ -1744,16 +1779,18 @@
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__normal color__anthracite-gray"</span>
                      <span class="na">padding=</span><span class="s">"0px 0px 0px 20px"</span><span class="nt">&gt;</span>
                 <span class="c">&lt;!-- *** START: Basic List Content *** --&gt;</span>
-                <span class="nt">&lt;ul</span> <span class="na">style=</span><span class="s">"padding: 0; Margin: 0;"</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<span class="nt">&lt;/li&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.<span class="nt">&lt;/li&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.<span class="nt">&lt;/li&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<span class="nt">&lt;/li&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.<span class="nt">&lt;/li&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere.<span class="nt">&lt;/li&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<span class="nt">&lt;/li&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.<span class="nt">&lt;/li&gt;</span>
-                <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"list"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;ul&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere.<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.<span class="nt">&lt;/li&gt;</span>
+                    <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;/div&gt;</span>
                 <span class="c">&lt;!-- *** END: Basic List Content *** --&gt;</span>
             <span class="nt">&lt;/mj-text&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
@@ -1777,12 +1814,14 @@
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__normal color__anthracite-gray"</span>
                      <span class="na">padding=</span><span class="s">"0px 0px 0px 20px"</span><span class="nt">&gt;</span>
                 <span class="c">&lt;!-- *** START: Basic List Content *** --&gt;</span>
-                <span class="nt">&lt;ul</span> <span class="na">style=</span><span class="s">"padding: 0; Margin: 0;"</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<span class="nt">&lt;/li&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.<span class="nt">&lt;/li&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.<span class="nt">&lt;/li&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<span class="nt">&lt;/li&gt;</span>
-                <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"list"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;ul&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<span class="nt">&lt;/li&gt;</span>
+                    <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;/div&gt;</span>
                 <span class="c">&lt;!-- *** END: Basic List Content *** --&gt;</span>
             <span class="nt">&lt;/mj-text&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
@@ -1790,12 +1829,14 @@
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__normal color__anthracite-gray"</span>
                      <span class="na">padding=</span><span class="s">"0px 0px 0px 20px"</span><span class="nt">&gt;</span>
                 <span class="c">&lt;!-- *** START: Basic List Content *** --&gt;</span>
-                <span class="nt">&lt;ul</span> <span class="na">style=</span><span class="s">"padding: 0; Margin: 0;"</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.<span class="nt">&lt;/li&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere.<span class="nt">&lt;/li&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<span class="nt">&lt;/li&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.<span class="nt">&lt;/li&gt;</span>
-                <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"list"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;ul&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere.<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.<span class="nt">&lt;/li&gt;</span>
+                    <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;/div&gt;</span>
                 <span class="c">&lt;!-- *** END: Basic List Content *** --&gt;</span>
             <span class="nt">&lt;/mj-text&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
@@ -1820,9 +1861,11 @@
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__normal color__anthracite-gray"</span>
                      <span class="na">padding=</span><span class="s">"0px 0px 0px 20px"</span><span class="nt">&gt;</span>
                 <span class="c">&lt;!-- *** START: Basic List Content *** --&gt;</span>
-                <span class="nt">&lt;ul</span> <span class="na">style=</span><span class="s">"padding: 0; Margin: 0;"</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<span class="nt">&lt;/li&gt;</span>
-                <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"list"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;ul&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<span class="nt">&lt;/li&gt;</span>
+                    <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;/div&gt;</span>
                 <span class="c">&lt;!-- *** END: Basic List Content *** --&gt;</span>
             <span class="nt">&lt;/mj-text&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
@@ -1830,9 +1873,11 @@
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__normal color__anthracite-gray"</span>
                      <span class="na">padding=</span><span class="s">"0px 0px 0px 20px"</span><span class="nt">&gt;</span>
                 <span class="c">&lt;!-- *** START: Basic List Content *** --&gt;</span>
-                <span class="nt">&lt;ul</span> <span class="na">style=</span><span class="s">"padding: 0; Margin: 0;"</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.<span class="nt">&lt;/li&gt;</span>
-                <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"list"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;ul&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.<span class="nt">&lt;/li&gt;</span>
+                    <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;/div&gt;</span>
                 <span class="c">&lt;!-- *** END: Basic List Content *** --&gt;</span>
             <span class="nt">&lt;/mj-text&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
@@ -1845,9 +1890,11 @@
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__normal color__anthracite-gray"</span>
                      <span class="na">padding=</span><span class="s">"0px 0px 0px 20px"</span><span class="nt">&gt;</span>
                 <span class="c">&lt;!-- *** START: Basic List Content *** --&gt;</span>
-                <span class="nt">&lt;ul</span> <span class="na">style=</span><span class="s">"padding: 0; Margin: 0;"</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.<span class="nt">&lt;/li&gt;</span>
-                <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"list"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;ul&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.<span class="nt">&lt;/li&gt;</span>
+                    <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;/div&gt;</span>
                 <span class="c">&lt;!-- *** END: Basic List Content *** --&gt;</span>
             <span class="nt">&lt;/mj-text&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
@@ -1855,9 +1902,11 @@
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__normal color__anthracite-gray"</span>
                      <span class="na">padding=</span><span class="s">"0px 0px 0px 20px"</span><span class="nt">&gt;</span>
                 <span class="c">&lt;!-- *** START: Basic List Content *** --&gt;</span>
-                <span class="nt">&lt;ul</span> <span class="na">style=</span><span class="s">"padding: 0; Margin: 0;"</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"Margin: 0;"</span><span class="nt">&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<span class="nt">&lt;/li&gt;</span>
-                <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"list"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;ul&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<span class="nt">&lt;/li&gt;</span>
+                    <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;/div&gt;</span>
                 <span class="c">&lt;!-- *** END: Basic List Content *** --&gt;</span>
             <span class="nt">&lt;/mj-text&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
@@ -1993,7 +2042,11 @@
                        <span class="na">width=</span><span class="s">"100%"</span>
                        <span class="na">padding=</span><span class="s">"0px"</span>
                        <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-                Button Text
+                <span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">"letter-spacing: normal;"</span><span class="nt">&gt;</span>
+                    <span class="c">&lt;!-- *** START: Button Text *** --&gt;</span>
+                    Button Text
+                    <span class="c">&lt;!-- *** END: Button Text *** --&gt;</span>
+                <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/mj-button&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
         <span class="nt">&lt;mj-column</span> <span class="na">padding=</span><span class="s">"0px"</span> <span class="na">width=</span><span class="s">"26%"</span><span class="nt">&gt;</span>
@@ -2013,6 +2066,7 @@
 <ul>
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 <li>Standard buttons require the <code>css-class=&quot;button-full&quot;</code> CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.</li>
+<li>For maximum compatibility, text within the <code>&lt;mj-button&gt;</code> tag must be wrapped with a <code>&lt;span style=&quot;letter-spacing: normal&quot;&gt;</code> tag, as shown in the example code. </li>
 </ul>
 <h2 id='single-full-width'>Single (Full-Width)</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">padding=</span><span class="s">"10px 0px"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
@@ -2023,7 +2077,11 @@
                        <span class="na">align=</span><span class="s">"center"</span>
                        <span class="na">padding=</span><span class="s">"0px"</span>
                        <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-                Test
+                <span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">"letter-spacing: normal;"</span><span class="nt">&gt;</span>
+                    <span class="c">&lt;!-- *** START: Button Text *** --&gt;</span>
+                    Button Text
+                    <span class="c">&lt;!-- *** END: Button Text *** --&gt;</span>
+                <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/mj-button&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
     <span class="nt">&lt;/mj-section&gt;</span>
@@ -2040,6 +2098,7 @@
 <ul>
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 <li>Standard buttons require the <code>css-class=&quot;button-full&quot;</code> CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.</li>
+<li>For maximum compatibility, text within the <code>&lt;mj-button&gt;</code> tag must be wrapped with a <code>&lt;span style=&quot;letter-spacing: normal&quot;&gt;</code> tag, as shown in the example code. </li>
 </ul>
 <h2 id='single-with-title'>Single with Title</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">padding=</span><span class="s">"10px 0px"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;mj-section</span> <span class="na">mj-class=</span><span class="s">"color__white-gray--bg"</span> <span class="na">padding=</span><span class="s">"10px 0px 0px 0px"</span><span class="nt">&gt;</span>
@@ -2060,7 +2119,11 @@
                        <span class="na">width=</span><span class="s">"100%"</span>
                        <span class="na">padding=</span><span class="s">"0px"</span>
                        <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-                Button Text
+                <span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">"letter-spacing: normal;"</span><span class="nt">&gt;</span>
+                    <span class="c">&lt;!-- *** START: Button Text *** --&gt;</span>
+                    Button Text
+                    <span class="c">&lt;!-- *** END: Button Text *** --&gt;</span>
+                <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/mj-button&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
         <span class="nt">&lt;mj-column</span> <span class="na">padding=</span><span class="s">"0px"</span> <span class="na">width=</span><span class="s">"26%"</span><span class="nt">&gt;</span>
@@ -2080,6 +2143,7 @@
 <ul>
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 <li>Standard buttons require the <code>css-class=&quot;button-full&quot;</code> CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.</li>
+<li>For maximum compatibility, text within the <code>&lt;mj-button&gt;</code> tag must be wrapped with a <code>&lt;span style=&quot;letter-spacing: normal&quot;&gt;</code> tag, as shown in the example code. </li>
 </ul>
 <h2 id='two-across'>Two Across</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">padding=</span><span class="s">"10px 0px"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
@@ -2089,7 +2153,11 @@
                        <span class="na">width=</span><span class="s">"100%"</span>
                        <span class="na">padding=</span><span class="s">"0px"</span>
                        <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-                Button Text
+                <span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">"letter-spacing: normal;"</span><span class="nt">&gt;</span>
+                    <span class="c">&lt;!-- *** START: Button Text *** --&gt;</span>
+                    Button Text
+                    <span class="c">&lt;!-- *** END: Button Text *** --&gt;</span>
+                <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/mj-button&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
         <span class="nt">&lt;mj-column</span> <span class="na">padding=</span><span class="s">"0px"</span> <span class="na">width=</span><span class="s">"4%"</span><span class="nt">&gt;</span>
@@ -2101,7 +2169,11 @@
                        <span class="na">width=</span><span class="s">"100%"</span>
                        <span class="na">padding=</span><span class="s">"0px"</span>
                        <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-                Button Text
+                <span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">"letter-spacing: normal;"</span><span class="nt">&gt;</span>
+                    <span class="c">&lt;!-- *** START: Button Text *** --&gt;</span>
+                    Button Text
+                    <span class="c">&lt;!-- *** END: Button Text *** --&gt;</span>
+                <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/mj-button&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
     <span class="nt">&lt;/mj-section&gt;</span>
@@ -2118,6 +2190,7 @@
 <ul>
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 <li>Standard buttons require the <code>css-class=&quot;button-full&quot;</code> CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.</li>
+<li>For maximum compatibility, text within the <code>&lt;mj-button&gt;</code> tag must be wrapped with a <code>&lt;span style=&quot;letter-spacing: normal&quot;&gt;</code> tag, as shown in the example code. </li>
 </ul>
 <h2 id='three-across'>Three Across</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">padding=</span><span class="s">"10px 0px"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
@@ -2127,7 +2200,11 @@
                        <span class="na">width=</span><span class="s">"100%"</span>
                        <span class="na">padding=</span><span class="s">"0px"</span>
                        <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-                Button Text
+                <span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">"letter-spacing: normal;"</span><span class="nt">&gt;</span>
+                    <span class="c">&lt;!-- *** START: Button Text *** --&gt;</span>
+                    Button Text
+                    <span class="c">&lt;!-- *** END: Button Text *** --&gt;</span>
+                <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/mj-button&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
         <span class="nt">&lt;mj-column</span> <span class="na">padding=</span><span class="s">"0px"</span> <span class="na">width=</span><span class="s">"4%"</span><span class="nt">&gt;</span>
@@ -2139,7 +2216,11 @@
                        <span class="na">width=</span><span class="s">"100%"</span>
                        <span class="na">padding=</span><span class="s">"0px"</span>
                        <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-                Button Text
+                <span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">"letter-spacing: normal;"</span><span class="nt">&gt;</span>
+                    <span class="c">&lt;!-- *** START: Button Text *** --&gt;</span>
+                    Button Text
+                    <span class="c">&lt;!-- *** END: Button Text *** --&gt;</span>
+                <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/mj-button&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
         <span class="nt">&lt;mj-column</span> <span class="na">padding=</span><span class="s">"0px"</span> <span class="na">width=</span><span class="s">"4%"</span><span class="nt">&gt;</span>
@@ -2151,7 +2232,11 @@
                        <span class="na">width=</span><span class="s">"100%"</span>
                        <span class="na">padding=</span><span class="s">"0px"</span>
                        <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-                Button Text
+                <span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">"letter-spacing: normal;"</span><span class="nt">&gt;</span>
+                    <span class="c">&lt;!-- *** START: Button Text *** --&gt;</span>
+                    Button Text
+                    <span class="c">&lt;!-- *** END: Button Text *** --&gt;</span>
+                <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/mj-button&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
     <span class="nt">&lt;/mj-section&gt;</span>
@@ -2168,6 +2253,7 @@
 <ul>
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 <li>Standard buttons require the <code>css-class=&quot;button-full&quot;</code> CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.</li>
+<li>For maximum compatibility, text within the <code>&lt;mj-button&gt;</code> tag must be wrapped with a <code>&lt;span style=&quot;letter-spacing: normal&quot;&gt;</code> tag, as shown in the example code. </li>
 </ul>
 <h1 id='combinations'>Combinations</h1><h2 id='cta-with-background'>CTA with Background</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">padding=</span><span class="s">"15px 0px"</span> <span class="na">mj-class=</span><span class="s">"block__grey--faded"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
@@ -2214,7 +2300,11 @@
                        <span class="na">padding=</span><span class="s">"0px 20px"</span>
                        <span class="na">href=</span><span class="s">"#"</span>
                        <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;</span>
-                Call Out Button
+                <span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">"letter-spacing: normal;"</span><span class="nt">&gt;</span>
+                    <span class="c">&lt;!-- *** START: Button Text *** --&gt;</span>
+                    Call Out Button
+                    <span class="c">&lt;!-- *** END: Button Text *** --&gt;</span>
+                <span class="nt">&lt;/span&gt;</span>
             <span class="nt">&lt;/mj-button&gt;</span>
             <span class="c">&lt;!-- *** END: Basic Button *** --&gt;</span>
 
@@ -2235,6 +2325,7 @@
 <li>This combination utilizes the <strong><a href="#with-icon">Headline With Icon</a></strong> headline layout. You can switch this out for a standard headline if you wish.</li>
 <li>You can change the color of the any text or elements by changing any <code>color</code> CSS classes (i.e., <code>color__faro-blue</code> ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the <strong><a href="#colors">Colors</a></strong> section of this documentation.</li>
 <li>Refer to the <strong><a href="#icons">Icons</a></strong> section of this documentation to find the icon you&#39;re looking for.</li>
+<li>For maximum compatibility, text within the <code>&lt;mj-button&gt;</code> tag must be wrapped with a <code>&lt;span style=&quot;letter-spacing: normal&quot;&gt;</code> tag, as shown in the example code. </li>
 </ul>
 <h2 id='cta-with-icon-monochrome'>CTA with Icon (Monochrome)</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">padding=</span><span class="s">"10px 0px"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;mj-section</span> <span class="na">mj-class=</span><span class="s">"color__faro-blue--bg"</span> <span class="na">padding=</span><span class="s">"10px"</span><span class="nt">&gt;</span>
@@ -2688,6 +2779,7 @@
             <mj-class name="line__headline-secondary"
                       border-color="#000000"
                       border-width="2px"
+                      align="left" 
                       padding="5px 0px" />
 
             <!-- Sub Headline Styles -->
@@ -2768,10 +2860,13 @@
             .color__beaming-red { color: #d50037; }
             .divider-left { display: inline-block; text-align: left; }
             .divider-left p { display: inline-block; }
+            .button-full { padding-left:20px !important; padding-right:px !important; }
             .button-full a { display: block !important; }
             .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
+            sup { vertical-align: baseline; position: relative; top: -4px; }
             @media screen and (min-width: 697px) {
                 .vertical-header > table > tbody > tr > td { padding-left: 0 !important; padding-right: 0 !important; }
+                .button-full { padding-left:0 !important; padding-right:0 !important; }
             }
             @media only screen and (max-width:697px) {
                 table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
@@ -2790,11 +2885,14 @@
                 .mblnav { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;color:#ffffff !important; font-weight: bold !important;font-size:14px !important;text-decoration: none !important;display:block; padding:15px; width:90%; background-color: #939598; }
             }
         </mj-style>
+        <mj-style inline="inline">
+            div.list ul, div.list ol { padding-inline-start: 20px; -webkit-padding-start: 20px; margin-top: 0; }
+            div.list ul li { list-style: disc outside; mso-special-format: bullet; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
+            div.list ol li { list-style: decimal outside; mso-special-format: decimal; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
+        </mj-style>
         <!--[if gte mso 9]>
         <style>
-            li {
-                text-indent: -1em;
-            }
+            div.list { Margin: 0 0 0 -20px; }
         </style>
         <![endif]-->
     </mj-head>

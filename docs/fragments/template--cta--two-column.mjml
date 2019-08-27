@@ -16,11 +16,15 @@
                 </mj-column>
             </mj-section>
 
-            <mj-section padding="0px">
-                <mj-column width="55%" padding="10px 0px">
+            <mj-section padding="0px" text-align="left">
+                <mj-column width="85px" padding="0px">
                     <mj-divider mj-class="line__cta-primary color__zenith-blue--border"
                                 css-class="divider-left" />
+                </mj-column>
+            </mj-section>
 
+            <mj-section padding="0px">
+                <mj-column width="55%" padding="10px 0px">
                     <!-- *** START: Headline Text *** -->
                     <mj-text mj-class="text__cta-primary color__faro-blue"
                              padding-right="0px">

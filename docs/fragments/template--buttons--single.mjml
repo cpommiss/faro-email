@@ -15,7 +15,11 @@
                                width="100%"
                                padding="0px"
                                href="#">
-                        Button Text
+                        <span style="letter-spacing: normal;">
+                            <!-- *** START: Button Text *** -->
+                            Button Text
+                            <!-- *** END: Button Text *** -->
+                        </span>
                     </mj-button>
                 </mj-column>
                 <mj-column padding="0px" width="26%">

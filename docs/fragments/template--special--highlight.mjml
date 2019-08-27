@@ -41,7 +41,11 @@
                                padding="0px 20px"
                                href="#"
                                target="_blank">
-                        Call Out Button
+                        <span style="letter-spacing: normal;">
+                            <!-- *** START: Button Text *** -->
+                            Call Out Button
+                            <!-- *** END: Button Text *** -->
+                        </span>
                     </mj-button>
                     <!-- *** END: Basic Button *** -->
 

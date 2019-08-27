@@ -228,7 +228,7 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
             <!-- Template-Specific Styles -->
             <mj-class name="block__grey--faded"
                       background-color="#fff"
-                      background-url="http://cpommiss.github.io/faro-email/images/elements/bg-triangles-grey-faded.jpg"
+                      background-url="https://img.en25.com/EloquaImages/clients/Faro/%7Bb919870b-d51a-45e7-b88c-e12e9ee872f7%7D_bg-triangles-grey-faded.jpg"
                       border-top="1px #01426a solid"
                       border-bottom="1px #01426a solid"
                       vertical-align="middle" />
@@ -379,56 +379,139 @@ For example, the following code:
 
 # Icons
 
-If you wish to change the icon being used in a snippet found here, simply change the filename of the icon to the one you want to use shown below.
+If you wish to change the icon being used in a snippet found here, simply change the URL of the icon in a code snippet to the one you want to use shown below.
 
-The following icon filenames are available:
+## Large Blue Icons
 
-Icon | Image Filename | Description
+The following icons are used within the **[Icon List](#icon-list)** layout. 
+
+Icon | Image URL | Description
 --------- | ------- | -----------
-<img src="images/elements/icons/large/blue/accurate.jpg" alt="Accurate Icon"> | accurate.jpg | Accurate
-<img src="images/elements/icons/large/blue/advance-performance.jpg" alt="Advance Performance Icon"> | advance-performance.jpg | Advance Performance
-<img src="images/elements/icons/large/blue/alert.jpg" alt="Alert Icon"> | alert.jpg | Alert
-<img src="images/elements/icons/large/blue/anytime.jpg" alt="Anytime Icon"> | anytime.jpg | Anytime
-<img src="images/elements/icons/large/blue/capture-in-3d.jpg" alt="Capture In 3d Icon"> | capture-in-3d.jpg | Capture In 3d
-<img src="images/elements/icons/large/blue/collaboration.jpg" alt="Collaboration Icon"> | collaboration.jpg | Collaboration
-<img src="images/elements/icons/large/blue/compelling-presentation.jpg" alt="Compelling Presentation Icon"> | compelling-presentation.jpg | Compelling Presentation
-<img src="images/elements/icons/large/blue/complete.jpg" alt="Complete Icon"> | complete.jpg | Complete
-<img src="images/elements/icons/large/blue/direct-comparison.jpg" alt="Direct Comparison Icon"> | direct-comparison.jpg | Direct Comparison
-<img src="images/elements/icons/large/blue/easy-repair.jpg" alt="Easy Repair Icon"> | easy-repair.jpg | Easy Repair
-<img src="images/elements/icons/large/blue/easy-to-process.jpg" alt="Easy To Process Icon"> | easy-to-process.jpg | Easy To Process
-<img src="images/elements/icons/large/blue/easy-to-share-data.jpg" alt="Easy To Share Data Icon"> | easy-to-share-data.jpg | Easy To Share Data
-<img src="images/elements/icons/large/blue/easy-to-use.jpg" alt="Easy To Use Icon"> | easy-to-use.jpg | Easy To Use
-<img src="images/elements/icons/large/blue/efficient.jpg" alt="Efficient Icon"> | efficient.jpg | Efficient
-<img src="images/elements/icons/large/blue/eliminate-manual-drawings.jpg" alt="Eliminate Manual Drawings Icon"> | eliminate-manual-drawings.jpg | Eliminate Manual Drawings
-<img src="images/elements/icons/large/blue/eliminate-scrap.jpg" alt="Eliminate Scrap Icon"> | eliminate-scrap.jpg | Eliminate Scrap
-<img src="images/elements/icons/large/blue/faster.jpg" alt="Faster Icon"> | faster.jpg | Faster
-<img src="images/elements/icons/large/blue/flexible.jpg" alt="Flexible Icon"> | flexible.jpg | Flexible
-<img src="images/elements/icons/large/blue/flexible-capture.jpg" alt="Flexible Capture Icon"> | flexible-capture.jpg | Flexible Capture
-<img src="images/elements/icons/large/blue/gentle.jpg" alt="Gentle Icon"> | gentle.jpg | Gentle
-<img src="images/elements/icons/large/blue/implementation.jpg" alt="Implementation Icon"> | implementation.jpg | Implementation
-<img src="images/elements/icons/large/blue/in-the-field-deliverable.jpg" alt="In The Field Deliverable Icon"> | in-the-field-deliverable.jpg | In The Field Deliverable
-<img src="images/elements/icons/large/blue/limit-road-time-closure.jpg" alt="Limit Road Time Closure Icon"> | limit-road-time-closure.jpg | Limit Road Time Closure
-<img src="images/elements/icons/large/blue/money-saving.jpg" alt="Money Saving Icon"> | money-saving.jpg | Money Saving
-<img src="images/elements/icons/large/blue/portable.jpg" alt="Portable Icon"> | portable.jpg | Portable
-<img src="images/elements/icons/large/blue/preserve-evidence.jpg" alt="Preserve Evidence Icon"> | preserve-evidence.jpg | Preserve Evidence
-<img src="images/elements/icons/large/blue/provide-clarity.jpg" alt="Provide Clarity Icon"> | provide-clarity.jpg | Provide Clarity
-<img src="images/elements/icons/large/blue/reduce-cost.jpg" alt="Reduce Cost Icon"> | reduce-cost.jpg | Reduce Cost
-<img src="images/elements/icons/large/blue/reduce-exposure.jpg" alt="Reduce Exposure Icon"> | reduce-exposure.jpg | Reduce Exposure
-<img src="images/elements/icons/large/blue/reduce-officers.jpg" alt="Reduce Officers Icon"> | reduce-officers.jpg | Reduce Officers
-<img src="images/elements/icons/large/blue/reduce-risk.jpg" alt="Reduce Risk Icon"> | reduce-risk.jpg | Reduce Risk
-<img src="images/elements/icons/large/blue/reliable.jpg" alt="Reliable Icon"> | reliable.jpg | Reliable
-<img src="images/elements/icons/large/blue/reliable-alt.jpg" alt="Reliable (Alternate) Icon"> | reliable-alt.jpg | Reliable (Alternate)
-<img src="images/elements/icons/large/blue/reverse-engineering.jpg" alt="Reverse Engineering Icon"> | reverse-engineering.jpg | Reverse Engineering
-<img src="images/elements/icons/large/blue/safe.jpg" alt="Safe Icon"> | safe.jpg | Safe
-<img src="images/elements/icons/large/blue/standard-catalogs.jpg" alt="Standard Catalogs Icon"> | standard-catalogs.jpg | Standard Catalogs
-<img src="images/elements/icons/large/blue/thorough.jpg" alt="Thorough Icon"> | thorough.jpg | Thorough
-<img src="images/elements/icons/large/blue/time-saving.jpg" alt="Time Saving Icon"> | time-saving.jpg | Time Saving
-<img src="images/elements/icons/large/blue/trend-analysis.jpg" alt="Trend Analysis Icon"> | trend-analysis.jpg | Trend Analysis
-<img src="images/elements/icons/large/blue/user-control.jpg" alt="User Control Icon"> | user-control.jpg | User Control
-<img src="images/elements/icons/large/blue/verifications.jpg" alt="Verifications Icon"> | verifications.jpg | Verifications
-<img src="images/elements/icons/large/blue/wet-and-dark-conditions.jpg" alt="Wet And Dark Conditions Icon"> | wet-and-dark-conditions.jpg | Wet And Dark Conditions
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B399490c3-e324-488f-bc74-51b1b9d56dfc%7D_accurate.jpg" alt="Accurate Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B399490c3-e324-488f-bc74-51b1b9d56dfc%7D_accurate.jpg" target="_blank">Link</a> | Accurate
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B9b1c80c8-96ab-4674-a3be-aaf39a256d51%7D_advance-performance.jpg" alt="Advance Performance Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B9b1c80c8-96ab-4674-a3be-aaf39a256d51%7D_advance-performance.jpg" target="_blank">Link</a> | Advance Performance
+<img src="images/elements/icons/large/blue/alert.jpg" alt="Alert Icon"> | <a href="#" target="_blank">Missing</a> | Alert
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B667b218f-ac1e-46e7-a7cd-b21af8450bac%7D_anytime.jpg" alt="Anytime Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B667b218f-ac1e-46e7-a7cd-b21af8450bac%7D_anytime.jpg" target="_blank">Link</a> | Anytime
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B01da8910-443a-4de0-b4e4-b0d51cfb169d%7D_capture-in-3d.jpg" alt="Capture In 3D Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B01da8910-443a-4de0-b4e4-b0d51cfb169d%7D_capture-in-3d.jpg" target="_blank">Link</a> | Capture In 3D
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B216a1739-96dd-4700-a9a2-b6c92e416f1a%7D_collaboration.jpg" alt="Collaboration Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B216a1739-96dd-4700-a9a2-b6c92e416f1a%7D_collaboration.jpg" target="_blank">Link</a> | Collaboration
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bdac2186f-1e04-4c21-a9d1-506d1751c80d%7D_compelling-presentation.jpg" alt="Compelling Presentation Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bdac2186f-1e04-4c21-a9d1-506d1751c80d%7D_compelling-presentation.jpg" target="_blank">Link</a> | Compelling Presentation
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B46b0f20a-1d62-47aa-b28e-e9e3af98176a%7D_complete.jpg" alt="Complete Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B46b0f20a-1d62-47aa-b28e-e9e3af98176a%7D_complete.jpg" target="_blank">Link</a> | Complete
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Ba01a3422-84e3-4bd4-b7d5-a0a6557ab653%7D_direct-comparison.jpg" alt="Direct Comparison Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Ba01a3422-84e3-4bd4-b7d5-a0a6557ab653%7D_direct-comparison.jpg" target="_blank">Link</a> | Direct Comparison
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B80459969-0408-4965-a0c0-e067512addeb%7D_easy-repair.jpg" alt="Easy Repair Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B80459969-0408-4965-a0c0-e067512addeb%7D_easy-repair.jpg" target="_blank">Link</a> | Easy Repair
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B727519fd-e697-4e3b-80c3-17f6871d179a%7D_easy-to-process.jpg" alt="Easy To Process Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B727519fd-e697-4e3b-80c3-17f6871d179a%7D_easy-to-process.jpg" target="_blank">Link</a> | Easy To Process
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B2c914d36-de4b-4ff5-9b27-6090f977c200%7D_easy-to-share-data.jpg" alt="Easy To Share Data Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B2c914d36-de4b-4ff5-9b27-6090f977c200%7D_easy-to-share-data.jpg" target="_blank">Link</a> | Easy To Share Data
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B662e4fb3-6b41-434b-aa5f-7b7777503f39%7D_easy-to-use.jpg" alt="Easy To Use Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B662e4fb3-6b41-434b-aa5f-7b7777503f39%7D_easy-to-use.jpg" target="_blank">Link</a> | Easy To Use
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B66d4ae23-75fd-4fb7-85a0-d0dad5ca95ac%7D_efficient.jpg" alt="Efficient Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B66d4ae23-75fd-4fb7-85a0-d0dad5ca95ac%7D_efficient.jpg" target="_blank">Link</a> | Efficient
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bfbf878f1-d15b-4760-9de6-3b64b8713d2c%7D_eliminate-manual-drawings.jpg" alt="Eliminate Manual Drawings Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bfbf878f1-d15b-4760-9de6-3b64b8713d2c%7D_eliminate-manual-drawings.jpg" target="_blank">Link</a> | Eliminate Manual Drawings
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B982fc2eb-28ec-4de9-b733-55044c11dd2c%7D_eliminate-scrap.jpg" alt="Eliminate Scrap Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B982fc2eb-28ec-4de9-b733-55044c11dd2c%7D_eliminate-scrap.jpg" target="_blank">Link</a> | Eliminate Scrap
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B5bc4fdfe-7641-4b85-addf-f23a2abc2888%7D_faster.jpg" alt="Faster Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B5bc4fdfe-7641-4b85-addf-f23a2abc2888%7D_faster.jpg" target="_blank">Link</a> | Faster
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Babe5cb0b-b361-413e-b398-1f53cf9f10ca%7D_flexible.jpg" alt="Flexible Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Babe5cb0b-b361-413e-b398-1f53cf9f10ca%7D_flexible.jpg" target="_blank">Link</a> | Flexible
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bf597730c-7488-4797-85ae-9eb8b60315cc%7D_flexible-capture.jpg" alt="Flexible Capture Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bf597730c-7488-4797-85ae-9eb8b60315cc%7D_flexible-capture.jpg" target="_blank">Link</a> | Flexible Capture
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B11c3f34d-c0e7-4e32-97c1-c6217626b78e%7D_gentle.jpg" alt="Gentle Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B11c3f34d-c0e7-4e32-97c1-c6217626b78e%7D_gentle.jpg" target="_blank">Link</a> | Gentle
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B0f017be8-7bb1-468c-9189-fbc3e6377b0f%7D_implementation.jpg" alt="Implementation Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B0f017be8-7bb1-468c-9189-fbc3e6377b0f%7D_implementation.jpg" target="_blank">Link</a> | Implementation
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bc147bcc0-0b89-4aa1-91ee-9c967edc3b45%7D_in-the-field-deliverable.jpg" alt="In The Field Deliverable Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bc147bcc0-0b89-4aa1-91ee-9c967edc3b45%7D_in-the-field-deliverable.jpg" target="_blank">Link</a> | In The Field Deliverable
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B15da6780-a310-4ec8-912c-9b4bb255a95b%7D_limit-road-time-closure.jpg" alt="Limit Road Time Closure Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B15da6780-a310-4ec8-912c-9b4bb255a95b%7D_limit-road-time-closure.jpg" target="_blank">Link</a> | Limit Road Time Closure
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B4ca3205b-7757-4f68-9636-4d6b7ad45722%7D_money-saving.jpg" alt="Money Saving Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B4ca3205b-7757-4f68-9636-4d6b7ad45722%7D_money-saving.jpg" target="_blank">Link</a> | Money Saving
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bb7711c0b-4fcc-4d26-b434-454642acde11%7D_portable.jpg" alt="Portable Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bb7711c0b-4fcc-4d26-b434-454642acde11%7D_portable.jpg" target="_blank">Link</a>g | Portable
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B759ff4cf-bdbd-44b9-8600-f3198d14ae7d%7D_preserve-evidence.jpg" alt="Preserve Evidence Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B759ff4cf-bdbd-44b9-8600-f3198d14ae7d%7D_preserve-evidence.jpg" target="_blank">Link</a> | Preserve Evidence
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B65963649-3774-4e47-b6f4-7afa6d67a7cd%7D_provide-clarity.jpg" alt="Provide Clarity Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B65963649-3774-4e47-b6f4-7afa6d67a7cd%7D_provide-clarity.jpg" target="_blank">Link</a> | Provide Clarity
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B8ae876a3-affa-46b4-8bbb-753e83d6a35f%7D_reduce-cost.jpg" alt="Reduce Cost Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B8ae876a3-affa-46b4-8bbb-753e83d6a35f%7D_reduce-cost.jpg" target="_blank">Link</a> | Reduce Cost
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bbfbf9ab6-4d04-4d7d-9f99-16c6a6a79080%7D_reduce-exposure.jpg" alt="Reduce Exposure Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bbfbf9ab6-4d04-4d7d-9f99-16c6a6a79080%7D_reduce-exposure.jpg" target="_blank">Link</a> | Reduce Exposure
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B1cae91e8-1f00-4457-b956-31cb3ff84c50%7D_reduce-officers.jpg" alt="Reduce Officers Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B1cae91e8-1f00-4457-b956-31cb3ff84c50%7D_reduce-officers.jpg" target="_blank">Link</a> | Reduce Officers
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B0c2ff590-f8ab-446c-b71f-531f03ee31a3%7D_reduce-risk.jpg" alt="Reduce Risk Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B0c2ff590-f8ab-446c-b71f-531f03ee31a3%7D_reduce-risk.jpg" target="_blank">Link</a> | Reduce Risk
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bdc1ea45c-3200-412f-9dd7-f3f0ca690c21%7D_reliable.jpg" alt="Reliable Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bdc1ea45c-3200-412f-9dd7-f3f0ca690c21%7D_reliable.jpg" target="_blank">Link</a> | Reliable
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B383c8588-035d-4ce5-9de4-31d513b3c8f1%7D_reliable-alt.jpg" alt="Reliable (Alternate) Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B383c8588-035d-4ce5-9de4-31d513b3c8f1%7D_reliable-alt.jpg" target="_blank">Link</a> | Reliable (Alternate)
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B59024752-1593-4c55-bb94-326b55eba56c%7D_reverse-engineering.jpg" alt="Reverse Engineering Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B59024752-1593-4c55-bb94-326b55eba56c%7D_reverse-engineering.jpg" target="_blank">Link</a> | Reverse Engineering
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B8cfbf0ff-af49-441f-a1f8-799980522648%7D_safe.jpg" alt="Safe Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B8cfbf0ff-af49-441f-a1f8-799980522648%7D_safe.jpg" target="_blank">Link</a> | Safe
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B65405728-7d06-4b42-8e16-848faf07aa3a%7D_standard-catalogs.jpg" alt="Standard Catalogs Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B65405728-7d06-4b42-8e16-848faf07aa3a%7D_standard-catalogs.jpg" target="_blank">Link</a> | Standard Catalogs
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B742f98aa-abbb-4735-b40b-037411eb731c%7D_thorough.jpg" alt="Thorough Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B742f98aa-abbb-4735-b40b-037411eb731c%7D_thorough.jpg" target="_blank">Link</a> | Thorough
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B5402e231-6198-474a-996b-334c98d4a6a4%7D_time-saving.jpg" alt="Time Saving Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B5402e231-6198-474a-996b-334c98d4a6a4%7D_time-saving.jpg" target="_blank">Link</a> | Time Saving
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B3fc0f265-85ee-40db-a687-ab2f9a207f9c%7D_trend-analysis.jpg" alt="Trend Analysis Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B3fc0f265-85ee-40db-a687-ab2f9a207f9c%7D_trend-analysis.jpg" target="_blank">Link</a> | Trend Analysis
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bfd0ba76d-5ae5-4577-81b2-58fb5bf8230c%7D_user-control.jpg" alt="User Control Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bfd0ba76d-5ae5-4577-81b2-58fb5bf8230c%7D_user-control.jpg" target="_blank">Link</a> | User Control
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B4214b14e-de83-4766-ae30-e1c8a6ad6160%7D_verifications.jpg" alt="Verifications Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B4214b14e-de83-4766-ae30-e1c8a6ad6160%7D_verifications.jpg" target="_blank">Link</a> | Verifications
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B278f08e2-8fe3-4ca6-98ec-65ed7f3b8f14%7D_wet-and-dark-conditions.jpg" alt="Wet And Dark Conditions Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B278f08e2-8fe3-4ca6-98ec-65ed7f3b8f14%7D_wet-and-dark-conditions.jpg" target="_blank">Link</a> | Wet And Dark Conditions
 
-These icons are available in a few different sizes, which are pre-set based on the path of the filename for the icon. For example, the icons located in the `icons/large/blue` path are shown above, and are used in the **[Icon List](#icon-list)** snippet/layout. If you only change the filename as directed, you should not need to worry about the correct pathname for the snippet you're using. 
+## Headline Icons (Blue on White)
+
+The following icons are used within the **[Headlines: With Icon](#with-icon)** and **[Combinations: CTA with Background](#cta-with-background)** layouts. 
+
+Icon | Image URL | Description
+--------- | ------- | -----------
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bfbb4b513-8a35-4701-9be7-23a15e0a8dad%7D_accurate.jpg" alt="Accurate Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bfbb4b513-8a35-4701-9be7-23a15e0a8dad%7D_accurate.jpg" target="_blank">Link</a> | Accurate
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B14cdcbef-1a48-4fdf-87ae-415efe329906%7D_advance-performance.jpg" alt="Advance Performance Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B14cdcbef-1a48-4fdf-87ae-415efe329906%7D_advance-performance.jpg" target="_blank">Link</a> | Advance Performance
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Ba35a2741-49a3-423a-80f8-ef535a60cf09%7D_alert.jpg" alt="Alert Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Ba35a2741-49a3-423a-80f8-ef535a60cf09%7D_alert.jpg" target="_blank">Link</a> | Alert
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B0253f3f3-f7d3-49c3-8a74-0779910f2ed7%7D_anytime.jpg" alt="Anytime Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B0253f3f3-f7d3-49c3-8a74-0779910f2ed7%7D_anytime.jpg" target="_blank">Link</a> | Anytime
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B459bb0e4-4283-4bbc-bd1d-fbd6398bf01b%7D_capture-in-3d.jpg" alt="Capture In 3D Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B459bb0e4-4283-4bbc-bd1d-fbd6398bf01b%7D_capture-in-3d.jpg" target="_blank">Link</a> | Capture In 3D
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B02e39596-e639-44bd-9ff8-e65012114f6a%7D_collaboration.jpg" alt="Collaboration Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B02e39596-e639-44bd-9ff8-e65012114f6a%7D_collaboration.jpg" target="_blank">Link</a> | Collaboration
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B2d1671f2-8795-4ac3-951a-c1928e8b5962%7D_compelling-presentation.jpg" alt="Compelling Presentation Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B2d1671f2-8795-4ac3-951a-c1928e8b5962%7D_compelling-presentation.jpg" target="_blank">Link</a> | Compelling Presentation
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bc1a1ea50-c07b-4c3d-afc1-8e79caf50998%7D_complete.jpg" alt="Complete Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bc1a1ea50-c07b-4c3d-afc1-8e79caf50998%7D_complete.jpg" target="_blank">Link</a> | Complete
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B155fb4ef-b28b-41f7-b343-1391e77f771b%7D_direct-comparison.jpg" alt="Direct Comparison Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B155fb4ef-b28b-41f7-b343-1391e77f771b%7D_direct-comparison.jpg" target="_blank">Link</a> | Direct Comparison
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B332dba3f-3e18-4425-86eb-bbeec63aa561%7D_easy-repair.jpg" alt="Easy Repair Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B332dba3f-3e18-4425-86eb-bbeec63aa561%7D_easy-repair.jpg" target="_blank">Link</a> | Easy Repair
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B19c60a37-b512-4bcb-ab11-9beb067072a8%7D_easy-to-process.jpg" alt="Easy To Process Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B19c60a37-b512-4bcb-ab11-9beb067072a8%7D_easy-to-process.jpg" target="_blank">Link</a> | Easy To Process
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bee0c4def-7bc7-4b8b-a3d7-a98fc2c234b3%7D_easy-to-share-data.jpg" alt="Easy To Share Data Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bee0c4def-7bc7-4b8b-a3d7-a98fc2c234b3%7D_easy-to-share-data.jpg" target="_blank">Link</a> | Easy To Share Data
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bdf70f936-120d-499a-bdc7-d9dc202d5072%7D_easy-to-use.jpg" alt="Easy To Use Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bdf70f936-120d-499a-bdc7-d9dc202d5072%7D_easy-to-use.jpg" target="_blank">Link</a> | Easy To Use
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B81b1a55c-7738-4060-b304-90453f945421%7D_efficient.jpg" alt="Efficient Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B81b1a55c-7738-4060-b304-90453f945421%7D_efficient.jpg" target="_blank">Link</a> | Efficient
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B2ffd55d7-5271-43c6-904a-cb789b2ee3db%7D_eliminate-manual-drawings.jpg" alt="Eliminate Manual Drawings Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B2ffd55d7-5271-43c6-904a-cb789b2ee3db%7D_eliminate-manual-drawings.jpg" target="_blank">Link</a> | Eliminate Manual Drawings
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B0c51bf9d-de14-4c55-95bd-dee68789d76a%7D_eliminate-scrap.jpg" alt="Eliminate Scrap Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B0c51bf9d-de14-4c55-95bd-dee68789d76a%7D_eliminate-scrap.jpg" target="_blank">Link</a> | Eliminate Scrap
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Ba77c4567-1012-4fc2-bad3-903289d897f3%7D_faster.jpg" alt="Faster Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Ba77c4567-1012-4fc2-bad3-903289d897f3%7D_faster.jpg" target="_blank">Link</a> | Faster
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B8cf1996e-46d1-4c5e-9e6a-ecf101988fd3%7D_flexible.jpg" alt="Flexible Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B8cf1996e-46d1-4c5e-9e6a-ecf101988fd3%7D_flexible.jpg" target="_blank">Link</a> | Flexible
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bddcf1e1d-eec6-486b-9851-ba9af7f1cdcd%7D_flexible-capture.jpg" alt="Flexible Capture Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bddcf1e1d-eec6-486b-9851-ba9af7f1cdcd%7D_flexible-capture.jpg" target="_blank">Link</a> | Flexible Capture
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bd97ab8a3-27ab-4d23-a0ca-ba75d7bdb091%7D_gentle.jpg" alt="Gentle Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bd97ab8a3-27ab-4d23-a0ca-ba75d7bdb091%7D_gentle.jpg" target="_blank">Link</a> | Gentle
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B8491f8f2-45f6-4d51-9093-036aebe9daff%7D_implementation.jpg" alt="Implementation Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B8491f8f2-45f6-4d51-9093-036aebe9daff%7D_implementation.jpg" target="_blank">Link</a> | Implementation
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bb4edd2ab-7c6e-4807-bf0c-45331f0c7e53%7D_in-the-field-deliverable.jpg" alt="In The Field Deliverable Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bb4edd2ab-7c6e-4807-bf0c-45331f0c7e53%7D_in-the-field-deliverable.jpg" target="_blank">Link</a> | In The Field Deliverable
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B23dde5ab-06ef-44be-806e-66f9f8ebe027%7D_limit-road-time-closure.jpg" alt="Limit Road Time Closure Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B23dde5ab-06ef-44be-806e-66f9f8ebe027%7D_limit-road-time-closure.jpg" target="_blank">Link</a> | Limit Road Time Closure
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B22e04fa3-0261-4b28-b03e-0deb740dc434%7D_money-saving.jpg" alt="Money Saving Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B22e04fa3-0261-4b28-b03e-0deb740dc434%7D_money-saving.jpg" target="_blank">Link</a> | Money Saving
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B0a948710-7b20-4d0d-9725-5cd30914b056%7D_portable.jpg" alt="Portable Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B0a948710-7b20-4d0d-9725-5cd30914b056%7D_portable.jpg" target="_blank">Link</a>g | Portable
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bdb81e332-9db5-4b78-999c-3f914cb54d3d%7D_preserve-evidence.jpg" alt="Preserve Evidence Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bdb81e332-9db5-4b78-999c-3f914cb54d3d%7D_preserve-evidence.jpg" target="_blank">Link</a> | Preserve Evidence
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B03808039-cf6e-4db9-989f-2826850d2c70%7D_provide-clarity.jpg" alt="Provide Clarity Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B03808039-cf6e-4db9-989f-2826850d2c70%7D_provide-clarity.jpg" target="_blank">Link</a> | Provide Clarity
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B1758fbad-92eb-49a4-94bf-f72aec2e947c%7D_reduce-cost.jpg" alt="Reduce Cost Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B1758fbad-92eb-49a4-94bf-f72aec2e947c%7D_reduce-cost.jpg" target="_blank">Link</a> | Reduce Cost
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B8fd0dbc4-115d-4aea-ae6f-583eb15e2a26%7D_reduce-exposure.jpg" alt="Reduce Exposure Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B8fd0dbc4-115d-4aea-ae6f-583eb15e2a26%7D_reduce-exposure.jpg" target="_blank">Link</a> | Reduce Exposure
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B2f99ba29-3b89-4d0b-9368-12c9b9325cf3%7D_reduce-officers.jpg" alt="Reduce Officers Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B2f99ba29-3b89-4d0b-9368-12c9b9325cf3%7D_reduce-officers.jpg" target="_blank">Link</a> | Reduce Officers
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B5d6f43e2-2e1a-41f1-8b49-93f38dc552d2%7D_reduce-risk.jpg" alt="Reduce Risk Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B5d6f43e2-2e1a-41f1-8b49-93f38dc552d2%7D_reduce-risk.jpg" target="_blank">Link</a> | Reduce Risk
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B559328dc-427d-42e5-8765-6ebe5130c0b9%7D_reliable.jpg" alt="Reliable Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B559328dc-427d-42e5-8765-6ebe5130c0b9%7D_reliable.jpg" target="_blank">Link</a> | Reliable
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Beefd8293-2fbd-426f-b41a-ab1c7ee42dc0%7D_reliable-alt.jpg" alt="Reliable (Alternate) Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Beefd8293-2fbd-426f-b41a-ab1c7ee42dc0%7D_reliable-alt.jpg" target="_blank">Link</a> | Reliable (Alternate)
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B83b159bf-93e3-4f1b-b9fb-551202b5869d%7D_reverse-engineering.jpg" alt="Reverse Engineering Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B83b159bf-93e3-4f1b-b9fb-551202b5869d%7D_reverse-engineering.jpg" target="_blank">Link</a> | Reverse Engineering
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B1d007bf0-d237-468e-9889-5d8c1759aa31%7D_safe.jpg" alt="Safe Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B1d007bf0-d237-468e-9889-5d8c1759aa31%7D_safe.jpg" target="_blank">Link</a> | Safe
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bb9767f0d-a245-4d54-8f66-73c5cb9f161f%7D_thorough.jpg" alt="Thorough Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bb9767f0d-a245-4d54-8f66-73c5cb9f161f%7D_thorough.jpg" target="_blank">Link</a> | Thorough
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B1364b31d-3afc-41b8-808d-89ee4933adb0%7D_time-saving.jpg" alt="Time Saving Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B1364b31d-3afc-41b8-808d-89ee4933adb0%7D_time-saving.jpg" target="_blank">Link</a> | Time Saving
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B9da4a2b3-9839-4dcc-96ff-8bbc1119fb21%7D_trend-analysis.jpg" alt="Trend Analysis Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B9da4a2b3-9839-4dcc-96ff-8bbc1119fb21%7D_trend-analysis.jpg" target="_blank">Link</a> | Trend Analysis
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7B8e68839b-fdc2-41e3-9267-6a4172cdb663%7D_user-control.jpg" alt="User Control Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B8e68839b-fdc2-41e3-9267-6a4172cdb663%7D_user-control.jpg" target="_blank">Link</a> | User Control
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bba66cc5b-578a-4c9b-b73a-335ec74343c3%7D_verifications.jpg" alt="Verifications Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bba66cc5b-578a-4c9b-b73a-335ec74343c3%7D_verifications.jpg" target="_blank">Link</a> | Verifications
+<img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bad117e55-89c6-4c5b-88b1-c19a467f7985%7D_wet-and-dark-conditions.jpg" alt="Wet And Dark Conditions Icon"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7Bad117e55-89c6-4c5b-88b1-c19a467f7985%7D_wet-and-dark-conditions.jpg" target="_blank">Link</a> | Wet And Dark Conditions
+
+## Headline Icons (White on Blue)
+
+The following icons are used within the **[Headlines: With Icon (Inverted)](#with-icon-inverted)**, **[Combinations: CTA with Icon (Monochrome)](#cta-with-icon-monochrome)** and **[Combinations: CTA with Icon (Two-Tone)](#cta-with-icon-two-tone)** layouts.
+
+<aside class="notice warning">Icon list forthcoming, pending hosting on Eloqua.</aside>
+
+## Chevron Icons
+
+The following icons are used as part of the buttons within the **[Combinations: CTA with Icon (Monochrome)](#cta-with-icon-monochrome)** and **[Combinations: CTA with Icon (Two-Tone)](#cta-with-icon-two-tone)** layouts. 
+
+Icon | Image URL | Description
+--------- | ------- | -----------
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7B1f7b7642-bd20-4182-a4e8-13abddd2045e%7D_white_x_on-site-orange.jpg" alt="White on On-Site Orange Chevron"> | <a href="https://img.en25.com/EloquaImages/clients/Faro/%7B1f7b7642-bd20-4182-a4e8-13abddd2045e%7D_white_x_on-site-orange.jpg" target="_blank">Link</a> | White on On-Site Orange
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7B379c0f26-d7ab-4bee-8493-df683ecfb33d%7D_white_x_pursuit-blue.jpg" alt="White on Pursuit Blue Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7B379c0f26-d7ab-4bee-8493-df683ecfb33d%7D_white_x_pursuit-blue.jpg" target="_blank">Link</a> | White on Pursuit Blue
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7B0d20b037-3bdb-4866-bf55-9ad31fb16ad0%7D_pursuit-blue_x_white.jpg" alt="Pursuit Blue on White Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7B0d20b037-3bdb-4866-bf55-9ad31fb16ad0%7D_pursuit-blue_x_white.jpg" target="_blank">Link</a> | Pursuit Blue on White
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7B2ea76235-b1c6-4bfb-9ee6-2933613b0f88%7D_white_x_sunny-orange.jpg" alt="White on Sunny Orange Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7B2ea76235-b1c6-4bfb-9ee6-2933613b0f88%7D_white_x_sunny-orange.jpg" target="_blank">Link</a> | White on Sunny Orange
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7B6c0c5d61-3ddc-483f-8fb8-0165b25c1ccf%7D_sunny-orange_x_white.jpg" alt="Sunny Orange on White Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7B6c0c5d61-3ddc-483f-8fb8-0165b25c1ccf%7D_sunny-orange_x_white.jpg" target="_blank">Link</a> | Sunny Orange on White
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7B5d93d163-c957-49dd-ac56-e5524e3ae21b%7D_white_x_white-gray.jpg" alt="White on White Gray Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7B5d93d163-c957-49dd-ac56-e5524e3ae21b%7D_white_x_white-gray.jpg" target="_blank">Link</a> | White on White Gray
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7B913ca07d-36e9-4a10-98f6-b8d1628ca08f%7D_white-gray_x_white.jpg" alt="White Gray on White Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7B913ca07d-36e9-4a10-98f6-b8d1628ca08f%7D_white-gray_x_white.jpg" target="_blank">Link</a> | White Gray on White
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7Bdfaf0bd1-e370-48d6-9c25-28df83aeaeda%7D_white_x_metal-gray.jpg" alt="White on Metal Gray Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7Bdfaf0bd1-e370-48d6-9c25-28df83aeaeda%7D_white_x_metal-gray.jpg" target="_blank">Link</a> | White on Metal Gray
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7B2f401dba-c3cc-45c3-afe7-6fc98960038b%7D_white_x_forest-green.jpg" alt="White on Forest Green Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7B2f401dba-c3cc-45c3-afe7-6fc98960038b%7D_white_x_forest-green.jpg" target="_blank">Link</a> | White on Forest Green
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7Bbe3a4bcb-506c-4a45-b0f8-54e935207352%7D_forest-green_x_white.jpg" alt="Forest Green on White Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7Bbe3a4bcb-506c-4a45-b0f8-54e935207352%7D_forest-green_x_white.jpg" target="_blank">Link</a> | Forest Green on White
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7B10666cb6-14d8-4c56-900a-a5bc6e8b5a87%7D_white_x_faro-blue.jpg" alt="White on Faro Blue Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7B10666cb6-14d8-4c56-900a-a5bc6e8b5a87%7D_white_x_faro-blue.jpg" target="_blank">Link</a> | White on Faro Blue
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7Bca2cf38a-202d-4cbf-864f-984ceb7a6806%7D_faro-blue_x_white.jpg" alt="Faro Blue on White Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7Bca2cf38a-202d-4cbf-864f-984ceb7a6806%7D_faro-blue_x_white.jpg" target="_blank">Link</a> | Faro Blue on White
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7Bdf24149c-6299-47d5-98b0-e56f379287bf%7D_white_x_light-metal-gray.jpg" alt="White on Light Metal Gray Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7Bdf24149c-6299-47d5-98b0-e56f379287bf%7D_white_x_light-metal-gray.jpg" target="_blank">Link</a> | White on Light Metal Gray
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7B765a71f1-e7cb-4232-981f-f1991ee38d4d%7D_light-metal-gray_x_white.jpg" alt="Light Metal Gray on White Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7B765a71f1-e7cb-4232-981f-f1991ee38d4d%7D_light-metal-gray_x_white.jpg" target="_blank">Link</a> | Metal Gray on White
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7B4e02e54f-fce7-486e-a38f-ce3ccb63a0ad%7D_white_x_carbon-black.jpg" alt="White on Carbon Black Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7B4e02e54f-fce7-486e-a38f-ce3ccb63a0ad%7D_white_x_carbon-black.jpg" target="_blank">Link</a> | White on Carbon Black Gray
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7Babd94e8c-25a8-4f25-8098-3067c9c0ab62%7D_carbon-black_x_white.jpg" alt="Carbon Black on White Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7Babd94e8c-25a8-4f25-8098-3067c9c0ab62%7D_carbon-black_x_white.jpg" target="_blank">Link</a> | Carbon Black on White
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7Ba55e6837-d67e-4c87-a8ae-001e2a518ccb%7D_white_x_anthracite-gray.jpg" alt="White on Anthracite Gray Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7Ba55e6837-d67e-4c87-a8ae-001e2a518ccb%7D_white_x_anthracite-gray.jpg" target="_blank">Link</a> | White on Anthracite Gray
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7B9e741840-81e7-4135-84cf-0f854a9b9828%7D_anthracite-gray_x_white.jpg" alt="Anthracite Gray on White Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7B9e741840-81e7-4135-84cf-0f854a9b9828%7D_anthracite-gray_x_white.jpg" target="_blank">Link</a> | Anthracite Gray on White
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7Bb88c3d44-813a-420f-81dc-f0991b8deece%7D_white_x_beaming-red.jpg" alt="White on Beaming Red Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7Bb88c3d44-813a-420f-81dc-f0991b8deece%7D_white_x_beaming-red.jpg" target="_blank">Link</a> | White on Beaming Red
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7Bb8a1764a-0336-4db3-95bb-2360f52efa34%7D_beaming-red_x_white.jpg" alt="Beaming Red on White Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7Bb8a1764a-0336-4db3-95bb-2360f52efa34%7D_beaming-red_x_white.jpg" target="_blank">Link</a> | Beaming Red on White
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7B689ce5b5-3f5f-4f48-ae87-256f47e1de18%7D_white_x_zenith-blue.jpg" alt="White on Zenith Blue Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7B689ce5b5-3f5f-4f48-ae87-256f47e1de18%7D_white_x_zenith-blue.jpg" target="_blank">Link</a> | White on Zenith Blue
+<img src="http://img.en25.com/EloquaImages/clients/Faro/%7B4f194043-1b6e-49c2-a61d-7b8a251edca7%7D_zenith-blue_x_white.jpg" alt="Zenith Blue on White Chevron"> | <a href="http://img.en25.com/EloquaImages/clients/Faro/%7B4f194043-1b6e-49c2-a61d-7b8a251edca7%7D_zenith-blue_x_white.jpg" target="_blank">Link</a> | Zenith Blue on White
 
 # Headers
 
@@ -439,7 +522,7 @@ These icons are available in a few different sizes, which are pre-set based on t
     <mj-section padding="0px">
         <mj-column width="100%" padding="20px 0px">
             <mj-image width="140px"
-                      src="http://cpommiss.github.io/faro-email/images/elements/logo-blue.jpg"
+                      src="https://img.en25.com/EloquaImages/clients/Faro/%7B8da5cab2-67d6-486c-a433-b38aa77c18e9%7D_logo-blue.jpg"
                       alt="FARO Logo"
                       href="https://www.faro.com/" />
         </mj-column>
@@ -468,7 +551,7 @@ There are no configuration options for this snippet. Just cut and paste!
                 <mj-image width="120px"
                           padding="0px"
                           align="left"
-                          src="http://cpommiss.github.io/faro-email/images/elements/logo-blue.jpg"
+                          src="https://img.en25.com/EloquaImages/clients/Faro/%7B8da5cab2-67d6-486c-a433-b38aa77c18e9%7D_logo-blue.jpg"
                           alt="FARO Logo"
                           href="https://www.faro.com/" />
             </mj-column>
@@ -744,7 +827,7 @@ This code will look like this when rendered:
                       height="36px"
                       padding="0px"
                       align="left"
-                      src="http://cpommiss.github.io/faro-email/images/elements/icons/header/white/wide/left/capture-in-3d.jpg"
+                      src="https://img.en25.com/EloquaImages/clients/Faro/%7B459bb0e4-4283-4bbc-bd1d-fbd6398bf01b%7D_capture-in-3d.jpg"
                       alt="Capture in 3D" />
             <!-- *** END: Headline Icon *** -->
         </mj-column>
@@ -819,7 +902,7 @@ This code will look like this when rendered:
 <mj-wrapper mj-class="color__white--bg"
             css-class="top-image"
             padding="0px"
-            background-url="https://cpommiss.github.io/faro-email/images/elements/cta-triangles-grey.jpg"
+            background-url="https://img.en25.com/EloquaImages/clients/Faro/%7B81a00079-a1d4-4284-9b09-ddfbd4e9d649%7D_cta-triangles-grey.jpg"
             background-size="680px"
             background-repeat="no-repeat">
     <mj-section padding="0px">
@@ -876,7 +959,7 @@ This code will look like this when rendered:
 <mj-wrapper mj-class="color__white--bg"
             css-class="top-image"
             padding="0px"
-            background-url="https://cpommiss.github.io/faro-email/images/elements/cta-triangles-grey.jpg"
+            background-url="https://img.en25.com/EloquaImages/clients/Faro/%7B81a00079-a1d4-4284-9b09-ddfbd4e9d649%7D_cta-triangles-grey.jpg"
             background-size="680px"
             background-repeat="no-repeat">
     <mj-section padding="0px">
@@ -1374,7 +1457,7 @@ This code will look like this when rendered:
             <mj-image width="48px"
                       padding="0px 0px 0px 6px"
                       align="left"
-                      src="http://cpommiss.github.io/faro-email/images/elements/icons/large/blue/advance-performance.jpg"
+                      src="https://img.en25.com/EloquaImages/clients/Faro/%7B9b1c80c8-96ab-4674-a3be-aaf39a256d51%7D_advance-performance.jpg"
                       alt="Advance Performance" />
             <!-- *** END: Icon Image *** -->
         </mj-column>
@@ -1402,7 +1485,7 @@ This code will look like this when rendered:
             <mj-image width="48px"
                       padding="0px 0px 0px 6px"
                       align="left"
-                      src="http://cpommiss.github.io/faro-email/images/elements/icons/large/blue/efficient.jpg"
+                      src="https://img.en25.com/EloquaImages/clients/Faro/%7B66d4ae23-75fd-4fb7-85a0-d0dad5ca95ac%7D_efficient.jpg"
                       alt="Efficient" />
             <!-- *** END: Icon Image *** -->
         </mj-column>
@@ -1429,7 +1512,7 @@ This code will look like this when rendered:
             <mj-image width="48px"
                       padding="0px 0px 0px 6px"
                       align="left"
-                      src="http://cpommiss.github.io/faro-email/images/elements/icons/large/blue/provide-clarity.jpg"
+                      src="https://img.en25.com/EloquaImages/clients/Faro/%7B65963649-3774-4e47-b6f4-7afa6d67a7cd%7D_provide-clarity.jpg"
                       alt="Provide Clarity" />
             <!-- *** END: Icon Image *** -->
         </mj-column>
@@ -1727,7 +1810,7 @@ This code will look like this when rendered:
                       height="36px"
                       padding="0px"
                       align="left"
-                      src="http://cpommiss.github.io/faro-email/images/elements/icons/header/white/wide/left/capture-in-3d.jpg"
+                      src="https://img.en25.com/EloquaImages/clients/Faro/%7B459bb0e4-4283-4bbc-bd1d-fbd6398bf01b%7D_capture-in-3d.jpg"
                       alt="Capture in 3D" />
             <!-- *** END: Icon Image *** -->
         </mj-column>
@@ -1855,7 +1938,7 @@ This code will look like this when rendered:
                             style="background-color: #fff; color: #00416b; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
                             <a href="#"
                                style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
-                                <img src="http://cpommiss.github.io/faro-email/images/elements/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                <img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bbe0a62e4-6740-4c12-aa8b-2e99a8ed59b8%7D_spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
                             </a>
                         </td>
                     </tr>
@@ -1875,7 +1958,7 @@ This code will look like this when rendered:
                                style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
                                 <img width="48px"
                                      height="32px"
-                                     src="http://cpommiss.github.io/faro-email/images/elements/icons/button/faro-blue_x_white.jpg"
+                                     src="https://img.en25.com/EloquaImages/clients/Faro/%7Bca2cf38a-202d-4cbf-864f-984ceb7a6806%7D_faro-blue_x_white.jpg"
                                      alt="Chevron" />
                             </a>
                         </td>
@@ -1887,7 +1970,7 @@ This code will look like this when rendered:
                             style="background-color: #fff; color: #00416b; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
                             <a href="#"
                                style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
-                                <img src="http://cpommiss.github.io/faro-email/images/elements/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                <img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bbe0a62e4-6740-4c12-aa8b-2e99a8ed59b8%7D_spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
                             </a>
                         </td>
                     </tr>
@@ -1976,7 +2059,7 @@ This code will look like this when rendered:
                             style="background-color: #009cde; color: #ffffff; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
                             <a href="#"
                                style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
-                                <img src="http://cpommiss.github.io/faro-email/images/elements/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                <img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bbe0a62e4-6740-4c12-aa8b-2e99a8ed59b8%7D_spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
                             </a>
                         </td>
                     </tr>
@@ -1996,7 +2079,7 @@ This code will look like this when rendered:
                                style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
                                 <img width="48px"
                                      height="32px"
-                                     src="http://cpommiss.github.io/faro-email/images/elements/icons/button/white_x_zenith-blue.jpg"
+                                     src="https://img.en25.com/EloquaImages/clients/Faro/%7B689ce5b5-3f5f-4f48-ae87-256f47e1de18%7D_white_x_zenith-blue.jpg"
                                      alt="Chevron" />
                             </a>
                         </td>
@@ -2008,7 +2091,7 @@ This code will look like this when rendered:
                             style="background-color: #009cde; color: #ffffff; Margin: 0px; padding: 0px; font-size: 8px; line-height: 8px; word-break: break-word; vertical-align: middle;">
                             <a href="#"
                                style="text-decoration: none; font-size: 0px; line-height: 0px; word-break: break-word;">
-                                <img src="http://cpommiss.github.io/faro-email/images/elements/spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
+                                <img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bbe0a62e4-6740-4c12-aa8b-2e99a8ed59b8%7D_spacer.gif" width="15px" height="8px" style="width: 15px; height: 8px;" />
                             </a>
                         </td>
                     </tr>
@@ -2313,7 +2396,7 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
             <!-- Template-Specific Styles -->
             <mj-class name="block__grey--faded"
                       background-color="#fff"
-                      background-url="http://cpommiss.github.io/faro-email/images/elements/bg-triangles-grey-faded.jpg"
+                      background-url="https://img.en25.com/EloquaImages/clients/Faro/%7Bb919870b-d51a-45e7-b88c-e12e9ee872f7%7D_bg-triangles-grey-faded.jpg"
                       border-top="1px #01426a solid"
                       border-bottom="1px #01426a solid"
                       vertical-align="middle" />

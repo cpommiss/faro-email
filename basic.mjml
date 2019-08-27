@@ -126,6 +126,7 @@
             <mj-class name="line__headline-secondary"
                       border-color="#000000"
                       border-width="2px"
+                      align="left"
                       padding="5px 0px" />
 
             <!-- Sub Headline Styles -->
@@ -206,11 +207,13 @@
             .color__beaming-red { color: #d50037; }
             .divider-left { display: inline-block; text-align: left; }
             .divider-left p { display: inline-block; }
+            .button-full { padding-left:20px !important; padding-right:px !important; }
             .button-full a { display: block !important; }
             .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
             sup { vertical-align: baseline; position: relative; top: -4px; }
             @media screen and (min-width: 697px) {
                 .vertical-header > table > tbody > tr > td { padding-left: 0 !important; padding-right: 0 !important; }
+                .button-full { padding-left:0 !important; padding-right:0 !important; }
             }
             @media only screen and (max-width:697px) {
                 table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
@@ -229,11 +232,14 @@
                 .mblnav { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;color:#ffffff !important; font-weight: bold !important;font-size:14px !important;text-decoration: none !important;display:block; padding:15px; width:90%; background-color: #939598; }
             }
         </mj-style>
+        <mj-style inline="inline">
+            div.list ul, div.list ol { padding-inline-start: 20px; -webkit-padding-start: 20px; margin-top: 0; }
+            div.list ul li { list-style: disc outside; mso-special-format: bullet; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
+            div.list ol li { list-style: decimal outside; mso-special-format: decimal; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
+        </mj-style>
         <!--[if gte mso 9]>
         <style>
-            li {
-                text-indent: -1em;
-            }
+            div.list { Margin: 0 0 0 -20px; }
         </style>
         <![endif]-->
     </mj-head>
@@ -276,11 +282,15 @@
                 </mj-column>
             </mj-section>
 
-            <mj-section padding="0px">
-                <mj-column width="100%" padding="0px">
+            <mj-section padding="0px" text-align="left">
+                <mj-column width="85px" padding="0px">
                     <mj-divider mj-class="line__cta-primary color__zenith-blue--border"
                                 css-class="divider-left" />
+                </mj-column>
+            </mj-section>
 
+            <mj-section padding="0px">
+                <mj-column width="100%" padding="0px">
                     <mj-text mj-class="text__cta-primary color__faro-blue">
                         Dive Deeper Into Our Solutions
                     </mj-text>
@@ -326,11 +336,15 @@
                 </mj-column>
             </mj-section>
 
-            <mj-section padding="0px">
-                <mj-column width="55%" padding="10px 0px">
+            <mj-section padding="0px" text-align="left">
+                <mj-column width="85px" padding="0px">
                     <mj-divider mj-class="line__cta-primary color__zenith-blue--border"
                                 css-class="divider-left" />
+                </mj-column>
+            </mj-section>
 
+            <mj-section padding="0px">
+                <mj-column width="55%" padding="10px 0px">
                     <mj-text mj-class="text__cta-primary color__faro-blue"
                              padding-right="0px">
                         Dive Deeper Into Our Solutions
@@ -367,14 +381,18 @@
         *** START: Centered Headline with Divider Line
         ***
         -->
-        <mj-wrapper padding="10px 0px">
+        <mj-wrapper padding="10px 20px">
             <mj-section padding="0px">
                 <mj-column width="100%" padding="0px">
                     <mj-text mj-class="text__headline-secondary color__faro-blue"
                              align="center">
-                        Secondary Headline
+                        Headline Text
                     </mj-text>
+                </mj-column>
+            </mj-section>
 
+            <mj-section padding="0px" text-align="center">
+                <mj-column width="95px" padding="0px">
                     <mj-divider mj-class="line__headline-secondary color__zenith-blue--border"
                                 width="95px" />
                 </mj-column>
@@ -419,21 +437,33 @@
         *** START: Centered Headline and Subheadline with Divider Line
         ***
         -->
-        <mj-wrapper padding="10px 0px">
+        <mj-wrapper padding="10px 20px">
             <mj-section padding="0px">
                 <mj-column width="100%" padding="0px">
+                    <!-- *** START: Headline Text *** -->
                     <mj-text mj-class="text__headline-secondary color__faro-blue"
                              align="center">
                         Secondary Headline
                     </mj-text>
+                    <!-- *** END: Headline Text *** -->
+                </mj-column>
+            </mj-section>
 
+            <mj-section padding="0px" text-align="center">
+                <mj-column width="95px" padding="0px">
                     <mj-divider mj-class="line__headline-secondary color__zenith-blue--border"
                                 width="95px" />
+                </mj-column>
+            </mj-section>
 
+            <mj-section padding="0px">
+                <mj-column width="100%" padding="0px">
+                    <!-- *** START: Subheadline Text *** -->
                     <mj-text mj-class="text__headline-sub"
                              align="center">
                         Subheadline Text
                     </mj-text>
+                    <!-- *** END: Subheadline Text *** -->
                 </mj-column>
             </mj-section>
         </mj-wrapper>
@@ -592,12 +622,14 @@
 
                     <mj-text mj-class="text__normal color__anthracite-gray"
                              padding="0px 0px 15px 20px">
-                        <ul style="padding: 0; Margin: 0;">
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque</li>
-                            <li style="Margin: 0;">posuere leeo id, eleifend dolor.</li>
-                            <li style="Margin: 0;">Class aptent taciti sociosqu ad litora torquent per</li>
-                            <li style="Margin: 0;">conubia nostra, per inceptos himenaeos.</li>
-                        </ul>
+                        <div class="list">
+                            <ul>
+                                <li>Maecenas sed ante pellentesque</li>
+                                <li>posuere leeo id, eleifend dolor.</li>
+                                <li>Class aptent taciti sociosqu ad litora torquent per</li>
+                                <li>conubia nostra, per inceptos himenaeos.</li>
+                            </ul>
+                        </div>
                     </mj-text>
                 </mj-column>
                 <mj-column width="4%" padding="0px"></mj-column>
@@ -636,16 +668,18 @@
                 <mj-column width="100%" padding="0px 20px">
                     <mj-text mj-class="text__normal color__anthracite-gray"
                              padding="0px 0px 0px 20px">
-                        <ul style="padding: 0; Margin: 0;">
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere.</li>
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
-                        </ul>
+                        <div class="list">
+                            <ul>
+                                <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+                                <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
+                                <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
+                                <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+                                <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
+                                <li>Maecenas sed ante pellentesque, posuere.</li>
+                                <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+                                <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
+                            </ul>
+                        </div>
                     </mj-text>
                 </mj-column>
             </mj-section>
@@ -666,23 +700,27 @@
                 <mj-column width="50%" padding="0px 20px">
                     <mj-text mj-class="text__normal color__anthracite-gray"
                              padding="0px 0px 0px 20px">
-                        <ul style="padding: 0; Margin: 0;">
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
-                        </ul>
+                        <div class="list">
+                            <ul>
+                                <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+                                <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
+                                <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
+                                <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+                            </ul>
+                        </div>
                     </mj-text>
                 </mj-column>
                 <mj-column width="50%" padding="0px 20px">
                     <mj-text mj-class="text__normal color__anthracite-gray"
                              padding="0px 0px 0px 20px">
-                        <ul style="padding: 0; Margin: 0;">
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere.</li>
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
-                        </ul>
+                        <div class="list">
+                            <ul>
+                                <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
+                                <li>Maecenas sed ante pellentesque, posuere.</li>
+                                <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+                                <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
+                            </ul>
+                        </div>
                     </mj-text>
                 </mj-column>
             </mj-section>
@@ -703,36 +741,21 @@
                 <mj-column width="50%" padding="0px 20px">
                     <mj-text mj-class="text__normal color__anthracite-gray"
                              padding="0px 0px 0px 20px">
-                        <ul style="padding: 0; Margin: 0;">
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
-                        </ul>
+                        <div class="list">
+                            <ul>
+                                <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+                            </ul>
+                        </div>
                     </mj-text>
                 </mj-column>
                 <mj-column width="50%" padding="0px 20px">
                     <mj-text mj-class="text__normal color__anthracite-gray"
                              padding="0px 0px 0px 20px">
-                        <ul style="padding: 0; Margin: 0;">
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
-                        </ul>
-                    </mj-text>
-                </mj-column>
-            </mj-section>
-
-            <mj-section padding="0px">
-                <mj-column width="50%" padding="0px 20px">
-                    <mj-text mj-class="text__normal color__anthracite-gray"
-                             padding="0px 0px 0px 20px">
-                        <ul style="padding: 0; Margin: 0;">
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
-                        </ul>
-                    </mj-text>
-                </mj-column>
-                <mj-column width="50%" padding="0px 20px">
-                    <mj-text mj-class="text__normal color__anthracite-gray"
-                             padding="0px 0px 0px 20px">
-                        <ul style="padding: 0; Margin: 0;">
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
-                        </ul>
+                        <div class="list">
+                            <ul>
+                                <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
+                            </ul>
+                        </div>
                     </mj-text>
                 </mj-column>
             </mj-section>
@@ -741,36 +764,21 @@
                 <mj-column width="50%" padding="0px 20px">
                     <mj-text mj-class="text__normal color__anthracite-gray"
                              padding="0px 0px 0px 20px">
-                        <ul style="padding: 0; Margin: 0;">
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
-                        </ul>
+                        <div class="list">
+                            <ul>
+                                <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
+                            </ul>
+                        </div>
                     </mj-text>
                 </mj-column>
                 <mj-column width="50%" padding="0px 20px">
                     <mj-text mj-class="text__normal color__anthracite-gray"
                              padding="0px 0px 0px 20px">
-                        <ul style="padding: 0; Margin: 0;">
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere.</li>
-                        </ul>
-                    </mj-text>
-                </mj-column>
-            </mj-section>
-
-            <mj-section padding="0px">
-                <mj-column width="50%" padding="0px 20px">
-                    <mj-text mj-class="text__normal color__anthracite-gray"
-                             padding="0px 0px 0px 20px">
-                        <ul style="padding: 0; Margin: 0;">
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
-                        </ul>
-                    </mj-text>
-                </mj-column>
-                <mj-column width="50%" padding="0px 20px">
-                    <mj-text mj-class="text__normal color__anthracite-gray"
-                             padding="0px 0px 0px 20px">
-                        <ul style="padding: 0; Margin: 0;">
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
-                        </ul>
+                        <div class="list">
+                            <ul>
+                                <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+                            </ul>
+                        </div>
                     </mj-text>
                 </mj-column>
             </mj-section>
@@ -786,18 +794,23 @@
         *** START: Left-Justified Headline with Divider Line
         ***
         -->
-        <mj-wrapper padding="10px 0px">
+        <mj-wrapper padding="10px 20px">
             <mj-section padding="0px">
                 <mj-column width="100%" padding="0px">
+                    <!-- *** START: Headline Text *** -->
                     <mj-text mj-class="text__headline-secondary color__faro-blue"
-                             padding-left="20px"
                              align="left">
-                        Secondary Headline
+                        Headline Text
                     </mj-text>
+                    <!-- *** END: Headline Text *** -->
 
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="0px" text-align="left">
+                <mj-column width="95px" padding="0px">
                     <mj-divider mj-class="line__headline-secondary color__zenith-blue--border"
                                 css-class="divider-left"
-                                padding-left="20px"
                                 width="95px" />
                 </mj-column>
             </mj-section>
@@ -830,12 +843,14 @@
 
                     <mj-text mj-class="text__normal color__anthracite-gray"
                              padding="0px 0px 20px 20px">
-                        <ul style="padding: 0; Margin: 0;">
-                            <li style="Margin: 0;">Maecenas sed ante pellentesque</li>
-                            <li style="Margin: 0;">posuere leo id, eleifend dolor.</li>
-                            <li style="Margin: 0;">Class aptent taciti sociosqu ad litora torquent per</li>
-                            <li style="Margin: 0;">conubia nostra, per inceptos himenaeos.</li>
-                        </ul>
+                        <div class="list">
+                            <ul>
+                                <li>Maecenas sed ante pellentesque</li>
+                                <li>posuere leo id, eleifend dolor.</li>
+                                <li>Class aptent taciti sociosqu ad litora torquent per</li>
+                                <li>conubia nostra, per inceptos himenaeos.</li>
+                            </ul>
+                        </div>
                     </mj-text>
                 </mj-column>
                 <mj-column width="4%" padding="0px"></mj-column>
@@ -915,7 +930,9 @@
                                padding="0px 20px"
                                href="#"
                                target="_blank">
-                        Call Out Button
+                        <span style="letter-spacing: normal;">
+                            Call Out Button
+                        </span>
                     </mj-button>
 
                     <mj-spacer height="5px" />
@@ -1107,7 +1124,9 @@
                                width="100%"
                                padding="0px"
                                href="#">
-                        Button Text
+                        <span style="letter-spacing: normal;">
+                            Button Text
+                        </span>
                     </mj-button>
                 </mj-column>
                 <mj-column padding="0px" width="26%">
@@ -1135,7 +1154,9 @@
                                align="center"
                                padding="0px"
                                href="#">
-                        Test
+                        <span style="letter-spacing: normal;">
+                            Button Text
+                        </span>
                     </mj-button>
                 </mj-column>
             </mj-section>
@@ -1159,7 +1180,9 @@
                                width="100%"
                                padding="0px"
                                href="#">
-                        Test
+                        <span style="letter-spacing: normal;">
+                            Button Text
+                        </span>
                     </mj-button>
                 </mj-column>
                 <mj-column padding="0px" width="4%">
@@ -1171,7 +1194,9 @@
                                width="100%"
                                padding="0px"
                                href="#">
-                        Test
+                        <span style="letter-spacing: normal;">
+                            Button Text
+                        </span>
                     </mj-button>
                 </mj-column>
             </mj-section>
@@ -1195,7 +1220,9 @@
                                width="100%"
                                padding="0px"
                                href="#">
-                        Test
+                        <span style="letter-spacing: normal;">
+                            Button Text
+                        </span>
                     </mj-button>
                 </mj-column>
                 <mj-column padding="0px" width="4%">
@@ -1207,7 +1234,9 @@
                                width="100%"
                                padding="0px"
                                href="#">
-                        Test
+                        <span style="letter-spacing: normal;">
+                            Button Text
+                        </span>
                     </mj-button>
                 </mj-column>
                 <mj-column padding="0px" width="4%">
@@ -1219,7 +1248,9 @@
                                width="100%"
                                padding="0px"
                                href="#">
-                        Test
+                        <span style="letter-spacing: normal;">
+                            Button Text
+                        </span>
                     </mj-button>
                 </mj-column>
             </mj-section>
@@ -1254,7 +1285,9 @@
                                width="100%"
                                padding="0px"
                                href="#">
-                        Button Text
+                        <span style="letter-spacing: normal;">
+                            Button Text
+                        </span>
                     </mj-button>
                 </mj-column>
                 <mj-column padding="0px" width="26%">

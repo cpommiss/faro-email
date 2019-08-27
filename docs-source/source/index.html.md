@@ -168,6 +168,7 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
             <mj-class name="line__headline-secondary"
                       border-color="#000000"
                       border-width="2px"
+                      align="left" 
                       padding="5px 0px" />
 
             <!-- Sub Headline Styles -->
@@ -248,11 +249,13 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
             .color__beaming-red { color: #d50037; }
             .divider-left { display: inline-block; text-align: left; }
             .divider-left p { display: inline-block; }
+          	.button-full { padding-left:20px !important; padding-right:px !important; }
             .button-full a { display: block !important; }
             .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
             sup { vertical-align: baseline; position: relative; top: -4px; }
             @media screen and (min-width: 697px) {
                 .vertical-header > table > tbody > tr > td { padding-left: 0 !important; padding-right: 0 !important; }
+                .button-full { padding-left:0 !important; padding-right:0 !important; }
             }
             @media only screen and (max-width:697px) {
                 table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
@@ -271,11 +274,14 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
                 .mblnav { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;color:#ffffff !important; font-weight: bold !important;font-size:14px !important;text-decoration: none !important;display:block; padding:15px; width:90%; background-color: #939598; }
             }        
         </mj-style>
+      	<mj-style inline="inline">
+            div.list ul, div.list ol { padding-inline-start: 20px; -webkit-padding-start: 20px; margin-top: 0; }
+            div.list ul li { list-style: disc outside; mso-special-format: bullet; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
+            div.list ol li { list-style: decimal outside; mso-special-format: decimal; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
+      	</mj-style>
         <!--[if gte mso 9]>
         <style>
-            li {
-                text-indent: -1em;
-            }
+            div.list { Margin: 0 0 0 -20px; }
         </style>
         <![endif]-->
     </mj-head>
@@ -581,7 +587,7 @@ There are no configuration options for this snippet. Just cut and paste!
 ## Basic
 
 ```html
-<mj-wrapper padding="10px 0px">
+<mj-wrapper padding="10px 20px">
     <mj-section padding="0px">
         <mj-column width="100%" padding="0px">
             <!-- *** START: Headline Text *** -->
@@ -609,7 +615,7 @@ You can change the `align` attribute on the `mj-text` tag to be either `left`, `
 ## Centered with Line
 
 ```html
-<mj-wrapper padding="10px 0px">
+<mj-wrapper padding="10px 20px">
     <mj-section padding="0px">
         <mj-column width="100%" padding="0px">
             <!-- *** START: Headline Text *** -->
@@ -618,7 +624,11 @@ You can change the `align` attribute on the `mj-text` tag to be either `left`, `
                 Headline Text
             </mj-text>
             <!-- *** END: Headline Text *** -->
+        </mj-column>
+    </mj-section>
 
+    <mj-section padding="0px" text-align="center">
+        <mj-column width="95px" padding="0px">
             <mj-divider mj-class="line__headline-secondary color__zenith-blue--border"
                         width="95px" />
         </mj-column>
@@ -641,21 +651,33 @@ This code will look like this when rendered:
 ## Centered with Subheadline
 
 ```html
-<mj-wrapper padding="10px 0px">
+<mj-wrapper padding="10px 20px">
     <mj-section padding="0px">
         <mj-column width="100%" padding="0px">
+            <!-- *** START: Headline Text *** -->
             <mj-text mj-class="text__headline-secondary color__faro-blue"
                      align="center">
                 Secondary Headline
             </mj-text>
+            <!-- *** END: Headline Text *** -->
+        </mj-column>
+    </mj-section>
 
+    <mj-section padding="0px" text-align="center">
+        <mj-column width="95px" padding="0px">
             <mj-divider mj-class="line__headline-secondary color__zenith-blue--border"
                         width="95px" />
+        </mj-column>
+    </mj-section>
 
+    <mj-section padding="0px">
+        <mj-column width="100%" padding="0px">
+            <!-- *** START: Subheadline Text *** -->
             <mj-text mj-class="text__headline-sub"
                      align="center">
                 Subheadline Text
             </mj-text>
+            <!-- *** END: Subheadline Text *** -->
         </mj-column>
     </mj-section>
 </mj-wrapper>
@@ -676,20 +698,23 @@ This code will look like this when rendered:
 ## Left-justified with Line
 
 ```html
-<mj-wrapper padding="10px 0px">
+<mj-wrapper padding="10px 20px">
     <mj-section padding="0px">
         <mj-column width="100%" padding="0px">
             <!-- *** START: Headline Text *** -->
             <mj-text mj-class="text__headline-secondary color__faro-blue"
-                     padding-left="20px"
                      align="left">
                 Headline Text
             </mj-text>
             <!-- *** END: Headline Text *** -->
 
+        </mj-column>
+    </mj-section>
+
+    <mj-section padding="0px" text-align="left">
+        <mj-column width="95px" padding="0px">
             <mj-divider mj-class="line__headline-secondary color__zenith-blue--border"
                         css-class="divider-left"
-                        padding-left="20px"
                         width="95px" />
         </mj-column>
     </mj-section>
@@ -794,7 +819,7 @@ This code will look like this when rendered:
 <mj-wrapper mj-class="color__white--bg"
             css-class="top-image"
             padding="0px"
-            background-url="http://cpommiss.github.io/faro-email/images/elements/cta-triangles-grey.jpg"
+            background-url="https://cpommiss.github.io/faro-email/images/elements/cta-triangles-grey.jpg"
             background-size="680px"
             background-repeat="no-repeat">
     <mj-section padding="0px">
@@ -803,11 +828,15 @@ This code will look like this when rendered:
         </mj-column>
     </mj-section>
 
-    <mj-section padding="0px">
-        <mj-column width="100%" padding="0px">
+    <mj-section padding="0px" text-align="left">
+        <mj-column width="85px" padding="0px">
             <mj-divider mj-class="line__cta-primary color__zenith-blue--border"
                         css-class="divider-left" />
+        </mj-column>
+    </mj-section>
 
+    <mj-section padding="0px">
+        <mj-column width="100%" padding="0px">
             <!-- *** START: Headline Text *** -->
             <mj-text mj-class="text__cta-primary color__faro-blue">
                 Dive Deeper Into Our Solutions
@@ -845,9 +874,9 @@ This code will look like this when rendered:
 
 ```html
 <mj-wrapper mj-class="color__white--bg"
-            css-class="top-image" 
+            css-class="top-image"
             padding="0px"
-            background-url="http://cpommiss.github.io/faro-email/images/elements/cta-triangles-grey.jpg"
+            background-url="https://cpommiss.github.io/faro-email/images/elements/cta-triangles-grey.jpg"
             background-size="680px"
             background-repeat="no-repeat">
     <mj-section padding="0px">
@@ -856,11 +885,15 @@ This code will look like this when rendered:
         </mj-column>
     </mj-section>
 
-    <mj-section padding="0px">
-        <mj-column width="55%" padding="10px 0px">
+    <mj-section padding="0px" text-align="left">
+        <mj-column width="85px" padding="0px">
             <mj-divider mj-class="line__cta-primary color__zenith-blue--border"
                         css-class="divider-left" />
+        </mj-column>
+    </mj-section>
 
+    <mj-section padding="0px">
+        <mj-column width="55%" padding="10px 0px">
             <!-- *** START: Headline Text *** -->
             <mj-text mj-class="text__cta-primary color__faro-blue"
                      padding-right="0px">
@@ -973,12 +1006,14 @@ This code will look like this when rendered:
             <!-- *** START: Basic List Content *** -->
             <mj-text mj-class="text__normal color__anthracite-gray"
                      padding="0px 0px 15px 20px">
-                <ul style="padding: 0; Margin: 0;">
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque</li>
-                    <li style="Margin: 0;">posuere leeo id, eleifend dolor.</li>
-                    <li style="Margin: 0;">Class aptent taciti sociosqu ad litora torquent per</li>
-                    <li style="Margin: 0;">conubia nostra, per inceptos himenaeos.</li>
-                </ul>
+                <div class="list">
+                    <ul>
+                        <li>Maecenas sed ante pellentesque</li>
+                        <li>posuere leeo id, eleifend dolor.</li>
+                        <li>Class aptent taciti sociosqu ad litora torquent per</li>
+                        <li>conubia nostra, per inceptos himenaeos.</li>
+                    </ul>
+                </div>
             </mj-text>
             <!-- *** END: Basic List Content *** -->
         </mj-column>
@@ -1168,16 +1203,18 @@ This code will look like this when rendered:
             <mj-text mj-class="text__normal color__anthracite-gray"
                      padding="0px 0px 0px 20px">
                 <!-- *** START: Basic List Content *** -->
-                <ul style="padding: 0; Margin: 0;">
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere.</li>
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
-                </ul>
+                <div class="list">
+                    <ul>
+                        <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+                        <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
+                        <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
+                        <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+                        <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
+                        <li>Maecenas sed ante pellentesque, posuere.</li>
+                        <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+                        <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
+                    </ul>
+                </div>
                 <!-- *** END: Basic List Content *** -->
             </mj-text>
         </mj-column>
@@ -1205,12 +1242,14 @@ This code will look like this when rendered:
             <mj-text mj-class="text__normal color__anthracite-gray"
                      padding="0px 0px 0px 20px">
                 <!-- *** START: Basic List Content *** -->
-                <ul style="padding: 0; Margin: 0;">
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
-                </ul>
+                <div class="list">
+                    <ul>
+                        <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+                        <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
+                        <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
+                        <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+                    </ul>
+                </div>
                 <!-- *** END: Basic List Content *** -->
             </mj-text>
         </mj-column>
@@ -1218,12 +1257,14 @@ This code will look like this when rendered:
             <mj-text mj-class="text__normal color__anthracite-gray"
                      padding="0px 0px 0px 20px">
                 <!-- *** START: Basic List Content *** -->
-                <ul style="padding: 0; Margin: 0;">
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere.</li>
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
-                </ul>
+                <div class="list">
+                    <ul>
+                        <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
+                        <li>Maecenas sed ante pellentesque, posuere.</li>
+                        <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+                        <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
+                    </ul>
+                </div>
                 <!-- *** END: Basic List Content *** -->
             </mj-text>
         </mj-column>
@@ -1252,9 +1293,11 @@ This code will look like this when rendered:
             <mj-text mj-class="text__normal color__anthracite-gray"
                      padding="0px 0px 0px 20px">
                 <!-- *** START: Basic List Content *** -->
-                <ul style="padding: 0; Margin: 0;">
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
-                </ul>
+                <div class="list">
+                    <ul>
+                        <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+                    </ul>
+                </div>
                 <!-- *** END: Basic List Content *** -->
             </mj-text>
         </mj-column>
@@ -1262,9 +1305,11 @@ This code will look like this when rendered:
             <mj-text mj-class="text__normal color__anthracite-gray"
                      padding="0px 0px 0px 20px">
                 <!-- *** START: Basic List Content *** -->
-                <ul style="padding: 0; Margin: 0;">
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
-                </ul>
+                <div class="list">
+                    <ul>
+                        <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu.</li>
+                    </ul>
+                </div>
                 <!-- *** END: Basic List Content *** -->
             </mj-text>
         </mj-column>
@@ -1277,9 +1322,11 @@ This code will look like this when rendered:
             <mj-text mj-class="text__normal color__anthracite-gray"
                      padding="0px 0px 0px 20px">
                 <!-- *** START: Basic List Content *** -->
-                <ul style="padding: 0; Margin: 0;">
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
-                </ul>
+                <div class="list">
+                    <ul>
+                        <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.</li>
+                    </ul>
+                </div>
                 <!-- *** END: Basic List Content *** -->
             </mj-text>
         </mj-column>
@@ -1287,9 +1334,11 @@ This code will look like this when rendered:
             <mj-text mj-class="text__normal color__anthracite-gray"
                      padding="0px 0px 0px 20px">
                 <!-- *** START: Basic List Content *** -->
-                <ul style="padding: 0; Margin: 0;">
-                    <li style="Margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
-                </ul>
+                <div class="list">
+                    <ul>
+                        <li>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+                    </ul>
+                </div>
                 <!-- *** END: Basic List Content *** -->
             </mj-text>
         </mj-column>
@@ -1435,7 +1484,11 @@ This code will look like this when rendered:
                        width="100%"
                        padding="0px"
                        href="#">
-                Button Text
+                <span style="letter-spacing: normal;">
+                    <!-- *** START: Button Text *** -->
+                    Button Text
+                    <!-- *** END: Button Text *** -->
+                </span>
             </mj-button>
         </mj-column>
         <mj-column padding="0px" width="26%">
@@ -1456,6 +1509,7 @@ This code will look like this when rendered:
 
 * You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
 * Standard buttons require the `css-class="button-full"` CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.
+* For maximum compatibility, text within the `<mj-button>` tag must be wrapped with a `<span style="letter-spacing: normal">` tag, as shown in the example code. 
 
 ## Single (Full-Width)
 
@@ -1469,7 +1523,11 @@ This code will look like this when rendered:
                        align="center"
                        padding="0px"
                        href="#">
-                Test
+                <span style="letter-spacing: normal;">
+                    <!-- *** START: Button Text *** -->
+                    Button Text
+                    <!-- *** END: Button Text *** -->
+                </span>
             </mj-button>
         </mj-column>
     </mj-section>
@@ -1487,6 +1545,7 @@ This code will look like this when rendered:
 
 * You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
 * Standard buttons require the `css-class="button-full"` CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.
+* For maximum compatibility, text within the `<mj-button>` tag must be wrapped with a `<span style="letter-spacing: normal">` tag, as shown in the example code. 
 
 ## Single with Title
 
@@ -1510,7 +1569,11 @@ This code will look like this when rendered:
                        width="100%"
                        padding="0px"
                        href="#">
-                Button Text
+                <span style="letter-spacing: normal;">
+                    <!-- *** START: Button Text *** -->
+                    Button Text
+                    <!-- *** END: Button Text *** -->
+                </span>
             </mj-button>
         </mj-column>
         <mj-column padding="0px" width="26%">
@@ -1531,6 +1594,7 @@ This code will look like this when rendered:
 
 * You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
 * Standard buttons require the `css-class="button-full"` CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.
+* For maximum compatibility, text within the `<mj-button>` tag must be wrapped with a `<span style="letter-spacing: normal">` tag, as shown in the example code. 
 
 ## Two Across
 
@@ -1543,7 +1607,11 @@ This code will look like this when rendered:
                        width="100%"
                        padding="0px"
                        href="#">
-                Button Text
+                <span style="letter-spacing: normal;">
+                    <!-- *** START: Button Text *** -->
+                    Button Text
+                    <!-- *** END: Button Text *** -->
+                </span>
             </mj-button>
         </mj-column>
         <mj-column padding="0px" width="4%">
@@ -1555,7 +1623,11 @@ This code will look like this when rendered:
                        width="100%"
                        padding="0px"
                        href="#">
-                Button Text
+                <span style="letter-spacing: normal;">
+                    <!-- *** START: Button Text *** -->
+                    Button Text
+                    <!-- *** END: Button Text *** -->
+                </span>
             </mj-button>
         </mj-column>
     </mj-section>
@@ -1573,6 +1645,7 @@ This code will look like this when rendered:
 
 * You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
 * Standard buttons require the `css-class="button-full"` CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.
+* For maximum compatibility, text within the `<mj-button>` tag must be wrapped with a `<span style="letter-spacing: normal">` tag, as shown in the example code. 
 
 ## Three Across
 
@@ -1585,7 +1658,11 @@ This code will look like this when rendered:
                        width="100%"
                        padding="0px"
                        href="#">
-                Button Text
+                <span style="letter-spacing: normal;">
+                    <!-- *** START: Button Text *** -->
+                    Button Text
+                    <!-- *** END: Button Text *** -->
+                </span>
             </mj-button>
         </mj-column>
         <mj-column padding="0px" width="4%">
@@ -1597,7 +1674,11 @@ This code will look like this when rendered:
                        width="100%"
                        padding="0px"
                        href="#">
-                Button Text
+                <span style="letter-spacing: normal;">
+                    <!-- *** START: Button Text *** -->
+                    Button Text
+                    <!-- *** END: Button Text *** -->
+                </span>
             </mj-button>
         </mj-column>
         <mj-column padding="0px" width="4%">
@@ -1609,7 +1690,11 @@ This code will look like this when rendered:
                        width="100%"
                        padding="0px"
                        href="#">
-                Button Text
+                <span style="letter-spacing: normal;">
+                    <!-- *** START: Button Text *** -->
+                    Button Text
+                    <!-- *** END: Button Text *** -->
+                </span>
             </mj-button>
         </mj-column>
     </mj-section>
@@ -1627,6 +1712,7 @@ This code will look like this when rendered:
 
 * You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
 * Standard buttons require the `css-class="button-full"` CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.
+* For maximum compatibility, text within the `<mj-button>` tag must be wrapped with a `<span style="letter-spacing: normal">` tag, as shown in the example code. 
 
 # Combinations
 
@@ -1678,7 +1764,11 @@ This code will look like this when rendered:
                        padding="0px 20px"
                        href="#"
                        target="_blank">
-                Call Out Button
+                <span style="letter-spacing: normal;">
+                    <!-- *** START: Button Text *** -->
+                    Call Out Button
+                    <!-- *** END: Button Text *** -->
+                </span>
             </mj-button>
             <!-- *** END: Basic Button *** -->
 
@@ -1700,6 +1790,7 @@ This code will look like this when rendered:
 * This combination utilizes the **[Headline With Icon](#with-icon)** headline layout. You can switch this out for a standard headline if you wish.
 * You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
 * Refer to the **[Icons](#icons)** section of this documentation to find the icon you're looking for.
+* For maximum compatibility, text within the `<mj-button>` tag must be wrapped with a `<span style="letter-spacing: normal">` tag, as shown in the example code. 
 
 ## CTA with Icon (Monochrome)
 
@@ -2162,6 +2253,7 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
             <mj-class name="line__headline-secondary"
                       border-color="#000000"
                       border-width="2px"
+                      align="left" 
                       padding="5px 0px" />
 
             <!-- Sub Headline Styles -->
@@ -2242,10 +2334,13 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
             .color__beaming-red { color: #d50037; }
             .divider-left { display: inline-block; text-align: left; }
             .divider-left p { display: inline-block; }
+          	.button-full { padding-left:20px !important; padding-right:px !important; }
             .button-full a { display: block !important; }
             .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
+            sup { vertical-align: baseline; position: relative; top: -4px; }
             @media screen and (min-width: 697px) {
                 .vertical-header > table > tbody > tr > td { padding-left: 0 !important; padding-right: 0 !important; }
+                .button-full { padding-left:0 !important; padding-right:0 !important; }
             }
             @media only screen and (max-width:697px) {
                 table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
@@ -2264,11 +2359,14 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
                 .mblnav { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;color:#ffffff !important; font-weight: bold !important;font-size:14px !important;text-decoration: none !important;display:block; padding:15px; width:90%; background-color: #939598; }
             }
         </mj-style>
+      	<mj-style inline="inline">
+            div.list ul, div.list ol { padding-inline-start: 20px; -webkit-padding-start: 20px; margin-top: 0; }
+            div.list ul li { list-style: disc outside; mso-special-format: bullet; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
+            div.list ol li { list-style: decimal outside; mso-special-format: decimal; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
+      	</mj-style>
         <!--[if gte mso 9]>
         <style>
-            li {
-                text-indent: -1em;
-            }
+            div.list { Margin: 0 0 0 -20px; }
         </style>
         <![endif]-->
     </mj-head>

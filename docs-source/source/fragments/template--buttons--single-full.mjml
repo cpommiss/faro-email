@@ -13,7 +13,11 @@
                                align="center"
                                padding="0px"
                                href="#">
-                        Test
+                        <span style="letter-spacing: normal;">
+                            <!-- *** START: Button Text *** -->
+                            Button Text
+                            <!-- *** END: Button Text *** -->
+                        </span>
                     </mj-button>
                 </mj-column>
             </mj-section>

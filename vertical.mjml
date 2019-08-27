@@ -126,6 +126,7 @@
             <mj-class name="line__headline-secondary"
                       border-color="#000000"
                       border-width="2px"
+                      align="left"
                       padding="5px 0px" />
 
             <!-- Sub Headline Styles -->
@@ -206,10 +207,13 @@
             .color__beaming-red { color: #d50037; }
             .divider-left { display: inline-block; text-align: left; }
             .divider-left p { display: inline-block; }
+            .button-full { padding-left:20px !important; padding-right:px !important; }
             .button-full a { display: block !important; }
             .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
+            sup { vertical-align: baseline; position: relative; top: -4px; }
             @media screen and (min-width: 697px) {
                 .vertical-header > table > tbody > tr > td { padding-left: 0 !important; padding-right: 0 !important; }
+                .button-full { padding-left:0 !important; padding-right:0 !important; }
             }
             @media only screen and (max-width:697px) {
                 table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
@@ -228,11 +232,14 @@
                 .mblnav { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;color:#ffffff !important; font-weight: bold !important;font-size:14px !important;text-decoration: none !important;display:block; padding:15px; width:90%; background-color: #939598; }
             }
         </mj-style>
+        <mj-style inline="inline">
+            div.list ul, div.list ol { padding-inline-start: 20px; -webkit-padding-start: 20px; margin-top: 0; }
+            div.list ul li { list-style: disc outside; mso-special-format: bullet; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
+            div.list ol li { list-style: decimal outside; mso-special-format: decimal; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
+        </mj-style>
         <!--[if gte mso 9]>
         <style>
-            li {
-                text-indent: -1em;
-            }
+            div.list { Margin: 0 0 0 -20px; }
         </style>
         <![endif]-->
     </mj-head>
@@ -279,11 +286,15 @@
                 </mj-column>
             </mj-section>
 
-            <mj-section padding="0px">
-                <mj-column width="100%" padding="0px">
+            <mj-section padding="0px" text-align="left">
+                <mj-column width="85px" padding="0px">
                     <mj-divider mj-class="line__cta-primary color__forest-green--border"
                                 css-class="divider-left" />
+                </mj-column>
+            </mj-section>
 
+            <mj-section padding="0px">
+                <mj-column width="100%" padding="0px">
                     <mj-text mj-class="text__cta-primary color__faro-blue">
                         Dive Deeper Into Our Solutions
                     </mj-text>
@@ -301,14 +312,20 @@
             </mj-section>
         </mj-wrapper>
 
-        <mj-wrapper padding="10px 0px">
+        <mj-wrapper padding="10px 20px">
             <mj-section padding="0px">
                 <mj-column width="100%" padding="0px">
+                    <!-- *** START: Headline Text *** -->
                     <mj-text mj-class="text__headline-secondary color__faro-blue"
                              align="center">
                         Secondary Headline
                     </mj-text>
+                    <!-- *** END: Headline Text *** -->
+                </mj-column>
+            </mj-section>
 
+            <mj-section padding="0px" text-align="center">
+                <mj-column width="95px" padding="0px">
                     <mj-divider mj-class="line__headline-secondary color__forest-green--border"
                                 width="95px" />
                 </mj-column>
@@ -419,7 +436,9 @@
                                padding="0px 20px"
                                href="#"
                                target="_blank">
-                        Call Out Button
+                        <span style="letter-spacing: normal;">
+                            Call Out Button
+                        </span>
                     </mj-button>
 
                     <mj-spacer height="5px" />
@@ -536,7 +555,9 @@
                                width="100%"
                                padding="0px"
                                href="#">
-                        Test
+                        <span style="letter-spacing: normal;">
+                            Button Text
+                        </span>
                     </mj-button>
                 </mj-column>
                 <mj-column padding="0px" width="4%">
@@ -548,7 +569,9 @@
                                width="100%"
                                padding="0px"
                                href="#">
-                        Test
+                        <span style="letter-spacing: normal;">
+                            Button Text
+                        </span>
                     </mj-button>
                 </mj-column>
             </mj-section>

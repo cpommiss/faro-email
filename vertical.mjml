@@ -100,18 +100,18 @@
                       line-height="32px"
                       font-weight="normal"
                       font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
-                      padding="10px 30px" />
+                      padding="10px 20px" />
             <mj-class name="text__cta-secondary"
                       color="#000000"
                       font-size="23px"
                       line-height="23px"
                       font-weight="normal"
                       font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
-                      padding="0px 30px" />
+                      padding="0px 20px" />
             <mj-class name="line__cta-primary"
                       border-color="#000000"
                       border-width="5px"
-                      padding="0px 30px 0px 30px"
+                      padding="0px 20px 0px 20px"
                       width="85px" />
 
             <!-- Secondary Headline Styles-->

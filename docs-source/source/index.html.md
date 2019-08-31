@@ -249,7 +249,7 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
             .color__beaming-red { color: #d50037; }
             .divider-left { display: inline-block; text-align: left; }
             .divider-left p { display: inline-block; }
-          	.button-full { padding-left:20px !important; padding-right:px !important; }
+          	.button-full { padding-left:20px !important; padding-right:20px !important; }
             .button-full a { display: block !important; }
             .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
             sup { vertical-align: baseline; position: relative; top: -4px; }
@@ -2458,7 +2458,7 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
             .color__beaming-red { color: #d50037; }
             .divider-left { display: inline-block; text-align: left; }
             .divider-left p { display: inline-block; }
-          	.button-full { padding-left:20px !important; padding-right:px !important; }
+          	.button-full { padding-left:20px !important; padding-right:20px !important; }
             .button-full a { display: block !important; }
             .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
             sup { vertical-align: baseline; position: relative; top: -4px; }

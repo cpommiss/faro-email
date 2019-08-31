@@ -41,7 +41,7 @@
                 </mj-column>
                 <mj-column width="45%" padding="10px 0px">
                     <!-- *** START: Image Adjacent to Headline Text *** -->
-                    <mj-image padding="0px 30px"
+                    <mj-image padding="0px 20px"
                               fluid-on-mobile="true"
                               href="#"
                               src="http://placeimg.com/640/360/any"

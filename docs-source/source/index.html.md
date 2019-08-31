@@ -153,7 +153,7 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
             <mj-class name="line__cta-primary"
                       border-color="#000000"
                       border-width="5px"
-                      padding="0px 20px 0px 20px"
+                      padding="0px"
                       width="85px" />
 
             <!-- Secondary Headline Styles-->
@@ -260,6 +260,7 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
             @media only screen and (max-width:697px) {
                 table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
                 td.full-width-mobile { width: auto !important; }
+                .divider-left { padding-left:20px !important; padding-right:20px !important; }
             }
             @media only screen and (max-width: 479px) {
                 .emailfooter, .emailheader { width: 100% !important; }
@@ -953,6 +954,11 @@ This code will look like this when rendered:
     </mj-section>
 
     <mj-section padding="0px" text-align="left">
+        <mj-column width="20px" padding="0px">
+            <mj-text font-size="1px" line-height="1px" padding="0px">
+                <img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bbe0a62e4-6740-4c12-aa8b-2e99a8ed59b8%7D_spacer.gif" width="20px" height="1px" style="width: 20px; height: 1px;" />
+            </mj-text>
+        </mj-column>
         <mj-column width="85px" padding="0px">
             <mj-divider mj-class="line__cta-primary color__zenith-blue--border"
                         css-class="divider-left" />
@@ -1010,6 +1016,11 @@ This code will look like this when rendered:
     </mj-section>
 
     <mj-section padding="0px" text-align="left">
+        <mj-column width="20px" padding="0px">
+            <mj-text font-size="1px" line-height="1px" padding="0px">
+                <img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bbe0a62e4-6740-4c12-aa8b-2e99a8ed59b8%7D_spacer.gif" width="20px" height="1px" style="width: 20px; height: 1px;" />
+            </mj-text>
+        </mj-column>
         <mj-column width="85px" padding="0px">
             <mj-divider mj-class="line__cta-primary color__zenith-blue--border"
                         css-class="divider-left" />
@@ -2362,7 +2373,7 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
             <mj-class name="line__cta-primary"
                       border-color="#000000"
                       border-width="5px"
-                      padding="0px 20px 0px 20px"
+                      padding="0px"
                       width="85px" />
 
             <!-- Secondary Headline Styles-->
@@ -2469,6 +2480,7 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
             @media only screen and (max-width:697px) {
                 table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
                 td.full-width-mobile { width: auto !important; }
+                .divider-left { padding-left:20px !important; padding-right:20px !important; }
             }
             @media only screen and (max-width: 479px) {
                 .emailfooter, .emailheader { width: 100% !important; }

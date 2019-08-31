@@ -17,6 +17,11 @@
             </mj-section>
 
             <mj-section padding="0px" text-align="left">
+                <mj-column width="20px" padding="0px">
+                    <mj-text font-size="1px" line-height="1px" padding="0px">
+                        <img src="https://img.en25.com/EloquaImages/clients/Faro/%7Bbe0a62e4-6740-4c12-aa8b-2e99a8ed59b8%7D_spacer.gif" width="20px" height="1px" style="width: 20px; height: 1px;" />
+                    </mj-text>
+                </mj-column>
                 <mj-column width="85px" padding="0px">
                     <mj-divider mj-class="line__cta-primary color__zenith-blue--border"
                                 css-class="divider-left" />

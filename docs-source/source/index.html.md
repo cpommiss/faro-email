@@ -894,8 +894,8 @@ This code will look like this when rendered:
 
 ### Options and Notes
 
+* The icon shown alongside the headline should be taken from the **[Headline Icons (Blue on White) Icon Set](#headline-icons-blue-on-white)**. Use the linked reference guide to find the icon you would like to use. 
 * You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
-* Refer to the **[Icons](#icons)** section of this documentation to find the icon you're looking for.
 
 ## With Icon (Inverted)
 
@@ -934,7 +934,7 @@ This code will look like this when rendered:
 ### Options and Notes
 
 * You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
-* Refer to the **[Icons](#icons)** section of this documentation to find the icon you're looking for.
+* The icon shown alongside the headline should be taken from the **[Headline Icons (White on Blue) Icon Set](#headline-icons-white-on-blue)**. Use the linked reference guide to find the icon you would like to use. 
 
 # Top Image/Title
 
@@ -1599,8 +1599,8 @@ This code will look like this when rendered:
 
 ### Options and Notes
 
+* The icon shown alongside each list item should be taken from the **[Large Blue Icon Set](#large-blue-icons)**. Use the linked reference guide to find the icon you would like to use. 
 * You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
-* Refer to the **[Icons](#icons)** section of this documentation to find the icon you're looking for.
 * Copy/Paste the code in between the `START: Row` and `END: Row` comments to add additional list items as denoted in the HTML comments.
 
 # Buttons
@@ -1922,9 +1922,8 @@ This code will look like this when rendered:
 
 ### Options and Notes
 
-* This combination utilizes the **[Headline With Icon](#with-icon)** headline layout. You can switch this out for a standard headline if you wish.
+* The icon shown alongside the headline should be taken from the **[Headline Icons (Blue on White) Icon Set](#headline-icons-blue-on-white)**. Use the linked reference guide to find the icon you would like to use. 
 * You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
-* Refer to the **[Icons](#icons)** section of this documentation to find the icon you're looking for.
 * For maximum compatibility, text within the `<mj-button>` tag must be wrapped with a `<span style="letter-spacing: normal">` tag, as shown in the example code. 
 
 ## CTA with Icon (Monochrome)
@@ -2047,9 +2046,10 @@ This code will look like this when rendered:
 
 ### Options and Notes
 
-* You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
-* Refer to the **[Icons](#icons)** section of this documentation to find the icon you're looking for.
 * This snippet uses a two-section button layout with a chevron on the right-hand side of the button. The code for this button is denoted with HTML comments in the code. You can replace this with standard button code from another snippet if you do not wish to use this button style.
+* The icon shown alongside the headline should be taken from the **[Headline Icons (White on Blue) Icon Set](#headline-icons-white-on-blue)**. Use the linked reference guide to find the icon you would like to use. 
+* Refer to the **[Chevron Icon Set](#chevron-icons)** to find the color combination chevron icon to use with the button you create.
+* You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
 
 ## CTA with Icon (Two-Tone)
 
@@ -2168,9 +2168,10 @@ This code will look like this when rendered:
 
 ### Options and Notes
 
-* You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
-* Refer to the **[Icons](#icons)** section of this documentation to find the icon you're looking for.
 * This snippet uses a two-section button layout with a chevron on the right-hand side of the button. The code for this button is denoted with HTML comments in the code. You can replace this with standard button code from another snippet if you do not wish to use this button style.
+* The icon shown alongside the headline should be taken from the **[Headline Icons (White on Blue) Icon Set](#headline-icons-white-on-blue)**. Use the linked reference guide to find the icon you would like to use.
+* Refer to the **[Chevron Icon Set](#chevron-icons)** to find the color combination chevron icon to use with the button you create.
+* You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
 
 # Builder
 

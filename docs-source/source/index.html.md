@@ -1000,21 +1000,21 @@ You can find the proper places to change the image filename and the vertical hea
             <mj-social icon-size="35px"
                        mode="horizontal">
                 <mj-social-element padding="0px"
-                                   name="facebook"
+                                   name="facebook-noshare"
                                    href="https://www.facebook.com/FAROTechnologies"
                                    background-color="#ffffff"
                                    src="https://img.en25.com/eloquaimages/clients/Faro/%7Bc3f3e238-704f-42f9-81cd-593cbe544f9d%7D_fb_round.png"
                                    alt="Facebook">
                 </mj-social-element>
                 <mj-social-element padding="0px"
-                                   name="twitter"
+                                   name="twitter-noshare"
                                    href="https://twitter.com/faro_hq"
                                    background-color="#ffffff"
                                    src="https://img.en25.com/eloquaimages/clients/Faro/%7B72de1589-3d0d-421e-83bf-7355a61f0e66%7D_tw_round.png"
                                    alt="Twitter">
                 </mj-social-element>
                 <mj-social-element padding="0px"
-                                   name="linkedin"
+                                   name="linkedin-noshare"
                                    href="https://www.linkedin.com/company/faro-technologies"
                                    background-color="#ffffff"
                                    src="https://img.en25.com/eloquaimages/clients/Faro/%7Bffba39d5-f886-4700-a096-2b441d5edbb5%7D_ln_round.png"

@@ -1,0 +1,52 @@
+
+        <!--
+        ***
+        *** START: Informational Callout (Statistic)
+        ***
+        -->
+        <mj-wrapper mj-class="block__newsletter--compact"
+                    css-class="mobile-newsletter-section-compact">
+            <mj-section mj-class="color__anthracite-gray--bg"
+                        border-bottom="5px #e2e2e2 solid"
+                        padding="15px 0px">
+                <mj-column mj-class="block__info-callout--left"
+                           css-class="mobile-border-erase"
+                           padding="0px 0px 0px 20px">
+                    <!-- *** START: Statistic Amount *** -->
+                    <mj-text mj-class="text__info-callout">
+                        88<sup>%</sup>
+                    </mj-text>
+                    <!-- *** END: Statistic Amount *** -->
+
+                    <mj-spacer css-class="mobile-visible"
+                               height="25px" />
+                </mj-column>
+                <mj-column mj-class="block__info-callout--right">
+                    <!-- *** START: Statistic Supporting Data *** -->
+                    <mj-text mj-class="text__normal color__white"
+                             css-class="line-height-fix"
+                             padding="0px">
+                        88% Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ligula leo, ultricies vitae tortor non, eleifend pharetra eros.
+                    </mj-text>
+                    <!-- *** END: Statistic Supporting Data *** -->
+
+                    <mj-spacer css-class="mobile-visible"
+                               height="10px" />
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="5px 0px">
+                <mj-column width="100%">
+                    <!-- *** START: Disclaimer Text *** -->
+                    <mj-text mj-class="text__disclaimer">
+                        3rd party verified by TechValidate&trade; market research survey
+                    </mj-text>
+                    <!-- *** END: Disclaimer Text *** -->
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Informational Callout (Statistic)
+        ***
+        -->

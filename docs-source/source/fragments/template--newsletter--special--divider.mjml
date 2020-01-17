@@ -1,0 +1,21 @@
+
+        <!--
+        ***
+        *** START: Dividing Line
+        ***
+        -->
+        <mj-wrapper mj-class="block__newsletter"
+                    css-class="mobile-newsletter-section-flush">
+            <mj-section padding="0px">
+                <mj-column width="100%">
+                    <mj-divider mj-class="line__headline-secondary color__white-gray--border"
+                                padding="10px 0px"
+                                width="100%" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Dividing Line
+        ***
+        -->

@@ -1,0 +1,59 @@
+
+        <!--
+        ***
+        *** START: Article Callout (With Image)
+        ***
+        -->
+        <mj-wrapper mj-class="block__newsletter"
+                    css-class="mobile-newsletter-section">
+            <mj-section padding="0px">
+                <mj-column padding="0px"
+                           width="280px">
+                    <!-- *** START: Article Image *** -->
+                    <mj-image alt="Secondary Article Image"
+                              padding="10px 0px"
+                              src="https://dummyimage.com/280x212/e2e2e2/9b9b9b.jpg&text=Secondary+Article+Image" />
+                    <!-- *** END: Article Image *** -->
+                </mj-column>
+                <mj-column width="20px"
+                           padding="0px">
+                    <mj-spacer css-class="mobile-visible"
+                               height="10px" />
+                </mj-column>
+                <mj-column mj-class="block__info-callout--right"
+                           width="300px"
+                           padding="0px">
+                    <!-- *** START: Article Headline *** -->
+                    <mj-text mj-class="text__cta-tertiary color__faro-blue"
+                             padding="0px">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ligula leo.
+                    </mj-text>
+                    <!-- *** END: Article Headline *** -->
+
+                    <!-- *** START: Article Excerpt *** -->
+                    <mj-text mj-class="text__normal color__anthracite-gray"
+                             padding="10px 0 10px 0px">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ligula leo, ultricies vitae tortor non, eleifend pharetra eros. Morbi maximus eleifend elit, ac venenatis purus...
+                    </mj-text>
+                    <!-- *** END: Article Excerpt *** -->
+
+                    <mj-button mj-class="button__secondary color__zenith-blue--bg color__white"
+                               css-class="button-full-flush"
+                               width="100%"
+                               padding="0px"
+                               align="left"
+                               href="#">
+                        <span style="letter-spacing: normal;">
+                            <!-- *** START: Button Text *** -->
+                            Read Article
+                            <!-- *** END: Button Text *** -->
+                        </span>
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Article Callout (With Image)
+        ***
+        -->

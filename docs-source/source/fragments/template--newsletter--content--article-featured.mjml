@@ -1,0 +1,64 @@
+
+        <!--
+        ***
+        *** START: Featured Article
+        ***
+        -->
+        <mj-wrapper mj-class="block__newsletter"
+                    css-class="mobile-newsletter-section">
+            <mj-section padding="0px">
+                <mj-column width="100%" padding="0px">
+                    <!-- *** START: Article Headline *** -->
+                    <mj-text mj-class="text__cta-tertiary color__faro-blue"
+                             padding="15px 25px"
+                             align="center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ligula leo, ultricies vitae
+                    </mj-text>
+                    <!-- *** END: Article Headline *** -->
+
+                    <mj-divider mj-class="line__headline-secondary color__zenith-blue--border"
+                                padding="0px 0px 10px 0px"
+                                width="85px" />
+
+                    <!-- *** START: Article Image *** -->
+                    <mj-image alt="Feature Article Image"
+                              padding="10px 0px"
+                              src="https://dummyimage.com/600x244/e2e2e2/9b9b9b.jpg&text=Feature+Article+Image" />
+                    <!-- *** END: Article Image *** -->
+
+                    <!-- *** START: Article Excerpt *** -->
+                    <mj-text mj-class="text__normal color__carbon-black"
+                             padding="5px 0px">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ligula leo, ultricies vitae tortor non, eleifend pharetra eros. Morbi maximus eleifend elit, ac venenatis purus. Aliquam nec ex neque.
+                    </mj-text>
+                    <!-- *** END: Article Excerpt *** -->
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="30px 0px 0px 0px">
+                <mj-column padding="0px" width="26%">
+                    <mj-spacer height="1px" />
+                </mj-column>
+                <mj-column padding="0px" width="48%">
+                    <mj-button mj-class="button__secondary color__zenith-blue--bg color__white"
+                               css-class="button-full-flush"
+                               width="100%"
+                               padding="0px"
+                               href="#">
+                        <span style="letter-spacing: normal;">
+                            <!-- *** START: Button Text *** -->
+                            Read Article
+                            <!-- *** END: Button Text *** -->
+                        </span>
+                    </mj-button>
+                </mj-column>
+                <mj-column padding="0px" width="26%">
+                    <mj-spacer height="1px" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Featured Article
+        ***
+        -->

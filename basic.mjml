@@ -108,11 +108,34 @@
                       font-weight="normal"
                       font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
                       padding="0px 20px" />
+            <mj-class name="text__cta-tertiary"
+                      color="#000000"
+                      font-size="22px"
+                      line-height="27px"
+                      font-weight="normal"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      padding="0px 20px" />
             <mj-class name="line__cta-primary"
                       border-color="#000000"
                       border-width="5px"
                       padding="0px 20px 0px 20px"
                       width="85px" />
+
+            <!-- Newsletter Call to Action Styles -->
+            <mj-class name="text__cta-newsletter-primary"
+                      color="#ffffff"
+                      font-size="40px"
+                      line-height="44px"
+                      font-weight="bold"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      padding="10px 20px 5px 20px" />
+            <mj-class name="text__cta-newsletter-secondary"
+                      color="#ffffff"
+                      font-size="20px"
+                      line-height="20px"
+                      font-weight="normal"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      padding="0px 20px" />
 
             <!-- Secondary Headline Styles-->
             <mj-class name="text__headline-secondary"
@@ -165,6 +188,25 @@
                       font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
                       align="left"
                       padding="10px 0px 15px 0px" />
+            <mj-class name="text__disclaimer"
+                      color="#8d9295"
+                      font-size="10px"
+                      line-height="12px"
+                      font-weight="normal"
+                      font-style="normal"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      align="right"
+                      padding="0px" />
+            <mj-class name="text__info-callout"
+                      color="#8d9295"
+                      font-size="56px"
+                      line-height="56px"
+                      font-weight="bold"
+                      font-style="normal"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      align="left"
+                      padding="0px" />
+
             <mj-class name="line__normal"
                       border-color="#000000"
                       border-width="1px"
@@ -182,6 +224,13 @@
                       font-weight="bold"
                       font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
                       padding="15px 40px" />
+            <mj-class name="button__secondary"
+                      border-radius="0px"
+                      font-size="15px"
+                      line-height="20px"
+                      font-weight="bold"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      padding="15px 30px" />
 
             <!-- Template-Specific Styles -->
             <mj-class name="block__grey--faded"
@@ -190,6 +239,21 @@
                       border-top="1px #01426a solid"
                       border-bottom="1px #01426a solid"
                       vertical-align="middle" />
+            <mj-class name="block__newsletter"
+                      padding="20px 40px" />
+            <mj-class name="block__newsletter--compact"
+                      padding="10px 40px" />
+            <mj-class name="block__newsletter--flush"
+                      padding="0px 40px" />
+            <mj-class name="block__info-callout--left"
+                      padding="0px 20px"
+                      width="25%"
+                      border-right="7px #009cde solid"
+                      vertical-align="top" />
+            <mj-class name="block__info-callout--right"
+                      padding="0px 20px"
+                      width="75%"
+                      vertical-align="top" />
         </mj-attributes>
         <mj-style>
             .color__faro-blue { color: #01426a; }
@@ -208,17 +272,30 @@
             .divider-left { display: inline-block; text-align: left; }
             .divider-left p { display: inline-block; }
             .button-full { padding-left:20px !important; padding-right:20px !important; }
-            .button-full a { display: block !important; }
+            .button-full-flush { padding-left:0 !important; padding-right:0 !important; }
+            .button-full a, .button-full-flush a { display: block !important; }
+            .link-nostyle { color: inherit; }
             .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
-            sup { vertical-align: baseline; position: relative; top: -4px; }
+            .mobile-visible { display: none !important; }
+
+            sup { font-variant: super; vertical-align: baseline; position: relative; top: -4px; }
+
             @media screen and (min-width: 697px) {
                 .vertical-header > table > tbody > tr > td { padding-left: 0 !important; padding-right: 0 !important; }
-                .button-full { padding-left:0 !important; padding-right:0 !important; }
+                .button-full, .button-full-flush { padding-left:0 !important; padding-right:0 !important; }
+                .button-full > table, .button-full-flush > table { max-width: 230px !important; }
                 .divider-left { padding-left:20px !important; padding-right:20px !important; }
+                .line-height-fix > div { position: relative !important; margin-top: -5px !important; }
             }
-            @media only screen and (max-width:697px) {
+            @media only screen and (max-width: 697px) {
                 table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
                 td.full-width-mobile { width: auto !important; }
+                .mobile-align-left { text-align: left !important; }
+                .mobile-visible { display: block !important; }
+                .mobile-border-erase > table > tbody > tr > td { border: none !important; }
+                .mobile-newsletter-section > table > tbody > tr > td { padding-top: 15px !important; padding-bottom: 15px !important; padding-left: 15px !important; padding-right: 15px !important; }
+                .mobile-newsletter-section-compact > table > tbody > tr > td { padding-top: 15px !important; padding-bottom: 15px !important; padding-left: 15px !important; padding-right: 15px !important; }
+                .mobile-newsletter-section-flush > table > tbody > tr > td { padding-top: 0 !important; padding-bottom: 0 !important; padding-left: 15px !important; padding-right: 15px !important; }
             }
             @media only screen and (max-width: 479px) {
                 .emailfooter, .emailheader { width: 100% !important; }

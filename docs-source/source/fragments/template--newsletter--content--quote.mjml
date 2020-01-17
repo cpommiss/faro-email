@@ -1,0 +1,64 @@
+
+        <!--
+        ***
+        *** START: Informational Callout (Quote)
+        ***
+        -->
+        <mj-wrapper mj-class="block__newsletter--compact"
+                    css-class="mobile-newsletter-section-compact">
+            <mj-section mj-class="color__anthracite-gray--bg"
+                        border-bottom="5px #e2e2e2 solid"
+                        padding="15px 0px">
+                <mj-column mj-class="block__info-callout--left"
+                           css-class="mobile-border-erase">
+                    <mj-image css-class="mobile-align-left"
+                              alt="Quotation mark"
+                              width="73px"
+                              height="67px"
+                              padding="0px"
+                              align="center"
+                              src="https://img.en25.com/EloquaImages/clients/Faro/%7B52857346-7eba-4457-81ce-603498657e47%7D_inline-ldquo.jpg" />
+
+                    <mj-spacer css-class="mobile-visible"
+                               height="25px" />
+                </mj-column>
+                <mj-column mj-class="block__info-callout--right">
+                    <!-- *** START: Quote Text *** -->
+                    <mj-text mj-class="text__normal color__white"
+                             css-class="line-height-fix"
+                             padding="0px">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lorem id diam semper fermentum. Duis tincidunt, orci et fringilla laoreet, nibh magna egestas dolor, id sollicitudin justo diam id nibh.
+                    </mj-text>
+                    <!-- *** END: Quote Text *** -->
+
+                    <mj-spacer css-class="mobile-visible"
+                               height="10px" />
+
+                    <!-- *** START: Quote Attribution *** -->
+                    <mj-text mj-class="text__normal color__white"
+                             align="right"
+                             padding="10px 0px 0px 0px">
+                        &mdash; Name, Title
+                    </mj-text>
+                    <!-- *** END: Quote Attribution *** -->
+
+                    <mj-spacer css-class="mobile-visible"
+                               height="25px" />
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="5px 0px">
+                <mj-column width="100%">
+                    <!-- *** START: Disclaimer Text *** -->
+                    <mj-text mj-class="text__disclaimer">
+                        3rd party verified by TechValidate&trade; market research survey
+                    </mj-text>
+                    <!-- *** END: Disclaimer Text *** -->
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Informational Callout (Quote)
+        ***
+        -->

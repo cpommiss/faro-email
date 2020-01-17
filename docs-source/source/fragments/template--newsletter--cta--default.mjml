@@ -1,0 +1,38 @@
+
+        <!--
+        ***
+        *** START: Top Image (Newsletter)
+        ***
+        -->
+        <mj-wrapper mj-class="color__white--bg"
+                    css-class="top-image"
+                    padding="50px 0px 55px 0px"
+                    background-url="https://img.en25.com/EloquaImages/clients/Faro/%7B8c25baf5-cf06-484c-8163-39b7b77c2da1%7D_bg-newsletter-top-image.jpg"
+                    background-size="680px"
+                    background-repeat="no-repeat"
+                    text-align="center">
+            <mj-section padding="0px">
+                <mj-column width="100%" padding="0px">
+                    <mj-divider mj-class="line__cta-primary color__zenith-blue--border" />
+
+                    <!-- *** START: Headline Text *** -->
+                    <mj-text mj-class="text__cta-newsletter-primary color__white"
+                             align="center">
+                        Effective. Informed. Inspired.
+                    </mj-text>
+                    <!-- *** END: Headline Text *** -->
+
+                    <!-- *** START: Sub-Headline Text *** -->
+                    <mj-text mj-class="text__cta-newsletter-secondary color__white"
+                             align="center">
+                        Newsletter | December 2019
+                    </mj-text>
+                    <!-- *** END: Sub-Headline Text *** -->
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Top Image (Newsletter)
+        ***
+        -->

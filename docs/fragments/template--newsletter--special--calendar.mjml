@@ -1,0 +1,167 @@
+
+        <!--
+        ***
+        *** START: Events Calendar
+        ***
+        -->
+        <mj-wrapper padding="0px">
+            <mj-section padding="0px"
+                        background-url="http://img.en25.com/EloquaImages/clients/Faro/%7B2a5d9795-756e-44a7-9c26-f6579006119e%7D_bg-newsletter-calendar-top.jpg"
+                        background-repeat="no-repeat">
+                <mj-column width="100%">
+                    <mj-spacer height="140px" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <mj-wrapper mj-class="block__newsletter"
+                    css-class="mobile-newsletter-section">
+            <mj-section padding="0px">
+                <mj-column width="50px">
+                    <mj-spacer css-class="mobile-visible"
+                               height="1px" />
+                </mj-column>
+                <mj-column width="500px">
+                    <!-- *** START: EVENT SECTION *** -->
+                        <!-- *** START: Event Section Header *** -->
+                        <mj-text mj-class="text__cta-tertiary color__faro-blue"
+                                 font-weight="normal"
+                                 padding="0px">
+                            Webinars
+                        </mj-text>
+                        <!-- *** END: Event Section Header *** -->
+
+                        <mj-divider mj-class="color__light-metal-gray--border"
+                                    padding="5px 0px 10px 0px"
+                                    border-width="1px" />
+
+                        <!-- *** START: EVENT LIST *** -->
+                            <!-- *** START: INDIVIDUAL EVENT *** -->
+                                <!-- *** START: Event Date *** -->
+                                <mj-text mj-class="text__cta-tertiary color__carbon-black"
+                                         font-weight="normal"
+                                         padding="10px 0px 5px 0px">
+                                    NOV <span style="color: #8d9295;">|</span> 22
+                                </mj-text>
+                                <!-- *** END: Event Date *** -->
+
+                                <!-- *** START: Event Link *** -->
+                                <mj-text mj-class="text__normal color__zenith-blue"
+                                         padding="0px 0px 5px 0px">
+                                    <a href="#" class="link-nostyle">CAPTURING CRASH SCENE DETAILS [BEST PRACTICES]</a>
+                                </mj-text>
+                                <!-- *** START: Event Link *** -->
+
+                                <!-- *** END: Event Location/Time *** -->
+                                <mj-text mj-class="text__normal color__light-metal-gray"
+                                         padding="0px">
+                                    10:00 AM - 11:00 AM EST
+                                </mj-text>
+                                <!-- *** END: Event Location/Time *** -->
+                            <!-- *** END: INDIVIDUAL EVENT *** -->
+                        <!-- *** END: EVENT LIST *** -->
+                    <!-- *** END: EVENT SECTION *** -->
+
+                    <mj-spacer height="40px" />
+
+                    <!-- *** START: EVENT SECTION *** -->
+                        <!-- *** START: Event Section Header *** -->
+                        <mj-text mj-class="text__cta-tertiary color__faro-blue"
+                                 font-weight="normal"
+                                 padding="0px">
+                            Workshops
+                        </mj-text>
+                        <!-- *** END: Event Section Header *** -->
+
+                        <mj-divider mj-class="color__light-metal-gray--border"
+                                    padding="5px 0px 10px 0px"
+                                    border-width="1px" />
+
+                        <!-- *** START: EVENT LIST *** -->
+                            <!-- *** START: INDIVIDUAL EVENT *** -->
+                                <!-- *** START: Event Date *** -->
+                                <mj-text mj-class="text__cta-tertiary color__carbon-black"
+                                         font-weight="normal"
+                                         padding="10px 0px 5px 0px">
+                                    DEC <span style="color: #8d9295;">|</span> 10-12
+                                </mj-text>
+                                <!-- *** END: Event Date *** -->
+
+                                <!-- *** START: Event Link *** -->
+                                <mj-text mj-class="text__normal color__zenith-blue"
+                                         padding="0px 0px 5px 0px">
+                                    <a href="#" class="link-nostyle">FARO FORENSIC WORKSHOP</a>
+                                </mj-text>
+                                <!-- *** START: Event Link *** -->
+
+                                <!-- *** END: Event Location/Time *** -->
+                                <mj-text mj-class="text__normal color__light-metal-gray"
+                                         padding="0px">
+                                    Fairfield, CT | 8:00 AM - 4:00 PM MT
+                                </mj-text>
+                                <!-- *** END: Event Location/Time *** -->
+                            <!-- *** END: INDIVIDUAL EVENT *** -->
+                        <!-- *** END: EVENT LIST *** -->
+                    <!-- *** END: EVENT SECTION *** -->
+
+                    <mj-spacer height="40px" />
+
+                    <!-- *** START: EVENT SECTION *** -->
+                        <!-- *** START: Event Section Header *** -->
+                        <mj-text mj-class="text__cta-tertiary color__faro-blue"
+                                 font-weight="normal"
+                                 padding="0px">
+                            Tradeshows
+                        </mj-text>
+                        <!-- *** END: Event Section Header *** -->
+
+                        <mj-divider mj-class="color__light-metal-gray--border"
+                                    padding="5px 0px 10px 0px"
+                                    border-width="1px" />
+
+                        <!-- *** START: EVENT LIST *** -->
+                            <!-- *** START: INDIVIDUAL EVENT *** -->
+                                <!-- *** START: Event Date *** -->
+                                <mj-text mj-class="text__cta-tertiary color__carbon-black"
+                                         font-weight="normal"
+                                         padding="10px 0px 5px 0px">
+                                    NOV <span style="color: #8d9295;">|</span> 19-21
+                                </mj-text>
+                                <!-- *** END: Event Date *** -->
+
+                                <!-- *** START: Event Link *** -->
+                                <mj-text mj-class="text__normal color__zenith-blue"
+                                         padding="0px 0px 5px 0px">
+                                    <a href="#" class="link-nostyle">AUTODESK UNIVERSITY</a>
+                                </mj-text>
+                                <!-- *** START: Event Link *** -->
+
+                                <!-- *** END: Event Location/Time *** -->
+                                <mj-text mj-class="text__normal color__light-metal-gray"
+                                         padding="0px">
+                                    Las Vegas, NV | Booth # XXXXX
+                                </mj-text>
+                                <!-- *** END: Event Location/Time *** -->
+                            <!-- *** END: INDIVIDUAL EVENT *** -->
+                        <!-- *** END: EVENT LIST *** -->
+                    <!-- *** END: EVENT SECTION *** -->
+                </mj-column>
+                <mj-column width="50px">
+                    <mj-spacer css-class="mobile-visible"
+                               height="1px" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <mj-wrapper padding="0px">
+            <mj-section padding="0px"
+                        background-url="http://img.en25.com/EloquaImages/clients/Faro/%7B74cb8158-5f92-481f-bb6e-138260b3898c%7D_bg-newsletter-calendar-bottom.jpg"
+                        background-repeat="no-repeat">
+                <mj-column width="100%">
+                    <mj-spacer height="60px" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!--
+        ***
+        *** END: Events Calendar
+        ***
+        -->

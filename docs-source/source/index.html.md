@@ -38,12 +38,21 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
           <option value="template--cta--single-column">Top Image/Title: Single Column</option>
           <option value="template--cta--two-column">Top Image/Title: Two Column</option>
         </optgroup>
+        <optgroup label="Top Image/Title (Newsletter)">
+          <option value="template--newsletter--cta--default">Top Image/Title: Single Column</option>
+        </optgroup>
         <optgroup label="Content Blocks">
           <option value="template--content--basic">Content Block: One Column Text</option>
           <option value="template--content--two-column-text">Content Block: Two Column Text</option>
           <option value="template--content--two-column-left">Content Block: Two Column with Image (Left)</option>
           <option value="template--content--two-column-right">Content Block: Two Column with Image (Right)</option>
           <option value="template--content--image">Content Block: Image (Full-width)</option>
+        </optgroup>
+        <optgroup label="Content Blocks (Newsletter)">
+          <option value="template--newsletter--content--article-featured">Content Block: Featured Article</option>
+          <option value="template--newsletter--content--article">Content Block: Article with Image</option>
+          <option value="template--newsletter--content--quote">Content Block: Quote</option>
+          <option value="template--newsletter--content--statistic">Content Block: Statistic</option>
         </optgroup>
         <optgroup label="Lists">
           <option value="template--content--list-wide">List: Wide</option>
@@ -58,10 +67,19 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
           <option value="template--buttons--two-columns">Buttons: Two Across</option>
           <option value="template--buttons--three-columns">Buttons: Three Across</option>
         </optgroup>
+        <optgroup label="Buttons (Newsletter)">
+          <option value="template--newsletter--buttons--single">Button: Single</option>
+          <option value="template--newsletter--buttons--three-columns">Buttons: Three Across</option>
+        </optgroup>
         <optgroup label="Special">
           <option value="template--special--highlight">Special: Call to Action with Background</option>
           <option value="template--special--mono">Special: Call to Action with Icon (Monochrome)</option>
           <option value="template--special--two-tone">Special: Call to Action with Icon (Two Tone)</option>
+        </optgroup>
+        <optgroup label="Special (Newsletter)">
+          <option value="template--newsletter--special--divider">Special: Divider</option>
+          <option value="template--newsletter--special--calendar">Special: Events Calendar</option>
+          <option value="template--newsletter--special--resources">Special: Insights and Resources</option>
         </optgroup>
       </select>
     </div>
@@ -207,11 +225,34 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
                       font-weight="normal"
                       font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
                       padding="0px 20px" />
+            <mj-class name="text__cta-tertiary"
+                      color="#000000"
+                      font-size="22px"
+                      line-height="27px"
+                      font-weight="normal"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      padding="0px 20px" />
             <mj-class name="line__cta-primary"
                       border-color="#000000"
                       border-width="5px"
-                      padding="0px"
+                      padding="0px 20px 0px 20px"
                       width="85px" />
+
+            <!-- Newsletter Call to Action Styles -->
+            <mj-class name="text__cta-newsletter-primary"
+                      color="#ffffff"
+                      font-size="40px"
+                      line-height="44px"
+                      font-weight="bold"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      padding="10px 20px 5px 20px" />
+            <mj-class name="text__cta-newsletter-secondary"
+                      color="#ffffff"
+                      font-size="20px"
+                      line-height="20px"
+                      font-weight="normal"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      padding="0px 20px" />
 
             <!-- Secondary Headline Styles-->
             <mj-class name="text__headline-secondary"
@@ -225,7 +266,7 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
             <mj-class name="line__headline-secondary"
                       border-color="#000000"
                       border-width="2px"
-                      align="left" 
+                      align="left"
                       padding="5px 0px" />
 
             <!-- Sub Headline Styles -->
@@ -264,6 +305,25 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
                       font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
                       align="left"
                       padding="10px 0px 15px 0px" />
+            <mj-class name="text__disclaimer"
+                      color="#8d9295"
+                      font-size="10px"
+                      line-height="12px"
+                      font-weight="normal"
+                      font-style="normal"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      align="right"
+                      padding="0px" />
+            <mj-class name="text__info-callout"
+                      color="#8d9295"
+                      font-size="56px"
+                      line-height="56px"
+                      font-weight="bold"
+                      font-style="normal"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      align="left"
+                      padding="0px" />
+
             <mj-class name="line__normal"
                       border-color="#000000"
                       border-width="1px"
@@ -281,6 +341,13 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
                       font-weight="bold"
                       font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
                       padding="15px 40px" />
+            <mj-class name="button__secondary"
+                      border-radius="0px"
+                      font-size="15px"
+                      line-height="20px"
+                      font-weight="bold"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      padding="15px 30px" />
 
             <!-- Template-Specific Styles -->
             <mj-class name="block__grey--faded"
@@ -289,6 +356,21 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
                       border-top="1px #01426a solid"
                       border-bottom="1px #01426a solid"
                       vertical-align="middle" />
+            <mj-class name="block__newsletter"
+                      padding="20px 40px" />
+            <mj-class name="block__newsletter--compact"
+                      padding="10px 40px" />
+            <mj-class name="block__newsletter--flush"
+                      padding="0px 40px" />
+            <mj-class name="block__info-callout--left"
+                      padding="0px 20px"
+                      width="25%"
+                      border-right="7px #009cde solid"
+                      vertical-align="top" />
+            <mj-class name="block__info-callout--right"
+                      padding="0px 20px"
+                      width="75%"
+                      vertical-align="top" />
         </mj-attributes>
         <mj-style>
             .color__faro-blue { color: #01426a; }
@@ -306,18 +388,31 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
             .color__beaming-red { color: #d50037; }
             .divider-left { display: inline-block; text-align: left; }
             .divider-left p { display: inline-block; }
-          	.button-full { padding-left:20px !important; padding-right:20px !important; }
-            .button-full a { display: block !important; }
+            .button-full { padding-left:20px !important; padding-right:20px !important; }
+            .button-full-flush { padding-left:0 !important; padding-right:0 !important; }
+            .button-full a, .button-full-flush a { display: block !important; }
+            .link-nostyle { color: inherit; }
             .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
-            sup { vertical-align: baseline; position: relative; top: -4px; }
+            .mobile-visible { display: none !important; }
+
+            sup { font-variant: super; vertical-align: baseline; position: relative; top: -4px; }
+
             @media screen and (min-width: 697px) {
                 .vertical-header > table > tbody > tr > td { padding-left: 0 !important; padding-right: 0 !important; }
-                .button-full { padding-left:0 !important; padding-right:0 !important; }
+                .button-full, .button-full-flush { padding-left:0 !important; padding-right:0 !important; }
+                .button-full > table, .button-full-flush > table { max-width: 230px !important; }
+                .divider-left { padding-left:20px !important; padding-right:20px !important; }
+                .line-height-fix > div { position: relative !important; margin-top: -5px !important; }
             }
-            @media only screen and (max-width:697px) {
+            @media only screen and (max-width: 697px) {
                 table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
                 td.full-width-mobile { width: auto !important; }
-                .divider-left { padding-left:20px !important; padding-right:20px !important; }
+                .mobile-align-left { text-align: left !important; }
+                .mobile-visible { display: block !important; }
+                .mobile-border-erase > table > tbody > tr > td { border: none !important; }
+                .mobile-newsletter-section > table > tbody > tr > td { padding-top: 15px !important; padding-bottom: 15px !important; padding-left: 15px !important; padding-right: 15px !important; }
+                .mobile-newsletter-section-compact > table > tbody > tr > td { padding-top: 15px !important; padding-bottom: 15px !important; padding-left: 15px !important; padding-right: 15px !important; }
+                .mobile-newsletter-section-flush > table > tbody > tr > td { padding-top: 0 !important; padding-bottom: 0 !important; padding-left: 15px !important; padding-right: 15px !important; }
             }
             @media only screen and (max-width: 479px) {
                 .emailfooter, .emailheader { width: 100% !important; }
@@ -332,11 +427,11 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
                 .mblnav { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;color:#ffffff !important; font-weight: bold !important;font-size:14px !important;text-decoration: none !important;display:block; padding:15px; width:90%; background-color: #939598; }
             }
         </mj-style>
-      	<mj-style inline="inline">
+        <mj-style inline="inline">
             div.list ul, div.list ol { padding-inline-start: 20px; -webkit-padding-start: 20px; margin-top: 0; }
             div.list ul li { list-style: disc outside; mso-special-format: bullet; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
             div.list ol li { list-style: decimal outside; mso-special-format: decimal; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
-      	</mj-style>
+        </mj-style>
         <!--[if gte mso 9]>
         <style>
             div.list { Margin: 0 0 0 -20px; }
@@ -495,11 +590,34 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
                       font-weight="normal"
                       font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
                       padding="0px 20px" />
+            <mj-class name="text__cta-tertiary"
+                      color="#000000"
+                      font-size="22px"
+                      line-height="27px"
+                      font-weight="normal"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      padding="0px 20px" />
             <mj-class name="line__cta-primary"
                       border-color="#000000"
                       border-width="5px"
-                      padding="0px"
+                      padding="0px 20px 0px 20px"
                       width="85px" />
+
+            <!-- Newsletter Call to Action Styles -->
+            <mj-class name="text__cta-newsletter-primary"
+                      color="#ffffff"
+                      font-size="40px"
+                      line-height="44px"
+                      font-weight="bold"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      padding="10px 20px 5px 20px" />
+            <mj-class name="text__cta-newsletter-secondary"
+                      color="#ffffff"
+                      font-size="20px"
+                      line-height="20px"
+                      font-weight="normal"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      padding="0px 20px" />
 
             <!-- Secondary Headline Styles-->
             <mj-class name="text__headline-secondary"
@@ -513,7 +631,7 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
             <mj-class name="line__headline-secondary"
                       border-color="#000000"
                       border-width="2px"
-                      align="left" 
+                      align="left"
                       padding="5px 0px" />
 
             <!-- Sub Headline Styles -->
@@ -552,6 +670,25 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
                       font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
                       align="left"
                       padding="10px 0px 15px 0px" />
+            <mj-class name="text__disclaimer"
+                      color="#8d9295"
+                      font-size="10px"
+                      line-height="12px"
+                      font-weight="normal"
+                      font-style="normal"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      align="right"
+                      padding="0px" />
+            <mj-class name="text__info-callout"
+                      color="#8d9295"
+                      font-size="56px"
+                      line-height="56px"
+                      font-weight="bold"
+                      font-style="normal"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      align="left"
+                      padding="0px" />
+
             <mj-class name="line__normal"
                       border-color="#000000"
                       border-width="1px"
@@ -569,6 +706,13 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
                       font-weight="bold"
                       font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
                       padding="15px 40px" />
+            <mj-class name="button__secondary"
+                      border-radius="0px"
+                      font-size="15px"
+                      line-height="20px"
+                      font-weight="bold"
+                      font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
+                      padding="15px 30px" />
 
             <!-- Template-Specific Styles -->
             <mj-class name="block__grey--faded"
@@ -577,6 +721,21 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
                       border-top="1px #01426a solid"
                       border-bottom="1px #01426a solid"
                       vertical-align="middle" />
+            <mj-class name="block__newsletter"
+                      padding="20px 40px" />
+            <mj-class name="block__newsletter--compact"
+                      padding="10px 40px" />
+            <mj-class name="block__newsletter--flush"
+                      padding="0px 40px" />
+            <mj-class name="block__info-callout--left"
+                      padding="0px 20px"
+                      width="25%"
+                      border-right="7px #009cde solid"
+                      vertical-align="top" />
+            <mj-class name="block__info-callout--right"
+                      padding="0px 20px"
+                      width="75%"
+                      vertical-align="top" />
         </mj-attributes>
         <mj-style>
             .color__faro-blue { color: #01426a; }
@@ -594,18 +753,31 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
             .color__beaming-red { color: #d50037; }
             .divider-left { display: inline-block; text-align: left; }
             .divider-left p { display: inline-block; }
-          	.button-full { padding-left:20px !important; padding-right:20px !important; }
-            .button-full a { display: block !important; }
+            .button-full { padding-left:20px !important; padding-right:20px !important; }
+            .button-full-flush { padding-left:0 !important; padding-right:0 !important; }
+            .button-full a, .button-full-flush a { display: block !important; }
+            .link-nostyle { color: inherit; }
             .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
-            sup { vertical-align: baseline; position: relative; top: -4px; }
+            .mobile-visible { display: none !important; }
+
+            sup { font-variant: super; vertical-align: baseline; position: relative; top: -4px; }
+
             @media screen and (min-width: 697px) {
                 .vertical-header > table > tbody > tr > td { padding-left: 0 !important; padding-right: 0 !important; }
-                .button-full { padding-left:0 !important; padding-right:0 !important; }
+                .button-full, .button-full-flush { padding-left:0 !important; padding-right:0 !important; }
+                .button-full > table, .button-full-flush > table { max-width: 230px !important; }
+                .divider-left { padding-left:20px !important; padding-right:20px !important; }
+                .line-height-fix > div { position: relative !important; margin-top: -5px !important; }
             }
-            @media only screen and (max-width:697px) {
+            @media only screen and (max-width: 697px) {
                 table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
                 td.full-width-mobile { width: auto !important; }
-                .divider-left { padding-left:20px !important; padding-right:20px !important; }
+                .mobile-align-left { text-align: left !important; }
+                .mobile-visible { display: block !important; }
+                .mobile-border-erase > table > tbody > tr > td { border: none !important; }
+                .mobile-newsletter-section > table > tbody > tr > td { padding-top: 15px !important; padding-bottom: 15px !important; padding-left: 15px !important; padding-right: 15px !important; }
+                .mobile-newsletter-section-compact > table > tbody > tr > td { padding-top: 15px !important; padding-bottom: 15px !important; padding-left: 15px !important; padding-right: 15px !important; }
+                .mobile-newsletter-section-flush > table > tbody > tr > td { padding-top: 0 !important; padding-bottom: 0 !important; padding-left: 15px !important; padding-right: 15px !important; }
             }
             @media only screen and (max-width: 479px) {
                 .emailfooter, .emailheader { width: 100% !important; }
@@ -618,13 +790,13 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
                 span.rmbtn { color:#ffffff !important; }
                 a.rmbtn { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;text-align:center!important;color:#ffffff !important;font-weight: bold !important;font-size:16px !important;text-decoration: none !important;display:block; padding:15px; width:90%;background-color: #009cde; }
                 .mblnav { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;color:#ffffff !important; font-weight: bold !important;font-size:14px !important;text-decoration: none !important;display:block; padding:15px; width:90%; background-color: #939598; }
-            }        
+            }
         </mj-style>
-      	<mj-style inline="inline">
+        <mj-style inline="inline">
             div.list ul, div.list ol { padding-inline-start: 20px; -webkit-padding-start: 20px; margin-top: 0; }
             div.list ul li { list-style: disc outside; mso-special-format: bullet; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
             div.list ol li { list-style: decimal outside; mso-special-format: decimal; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
-      	</mj-style>
+        </mj-style>
         <!--[if gte mso 9]>
         <style>
             div.list { Margin: 0 0 0 -20px; }

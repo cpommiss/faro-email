@@ -69,6 +69,7 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
         </optgroup>
         <optgroup label="Buttons (Newsletter)">
           <option value="template--newsletter--buttons--single">Button: Single</option>
+          <option value="template--newsletter--buttons--two-columns">Buttons: Two Across</option>
           <option value="template--newsletter--buttons--three-columns">Buttons: Three Across</option>
         </optgroup>
         <optgroup label="Special">
@@ -79,7 +80,8 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
         <optgroup label="Special (Newsletter)">
           <option value="template--newsletter--special--divider">Special: Divider</option>
           <option value="template--newsletter--special--calendar">Special: Events Calendar</option>
-          <option value="template--newsletter--special--resources">Special: Insights and Resources</option>
+          <option value="template--newsletter--special--resources--three-columns">Special: Insights and Resources: Three Across</option>
+          <option value="template--newsletter--special--resources--two-columns">Special: Insights and Resources: Two Across</option>
         </optgroup>
       </select>
     </div>

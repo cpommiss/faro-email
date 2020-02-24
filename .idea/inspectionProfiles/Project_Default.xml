@@ -4,12 +4,14 @@
     <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="5">
+          <list size="7">
             <item index="0" class="java.lang.String" itemvalue="background-url" />
             <item index="1" class="java.lang.String" itemvalue="background-size" />
             <item index="2" class="java.lang.String" itemvalue="background-repeat" />
             <item index="3" class="java.lang.String" itemvalue="padding" />
             <item index="4" class="java.lang.String" itemvalue="margin" />
+            <item index="5" class="java.lang.String" itemvalue="mj-class" />
+            <item index="6" class="java.lang.String" itemvalue="css-class" />
           </list>
         </value>
       </option>

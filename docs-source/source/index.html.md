@@ -367,7 +367,6 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
             <mj-class name="block__info-callout--left"
                       padding="0px 20px"
                       width="25%"
-                      border-right="7px #009cde solid"
                       vertical-align="top" />
             <mj-class name="block__info-callout--right"
                       padding="0px 20px"
@@ -406,13 +405,13 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
                 .button-full > table, .button-full-flush > table { max-width: 230px !important; }
                 .divider-left { padding-left:20px !important; padding-right:20px !important; }
                 .line-height-fix > div { position: relative !important; margin-top: -5px !important; }
+                .mobile-info-callout-border > table > tbody > tr > td { border-right: 7px #009cde solid; }
             }
             @media only screen and (max-width: 697px) {
                 table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
                 td.full-width-mobile { width: auto !important; }
                 .mobile-align-left { text-align: left !important; }
                 .mobile-visible { display: block !important; }
-                .mobile-border-erase > table > tbody > tr > td { border: none !important; }
                 .mobile-newsletter-section > table > tbody > tr > td { padding-top: 15px !important; padding-bottom: 15px !important; padding-left: 15px !important; padding-right: 15px !important; }
                 .mobile-newsletter-section-compact > table > tbody > tr > td { padding-top: 15px !important; padding-bottom: 15px !important; padding-left: 15px !important; padding-right: 15px !important; }
                 .mobile-newsletter-section-flush > table > tbody > tr > td { padding-top: 0 !important; padding-bottom: 0 !important; padding-left: 15px !important; padding-right: 15px !important; }
@@ -735,7 +734,6 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
             <mj-class name="block__info-callout--left"
                       padding="0px 20px"
                       width="25%"
-                      border-right="7px #009cde solid"
                       vertical-align="top" />
             <mj-class name="block__info-callout--right"
                       padding="0px 20px"
@@ -774,13 +772,13 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
                 .button-full > table, .button-full-flush > table { max-width: 230px !important; }
                 .divider-left { padding-left:20px !important; padding-right:20px !important; }
                 .line-height-fix > div { position: relative !important; margin-top: -5px !important; }
+                .mobile-info-callout-border > table > tbody > tr > td { border-right: 7px #009cde solid; }
             }
             @media only screen and (max-width: 697px) {
                 table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
                 td.full-width-mobile { width: auto !important; }
                 .mobile-align-left { text-align: left !important; }
                 .mobile-visible { display: block !important; }
-                .mobile-border-erase > table > tbody > tr > td { border: none !important; }
                 .mobile-newsletter-section > table > tbody > tr > td { padding-top: 15px !important; padding-bottom: 15px !important; padding-left: 15px !important; padding-right: 15px !important; }
                 .mobile-newsletter-section-compact > table > tbody > tr > td { padding-top: 15px !important; padding-bottom: 15px !important; padding-left: 15px !important; padding-right: 15px !important; }
                 .mobile-newsletter-section-flush > table > tbody > tr > td { padding-top: 0 !important; padding-bottom: 0 !important; padding-left: 15px !important; padding-right: 15px !important; }
@@ -1623,7 +1621,7 @@ This code will look like this when rendered:
             <!-- *** START: Sub-Headline Text *** -->
             <mj-text mj-class="text__cta-newsletter-secondary color__white"
                      align="center">
-                Newsletter <span class="hide">|</span> <span class="show" style="display:none;"><br></span> December 2019
+                Newsletter <span class="hide">|</span> <span class="show" style="display:none;"><br /></span> December 2019
             </mj-text>
             <!-- *** END: Sub-Headline Text *** -->
         </mj-column>
@@ -2041,7 +2039,7 @@ This code will look like this when rendered:
                 border-bottom="5px #e2e2e2 solid"
                 padding="15px 0px">
         <mj-column mj-class="block__info-callout--left"
-                   css-class="mobile-border-erase">
+                   css-class="mobile-info-callout-border">
             <mj-image css-class="mobile-align-left"
                       alt="Quotation mark"
                       width="73px"
@@ -2111,7 +2109,7 @@ This code will look like this when rendered:
                 border-bottom="5px #e2e2e2 solid"
                 padding="15px 0px">
         <mj-column mj-class="block__info-callout--left"
-                   css-class="mobile-border-erase"
+                   css-class="mobile-info-callout-border"
                    padding="0px 0px 0px 20px">
             <!-- *** START: Statistic Amount *** -->
             <mj-text mj-class="text__info-callout">

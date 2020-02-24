@@ -1597,6 +1597,53 @@ This code will look like this when rendered:
 
 * You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
 
+## Newsletter Default
+
+```html
+<mj-wrapper mj-class="color__white--bg"
+            css-class="top-image"
+            padding="50px 0px 55px 0px"
+            background-url="https://img.en25.com/EloquaImages/clients/Faro/%7B8c25baf5-cf06-484c-8163-39b7b77c2da1%7D_bg-newsletter-top-image.jpg"
+            background-size="680px"
+            background-repeat="no-repeat"
+            text-align="center">
+    <mj-section padding="0px">
+        <mj-column width="100%" padding="0px">
+            <mj-divider mj-class="line__cta-primary color__zenith-blue--border" />
+
+            <!-- *** START: Headline Text *** -->
+            <mj-text mj-class="text__cta-newsletter-primary color__white"
+                     align="center">
+                Effective. Informed. Inspired.
+            </mj-text>
+            <!-- *** END: Headline Text *** -->
+
+            <mj-spacer css-class="mobile-newsletter-date"
+                       height="15px" />
+
+            <!-- *** START: Sub-Headline Text *** -->
+            <mj-text mj-class="text__cta-newsletter-secondary color__white"
+                     align="center">
+                Newsletter <span class="hide">|</span> <span class="show" style="display:none;"><br></span> December 2019
+            </mj-text>
+            <!-- *** END: Sub-Headline Text *** -->
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
+```
+Shown on the right is the MJML code to generate and display a newsletter-style top image/title. 
+
+This code will look like this when rendered:
+
+<aside>
+<img src="images/template--newsletter--cta--default.png" alt="Newsletter Default Top Image/Title">
+</aside>
+
+### Options and Notes
+
+* You can change the background image of this section by modifying the `background-url` attribute on the `mj-wrapper` tag.
+* Make sure you modify the headline and sub-headline text and date.
+
 # Content Blocks
 
 ## One-column Text
@@ -1637,6 +1684,76 @@ This code will look like this when rendered:
 ### Options and Notes
 
 * You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
+
+## One-column Featured Image (Newsletter)
+
+```html
+<mj-wrapper mj-class="block__newsletter"
+            css-class="mobile-newsletter-section">
+    <mj-section padding="0px">
+        <mj-column width="100%" padding="0px">
+            <!-- *** START: Article Headline *** -->
+            <mj-text mj-class="text__cta-tertiary color__faro-blue"
+                     padding="15px 25px"
+                     align="center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ligula leo, ultricies vitae
+            </mj-text>
+            <!-- *** END: Article Headline *** -->
+
+            <mj-divider mj-class="line__headline-secondary color__zenith-blue--border"
+                        padding="0px 0px 10px 0px"
+                        width="85px" />
+
+            <!-- *** START: Article Image *** -->
+            <mj-image alt="Feature Article Image"
+                      padding="10px 0px"
+                      src="https://dummyimage.com/600x244/e2e2e2/9b9b9b.jpg&text=Feature+Article+Image" />
+            <!-- *** END: Article Image *** -->
+
+            <!-- *** START: Article Excerpt *** -->
+            <mj-text mj-class="text__normal color__carbon-black"
+                     padding="5px 0px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ligula leo, ultricies vitae tortor non, eleifend pharetra eros. Morbi maximus eleifend elit, ac venenatis purus. Aliquam nec ex neque.
+            </mj-text>
+            <!-- *** END: Article Excerpt *** -->
+        </mj-column>
+    </mj-section>
+
+    <mj-section padding="30px 0px 0px 0px">
+        <mj-column padding="0px" width="26%">
+            <mj-spacer height="1px" />
+        </mj-column>
+        <mj-column padding="0px" width="48%">
+            <mj-button mj-class="button__secondary color__zenith-blue--bg color__white"
+                       css-class="button-full-flush"
+                       width="100%"
+                       padding="0px"
+                       href="#">
+                <span style="letter-spacing: normal;">
+                    <!-- *** START: Button Text *** -->
+                    Read Article
+                    <!-- *** END: Button Text *** -->
+                </span>
+            </mj-button>
+        </mj-column>
+        <mj-column padding="0px" width="26%">
+            <mj-spacer height="1px" />
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
+```
+Shown on the right is the MJML code to generate and display a one-column layout containing paragraph content.
+
+This code will look like this when rendered:
+
+<aside>
+<img src="images/template--newsletter--content--article-featured.png" alt="One-column Featured Image (Newsletter-style)">
+</aside>
+
+### Options and Notes
+
+* You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
+* Make sure to change the default placeholder image on the `mj-image` tag.
 
 ## Two-Column Text
 
@@ -1769,6 +1886,71 @@ This code will look like this when rendered:
 * You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
 * You can change the orientation of the image (i.e., place it on the right) by switching the order of the `<mj-column>` tags (i.e., swap the positions of the `<mj-column>` containing the image and the `<mj-column>` containing the paragraph text).
 
+## Two-Column with Image (Left, Newsletter)
+
+```html
+<mj-wrapper mj-class="block__newsletter"
+            css-class="mobile-newsletter-section">
+    <mj-section padding="0px">
+        <mj-column padding="0px"
+                   width="280px">
+            <!-- *** START: Article Image *** -->
+            <mj-image alt="Secondary Article Image"
+                      padding="10px 0px"
+                      src="https://dummyimage.com/280x212/e2e2e2/9b9b9b.jpg&text=Secondary+Article+Image" />
+            <!-- *** END: Article Image *** -->
+        </mj-column>
+        <mj-column width="20px"
+                   padding="0px">
+            <mj-spacer css-class="mobile-visible"
+                       height="10px" />
+        </mj-column>
+        <mj-column mj-class="block__info-callout--right"
+                   width="300px"
+                   padding="0px">
+            <!-- *** START: Article Headline *** -->
+            <mj-text mj-class="text__cta-tertiary color__faro-blue"
+                     padding="0px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ligula leo.
+            </mj-text>
+            <!-- *** END: Article Headline *** -->
+
+            <!-- *** START: Article Excerpt *** -->
+            <mj-text mj-class="text__normal color__anthracite-gray"
+                     padding="10px 0 10px 0px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ligula leo, ultricies vitae tortor non, eleifend pharetra eros. Morbi maximus eleifend elit, ac venenatis purus...
+            </mj-text>
+            <!-- *** END: Article Excerpt *** -->
+
+            <mj-button mj-class="button__secondary color__zenith-blue--bg color__white"
+                       css-class="button-full-flush"
+                       width="100%"
+                       padding="0px"
+                       align="left"
+                       href="#">
+                <span style="letter-spacing: normal;">
+                    <!-- *** START: Button Text *** -->
+                    Read Article
+                    <!-- *** END: Button Text *** -->
+                </span>
+            </mj-button>
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
+```
+Shown on the right is the MJML code to generate and display a two-column layout with an image on the left and paragraph content on the right, in the style of the FARO Newsletter.
+
+This code will look like this when rendered:
+
+<aside>
+<img src="images/template--newsletter--content--article.png" alt="Two-Column Content with Image (Left, Newsletter-style)">
+</aside>
+
+### Options and Notes
+
+* You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
+* You can change the orientation of the image (i.e., place it on the right) by switching the order of the `<mj-column>` tags (i.e., swap the positions of the `<mj-column>` containing the image and the `<mj-column>` containing the paragraph text).
+
 ## Two-Column with Image (Right)
 
 ```html
@@ -1850,6 +2032,134 @@ This code will look like this when rendered:
 ### Options and Notes
 
 * You can hyperlink the image by modifying the `href` attribute on the `<mj-image>` tag. If you do not want the image to be hyperlinked, simply remove (or do not specify) the `href` attribute.
+
+## Quote (Newsletter)
+
+```html
+<mj-wrapper mj-class="block__newsletter--compact"
+            css-class="mobile-newsletter-section-compact">
+    <mj-section mj-class="color__anthracite-gray--bg"
+                border-bottom="5px #e2e2e2 solid"
+                padding="15px 0px">
+        <mj-column mj-class="block__info-callout--left"
+                   css-class="mobile-border-erase">
+            <mj-image css-class="mobile-align-left"
+                      alt="Quotation mark"
+                      width="73px"
+                      height="67px"
+                      padding="0px"
+                      align="center"
+                      src="https://img.en25.com/EloquaImages/clients/Faro/%7B52857346-7eba-4457-81ce-603498657e47%7D_inline-ldquo.jpg" />
+
+            <mj-spacer css-class="mobile-visible"
+                       height="25px" />
+        </mj-column>
+        <mj-column mj-class="block__info-callout--right">
+            <!-- *** START: Quote Text *** -->
+            <mj-text mj-class="text__normal color__white"
+                     css-class="line-height-fix"
+                     padding="0px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lorem id diam semper fermentum. Duis tincidunt, orci et fringilla laoreet, nibh magna egestas dolor, id sollicitudin justo diam id nibh.
+            </mj-text>
+            <!-- *** END: Quote Text *** -->
+
+            <mj-spacer css-class="mobile-visible"
+                       height="10px" />
+
+            <!-- *** START: Quote Attribution *** -->
+            <mj-text mj-class="text__normal color__white"
+                     align="right"
+                     padding="10px 0px 0px 0px">
+                &mdash; Name, Title
+            </mj-text>
+            <!-- *** END: Quote Attribution *** -->
+
+            <mj-spacer css-class="mobile-visible"
+                       height="25px" />
+        </mj-column>
+    </mj-section>
+
+    <mj-section padding="5px 0px">
+        <mj-column width="100%">
+            <!-- *** START: Disclaimer Text *** -->
+            <mj-text mj-class="text__disclaimer">
+                3rd party verified by TechValidate&trade; market research survey
+            </mj-text>
+            <!-- *** END: Disclaimer Text *** -->
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
+```
+Shown on the right is the MJML code to generate and display a quote block in the style of the FARO Newsletter.
+
+This code will look like this when rendered:
+
+<aside>
+<img src="images/template--newsletter--content--quote.png" alt="Quote (Newsletter-style)">
+</aside>
+
+### Options and Notes
+
+* Make sure to add in the quote attribution (name, title) and modify the disclaimer text, if needed.
+* The disclaimer text can be removed if it is not needed by simply removing the MJML `mj-section` code (and everything within it) for that section.
+
+## Statistic (Newsletter)
+
+```html
+<mj-wrapper mj-class="block__newsletter--compact"
+            css-class="mobile-newsletter-section-compact">
+    <mj-section mj-class="color__anthracite-gray--bg"
+                border-bottom="5px #e2e2e2 solid"
+                padding="15px 0px">
+        <mj-column mj-class="block__info-callout--left"
+                   css-class="mobile-border-erase"
+                   padding="0px 0px 0px 20px">
+            <!-- *** START: Statistic Amount *** -->
+            <mj-text mj-class="text__info-callout">
+                88<sup>%</sup>
+            </mj-text>
+            <!-- *** END: Statistic Amount *** -->
+
+            <mj-spacer css-class="mobile-visible"
+                       height="25px" />
+        </mj-column>
+        <mj-column mj-class="block__info-callout--right">
+            <!-- *** START: Statistic Supporting Data *** -->
+            <mj-text mj-class="text__normal color__white"
+                     css-class="line-height-fix"
+                     padding="0px">
+                88% Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ligula leo, ultricies vitae tortor non, eleifend pharetra eros.
+            </mj-text>
+            <!-- *** END: Statistic Supporting Data *** -->
+
+            <mj-spacer css-class="mobile-visible"
+                       height="10px" />
+        </mj-column>
+    </mj-section>
+
+    <mj-section padding="5px 0px">
+        <mj-column width="100%">
+            <!-- *** START: Disclaimer Text *** -->
+            <mj-text mj-class="text__disclaimer">
+                3rd party verified by TechValidate&trade; market research survey
+            </mj-text>
+            <!-- *** END: Disclaimer Text *** -->
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
+```
+Shown on the right is the MJML code to generate and display a statistics block in the style of the FARO Newsletter.
+
+This code will look like this when rendered:
+
+<aside>
+<img src="images/template--newsletter--content--statistic.png" alt="Statistic (Newsletter-style)">
+</aside>
+
+### Options and Notes
+
+* When changing the statistic percentage amount, make sure it is not too long and does break the layout. The space allows for 100% to be displayed, but four digit numbers or decimals may cause problems with the layout.
+* Make sure to modify the disclaimer text, if needed.
 
 # Lists
 
@@ -2206,7 +2516,7 @@ This code will look like this when rendered:
 * Standard buttons require the `css-class="button-full"` CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.
 * For maximum compatibility, text within the `<mj-button>` tag must be wrapped with a `<span style="letter-spacing: normal">` tag, as shown in the example code. 
 
-## Single with Title
+## Single (with Title)
 
 ```html
 <mj-wrapper padding="10px 0px">
@@ -2254,6 +2564,62 @@ This code will look like this when rendered:
 * You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
 * Standard buttons require the `css-class="button-full"` CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.
 * For maximum compatibility, text within the `<mj-button>` tag must be wrapped with a `<span style="letter-spacing: normal">` tag, as shown in the example code. 
+
+## Single (Newsletter)
+
+```html
+<mj-wrapper mj-class="block__newsletter"
+            css-class="mobile-newsletter-section">
+    <mj-section padding="15px 15px 20px 15px"
+                background-color="#dddddd">
+        <mj-column width="100%">
+            <mj-text mj-class="text__cta-tertiary color__faro-blue"
+                     padding="0px"
+                     font-weight="normal"
+                     align="center">
+                Want to get in touch with us?
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-section padding="0px 15px 15px 15px"
+                background-color="#dddddd"
+                border-bottom="5px #868f94 solid">
+        <mj-column padding="0px" width="34%">
+            <mj-spacer height="1px" />
+        </mj-column>
+        <mj-column padding="0px" width="32%">
+            <mj-button mj-class="button__secondary color__zenith-blue--bg color__white"
+                       css-class="button-full-flush"
+                       width="100%"
+                       padding="0px"
+                       href="#">
+            <span style="letter-spacing: normal;">
+                <!-- *** START: Button Text *** -->
+                Button Text
+                <!-- *** END: Button Text *** -->
+            </span>
+            </mj-button>
+        </mj-column>
+        <mj-column padding="0px" width="34%">
+            <mj-spacer height="1px" />
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
+```
+Shown on the right is the MJML code to generate and display a single button in the style of the FARO Newsletter.
+
+This code will look like this when rendered:
+
+<aside>
+<img src="images/template--newsletter--buttons--single.png" alt="Buttons (Single Newsletter-style)">
+</aside>
+
+### Options and Notes
+
+* You can change the default `Want to get in touch with us?` headline text by simply modifying it.
+* You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
+* All buttons require the `css-class="button-full-flush"` CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.
 
 ## Two Across
 
@@ -2305,6 +2671,78 @@ This code will look like this when rendered:
 * You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
 * Standard buttons require the `css-class="button-full"` CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.
 * For maximum compatibility, text within the `<mj-button>` tag must be wrapped with a `<span style="letter-spacing: normal">` tag, as shown in the example code. 
+
+## Two Across (Newsletter)
+
+```html
+<mj-wrapper mj-class="block__newsletter"
+            css-class="mobile-newsletter-section">
+    <mj-section padding="15px 15px 20px 15px"
+                background-color="#dddddd">
+        <mj-column width="100%">
+            <mj-text mj-class="text__cta-tertiary color__faro-blue"
+                     padding="0px"
+                     font-weight="normal"
+                     align="center">
+                Want to get in touch with us?
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-section padding="0px 15px 15px 15px"
+                background-color="#dddddd"
+                border-bottom="5px #868f94 solid">
+        <mj-column padding="0px" width="17%">
+            <mj-spacer height="1px" />
+        </mj-column>
+        <mj-column padding="0px" width="32%">
+            <mj-button mj-class="button__secondary color__zenith-blue--bg color__white"
+                       css-class="button-full-flush"
+                       width="100%"
+                       padding="0px"
+                       href="#">
+                <span style="letter-spacing: normal;">
+                    <!-- *** START: Button Text *** -->
+                    Button Text
+                    <!-- *** END: Button Text *** -->
+                </span>
+            </mj-button>
+        </mj-column>
+        <mj-column padding="0px" width="2%">
+            <mj-spacer height="10px" />
+        </mj-column>
+        <mj-column padding="0px" width="32%">
+            <mj-button mj-class="button__secondary color__zenith-blue--bg color__white"
+                       css-class="button-full-flush"
+                       width="100%"
+                       padding="0px"
+                       href="#">
+                <span style="letter-spacing: normal;">
+                    <!-- *** START: Button Text *** -->
+                    Button Text
+                    <!-- *** END: Button Text *** -->
+                </span>
+            </mj-button>
+        </mj-column>
+        <mj-column padding="0px" width="17%">
+            <mj-spacer height="1px" />
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
+```
+Shown on the right is the MJML code to generate and display a two buttons in the style of the FARO Newsletter.
+
+This code will look like this when rendered:
+
+<aside>
+<img src="images/template--newsletter--buttons--two-columns.png" alt="Buttons (Two Across Newsletter-style)">
+</aside>
+
+### Options and Notes
+
+* You can change the default `Want to get in touch with us?` headline text by simply modifying it.
+* You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
+* All buttons require the `css-class="button-full-flush"` CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.
 
 ## Three Across
 
@@ -2372,6 +2810,88 @@ This code will look like this when rendered:
 * You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
 * Standard buttons require the `css-class="button-full"` CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.
 * For maximum compatibility, text within the `<mj-button>` tag must be wrapped with a `<span style="letter-spacing: normal">` tag, as shown in the example code. 
+
+## Three Across (Newsletter)
+
+```html
+<mj-wrapper mj-class="block__newsletter"
+            css-class="mobile-newsletter-section">
+    <mj-section padding="15px 15px 20px 15px"
+                background-color="#dddddd">
+        <mj-column width="100%">
+            <mj-text mj-class="text__cta-tertiary color__faro-blue"
+                     padding="0px"
+                     font-weight="normal"
+                     align="center">
+                Want to get in touch with us?
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-section padding="0px 15px 15px 15px"
+                background-color="#dddddd"
+                border-bottom="5px #868f94 solid">
+        <mj-column padding="0px" width="32%">
+            <mj-button mj-class="button__secondary color__zenith-blue--bg color__white"
+                       css-class="button-full-flush"
+                       width="100%"
+                       padding="0px"
+                       href="#">
+                <span style="letter-spacing: normal;">
+                    <!-- *** START: Button Text *** -->
+                    Button Text
+                    <!-- *** END: Button Text *** -->
+                </span>
+            </mj-button>
+        </mj-column>
+        <mj-column padding="0px" width="2%">
+            <mj-spacer height="10px" />
+        </mj-column>
+        <mj-column padding="0px" width="32%">
+            <mj-button mj-class="button__secondary color__zenith-blue--bg color__white"
+                       css-class="button-full-flush"
+                       width="100%"
+                       padding="0px"
+                       href="#">
+                <span style="letter-spacing: normal;">
+                    <!-- *** START: Button Text *** -->
+                    Button Text
+                    <!-- *** END: Button Text *** -->
+                </span>
+            </mj-button>
+        </mj-column>
+        <mj-column padding="0px" width="2%">
+            <mj-spacer height="10px" />
+        </mj-column>
+        <mj-column padding="0px" width="32%">
+            <mj-button mj-class="button__secondary color__zenith-blue--bg color__white"
+                       css-class="button-full-flush"
+                       width="100%"
+                       padding="0px"
+                       href="#">
+                <span style="letter-spacing: normal;">
+                    <!-- *** START: Button Text *** -->
+                    Button Text
+                    <!-- *** END: Button Text *** -->
+                </span>
+            </mj-button>
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
+```
+Shown on the right is the MJML code to generate and display a three buttons in the style of the FARO Newsletter.
+
+This code will look like this when rendered:
+
+<aside>
+<img src="images/template--newsletter--buttons--three-columns.png" alt="Buttons (Three Across Newsletter-style)">
+</aside>
+
+### Options and Notes
+
+* You can change the default `Want to get in touch with us?` headline text by simply modifying it.
+* You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
+* All buttons require the `css-class="button-full-flush"` CSS class to be applied to them in order for the entire button area to be clickable in all e-mail clients.
 
 # Combinations
 
@@ -2704,3 +3224,380 @@ This code will look like this when rendered:
 * The icon shown alongside the headline should be taken from the **[Headline Icons (White on Blue) Icon Set](#headline-icons-white-on-blue)**. Use the linked reference guide to find the icon you would like to use.
 * Refer to the **[Chevron Icon Set](#chevron-icons)** to find the color combination chevron icon to use with the button you create.
 * You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
+
+## Divider (Newsletter)
+
+```html
+<mj-wrapper mj-class="block__newsletter"
+            css-class="mobile-newsletter-section-flush">
+    <mj-section padding="0px">
+        <mj-column width="100%">
+            <mj-divider mj-class="line__headline-secondary color__white-gray--border"
+                        padding="10px 0px"
+                        width="100%" />
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
+```
+Shown on the right is the MJML code to generate and display a divider line in the style of the FARO Newsletter.
+
+This code will look like this when rendered:
+
+<aside>
+<img src="images/template--newsletter--special--divider.png" alt="Divider (Newsletter-style)">
+</aside>
+
+### Options and Notes
+
+* You can change the color of the any text or elements by changing any `color` CSS classes (i.e., `color__faro-blue` ) anywhere you see them in this snippet. For a list of CSS color classes, refer to the **[Colors](#colors)** section of this documentation.
+
+## FARO Live! Calendar (Newsletter)
+
+```html
+<mj-wrapper padding="0px">
+    <mj-section padding="0px"
+                background-url="http://img.en25.com/EloquaImages/clients/Faro/%7B2a5d9795-756e-44a7-9c26-f6579006119e%7D_bg-newsletter-calendar-top.jpg"
+                background-repeat="no-repeat">
+        <mj-column width="100%">
+            <mj-spacer height="140px" />
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
+<mj-wrapper mj-class="block__newsletter"
+            css-class="mobile-newsletter-section">
+    <mj-section padding="0px">
+        <mj-column width="50px">
+            <mj-spacer css-class="mobile-visible"
+                       height="1px" />
+        </mj-column>
+        <mj-column width="500px">
+            <!-- *** START: EVENT SECTION *** -->
+                <!-- *** START: Event Section Header *** -->
+                <mj-text mj-class="text__cta-tertiary color__faro-blue"
+                         font-weight="normal"
+                         padding="0px">
+                    Webinars
+                </mj-text>
+                <!-- *** END: Event Section Header *** -->
+
+                <mj-divider mj-class="color__light-metal-gray--border"
+                            padding="5px 0px 10px 0px"
+                            border-width="1px" />
+
+                <!-- *** START: EVENT LIST *** -->
+                    <!-- *** START: INDIVIDUAL EVENT *** -->
+                        <!-- *** START: Event Date *** -->
+                        <mj-text mj-class="text__cta-tertiary color__carbon-black"
+                                 font-weight="normal"
+                                 padding="10px 0px 5px 0px">
+                            NOV <span style="color: #8d9295;">|</span> 22
+                        </mj-text>
+                        <!-- *** END: Event Date *** -->
+
+                        <!-- *** START: Event Link *** -->
+                        <mj-text mj-class="text__normal color__zenith-blue"
+                                 padding="0px 0px 5px 0px">
+                            <a href="#" class="link-nostyle">CAPTURING CRASH SCENE DETAILS [BEST PRACTICES]</a>
+                        </mj-text>
+                        <!-- *** START: Event Link *** -->
+
+                        <!-- *** END: Event Location/Time *** -->
+                        <mj-text mj-class="text__normal color__light-metal-gray"
+                                 padding="0px">
+                            10:00 AM - 11:00 AM EST
+                        </mj-text>
+                        <!-- *** END: Event Location/Time *** -->
+                    <!-- *** END: INDIVIDUAL EVENT *** -->
+                <!-- *** END: EVENT LIST *** -->
+            <!-- *** END: EVENT SECTION *** -->
+
+            <mj-spacer height="40px" />
+
+            <!-- *** START: EVENT SECTION *** -->
+                <!-- *** START: Event Section Header *** -->
+                <mj-text mj-class="text__cta-tertiary color__faro-blue"
+                         font-weight="normal"
+                         padding="0px">
+                    Workshops
+                </mj-text>
+                <!-- *** END: Event Section Header *** -->
+
+                <mj-divider mj-class="color__light-metal-gray--border"
+                            padding="5px 0px 10px 0px"
+                            border-width="1px" />
+
+                <!-- *** START: EVENT LIST *** -->
+                    <!-- *** START: INDIVIDUAL EVENT *** -->
+                        <!-- *** START: Event Date *** -->
+                        <mj-text mj-class="text__cta-tertiary color__carbon-black"
+                                 font-weight="normal"
+                                 padding="10px 0px 5px 0px">
+                            DEC <span style="color: #8d9295;">|</span> 10-12
+                        </mj-text>
+                        <!-- *** END: Event Date *** -->
+
+                        <!-- *** START: Event Link *** -->
+                        <mj-text mj-class="text__normal color__zenith-blue"
+                                 padding="0px 0px 5px 0px">
+                            <a href="#" class="link-nostyle">FARO FORENSIC WORKSHOP</a>
+                        </mj-text>
+                        <!-- *** START: Event Link *** -->
+
+                        <!-- *** END: Event Location/Time *** -->
+                        <mj-text mj-class="text__normal color__light-metal-gray"
+                                 padding="0px">
+                            Fairfield, CT | 8:00 AM - 4:00 PM MT
+                        </mj-text>
+                        <!-- *** END: Event Location/Time *** -->
+                    <!-- *** END: INDIVIDUAL EVENT *** -->
+                <!-- *** END: EVENT LIST *** -->
+            <!-- *** END: EVENT SECTION *** -->
+
+            <mj-spacer height="40px" />
+
+            <!-- *** START: EVENT SECTION *** -->
+                <!-- *** START: Event Section Header *** -->
+                <mj-text mj-class="text__cta-tertiary color__faro-blue"
+                         font-weight="normal"
+                         padding="0px">
+                    Tradeshows
+                </mj-text>
+                <!-- *** END: Event Section Header *** -->
+
+                <mj-divider mj-class="color__light-metal-gray--border"
+                            padding="5px 0px 10px 0px"
+                            border-width="1px" />
+
+                <!-- *** START: EVENT LIST *** -->
+                    <!-- *** START: INDIVIDUAL EVENT *** -->
+                        <!-- *** START: Event Date *** -->
+                        <mj-text mj-class="text__cta-tertiary color__carbon-black"
+                                 font-weight="normal"
+                                 padding="10px 0px 5px 0px">
+                            NOV <span style="color: #8d9295;">|</span> 19-21
+                        </mj-text>
+                        <!-- *** END: Event Date *** -->
+
+                        <!-- *** START: Event Link *** -->
+                        <mj-text mj-class="text__normal color__zenith-blue"
+                                 padding="0px 0px 5px 0px">
+                            <a href="#" class="link-nostyle">AUTODESK UNIVERSITY</a>
+                        </mj-text>
+                        <!-- *** START: Event Link *** -->
+
+                        <!-- *** END: Event Location/Time *** -->
+                        <mj-text mj-class="text__normal color__light-metal-gray"
+                                 padding="0px">
+                            Las Vegas, NV | Booth # XXXXX
+                        </mj-text>
+                        <!-- *** END: Event Location/Time *** -->
+                    <!-- *** END: INDIVIDUAL EVENT *** -->
+                <!-- *** END: EVENT LIST *** -->
+            <!-- *** END: EVENT SECTION *** -->
+        </mj-column>
+        <mj-column width="50px">
+            <mj-spacer css-class="mobile-visible"
+                       height="1px" />
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
+<mj-wrapper padding="0px">
+    <mj-section padding="0px"
+                background-url="http://img.en25.com/EloquaImages/clients/Faro/%7B74cb8158-5f92-481f-bb6e-138260b3898c%7D_bg-newsletter-calendar-bottom.jpg"
+                background-repeat="no-repeat">
+        <mj-column width="100%">
+            <mj-spacer height="60px" />
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
+```
+Shown on the right is the MJML code to generate and display a calendar for upcoming FARO Live! events in the style of the FARO Newsletter.
+
+This code will look like this when rendered:
+
+<aside>
+<img src="images/template--newsletter--special--calendar.png" alt="FARO Live! Calendar (Newsletter-style)">
+</aside>
+
+### Options and Notes
+
+* The calendar has sections for **Webinars**, **Workshops** and **Tradeshows**. Any of these sections can be removed as needed by just removing the `mj-text` elements pertaining to that section.
+* Follow the comments to aid you in adding more events to a specific section.  You can simply copy/paste the code between the `START` and `END` comments for each event listing within a section.
+
+## Resources, Two Across (Newsletter)
+
+```html
+<mj-wrapper mj-class="block__newsletter"
+            css-class="mobile-newsletter-section">
+    <mj-section padding="10px 0px 0px 0px">
+        <mj-column width="100%">
+            <mj-text mj-class="text__cta-tertiary color__faro-blue"
+                     padding="0px"
+                     font-weight="normal"
+                     align="center">
+                Additional Insights & Resources
+            </mj-text>
+
+            <mj-divider mj-class="line__headline-secondary color__zenith-blue--border"
+                        padding="15px 0px 25px 0px"
+                        width="85px" />
+        </mj-column>
+    </mj-section>
+
+    <mj-section padding="0px">
+        <mj-column padding="0px"
+                   width="49%"
+                   border="1px #e2e2e2 solid">
+            <!-- *** START: Article Image *** -->
+            <mj-image alt="Secondary Article Image"
+                      padding="0px"
+                      src="https://dummyimage.com/193x105/e2e2e2/9b9b9b.jpg&text=Resource+Image" />
+            <!-- *** END: Article Image *** -->
+
+            <!-- *** START: Article Headline *** -->
+            <mj-text mj-class="text__normal color__anthracite-gray"
+                     padding="10px 15px"
+                     font-weight="bold">
+                FARO ScanArm helps users maximize customer satisfaction
+            </mj-text>
+            <!-- *** END: Article Headline *** -->
+
+            <!-- *** START: Article Link *** -->
+            <mj-text mj-class="text__normal color__zenith-blue"
+                     padding="30px 15px 10px 15px">
+                <a href="#" class="link-nostyle">Read Article</a>
+            </mj-text>
+            <!-- *** END: Article Link *** -->
+        </mj-column>
+        <mj-column padding="0px" width="2%">
+            <mj-spacer height="10px" />
+        </mj-column>
+        <mj-column padding="0px"
+                   width="49%"
+                   border="1px #e2e2e2 solid">
+            <!-- *** START: Article Image *** -->
+            <mj-image alt="Secondary Article Image"
+                      padding="0px"
+                      src="https://dummyimage.com/193x105/e2e2e2/9b9b9b.jpg&text=Resource+Image" />
+            <!-- *** END: Article Image *** -->
+
+            <!-- *** START: Article Headline *** -->
+            <mj-text mj-class="text__normal color__anthracite-gray"
+                     padding="10px 15px"
+                     font-weight="bold">
+                FARO ScanArm helps users maximize customer satisfaction
+            </mj-text>
+            <!-- *** END: Article Headline *** -->
+
+            <!-- *** START: Article Link *** -->
+            <mj-text mj-class="text__normal color__zenith-blue"
+                     padding="30px 15px 10px 15px">
+                <a href="#" class="link-nostyle">Read Article</a>
+            </mj-text>
+            <!-- *** END: Article Link *** -->
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
+```
+Shown on the right is the MJML code to generate and display an Additional Resources block with two cards in the style of the FARO Newsletter.
+
+This code will look like this when rendered:
+
+<aside>
+<img src="images/template--newsletter--special--resources--two-columns.png" alt="Additional Resources, Two Across (Newsletter-style)">
+</aside>
+
+### Options and Notes
+
+* This layout only allows for two Additional Resources cards to be displayed. Copy/pasting code to create a third, fourth or more cards will break this layout.
+* You cannot remove the second Additional Resources card if it is not needed. This will break the layout, and you must have two Additional Resources cards to use this layout. 
+* Make sure to change the default placeholder image for each card by modifying the `mj-image` tag within each card's MJML code.
+   
+## Resources, Three Across (Newsletter)
+
+```html
+<mj-wrapper mj-class="block__newsletter"
+            css-class="mobile-newsletter-section">
+    <mj-section padding="10px 0px 0px 0px">
+        <mj-column width="100%">
+            <mj-text mj-class="text__cta-tertiary color__faro-blue"
+                     padding="0px"
+                     font-weight="normal"
+                     align="center">
+                Additional Insights & Resources
+            </mj-text>
+
+            <mj-divider mj-class="line__headline-secondary color__zenith-blue--border"
+                        padding="15px 0px 25px 0px"
+                        width="85px" />
+        </mj-column>
+    </mj-section>
+
+    <mj-section padding="0px">
+        <mj-column padding="0px"
+                   width="49%"
+                   border="1px #e2e2e2 solid">
+            <!-- *** START: Article Image *** -->
+            <mj-image alt="Secondary Article Image"
+                      padding="0px"
+                      src="https://dummyimage.com/193x105/e2e2e2/9b9b9b.jpg&text=Resource+Image" />
+            <!-- *** END: Article Image *** -->
+
+            <!-- *** START: Article Headline *** -->
+            <mj-text mj-class="text__normal color__anthracite-gray"
+                     padding="10px 15px"
+                     font-weight="bold">
+                FARO ScanArm helps users maximize customer satisfaction
+            </mj-text>
+            <!-- *** END: Article Headline *** -->
+
+            <!-- *** START: Article Link *** -->
+            <mj-text mj-class="text__normal color__zenith-blue"
+                     padding="30px 15px 10px 15px">
+                <a href="#" class="link-nostyle">Read Article</a>
+            </mj-text>
+            <!-- *** END: Article Link *** -->
+        </mj-column>
+        <mj-column padding="0px" width="2%">
+            <mj-spacer height="10px" />
+        </mj-column>
+        <mj-column padding="0px"
+                   width="49%"
+                   border="1px #e2e2e2 solid">
+            <!-- *** START: Article Image *** -->
+            <mj-image alt="Secondary Article Image"
+                      padding="0px"
+                      src="https://dummyimage.com/193x105/e2e2e2/9b9b9b.jpg&text=Resource+Image" />
+            <!-- *** END: Article Image *** -->
+
+            <!-- *** START: Article Headline *** -->
+            <mj-text mj-class="text__normal color__anthracite-gray"
+                     padding="10px 15px"
+                     font-weight="bold">
+                FARO ScanArm helps users maximize customer satisfaction
+            </mj-text>
+            <!-- *** END: Article Headline *** -->
+
+            <!-- *** START: Article Link *** -->
+            <mj-text mj-class="text__normal color__zenith-blue"
+                     padding="30px 15px 10px 15px">
+                <a href="#" class="link-nostyle">Read Article</a>
+            </mj-text>
+            <!-- *** END: Article Link *** -->
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
+```
+Shown on the right is the MJML code to generate and display an Additional Resources block with three cards in the style of the FARO Newsletter.
+
+This code will look like this when rendered:
+
+<aside>
+<img src="images/template--newsletter--special--resources--three-columns.png" alt="Additional Resources, Three Across (Newsletter-style)">
+</aside>
+
+### Options and Notes
+
+* This layout only allows for three Additional Resources cards to be displayed. Copy/pasting code to create a fourth, fifth or more cards will break this layout.
+* You cannot remove the second or third Additional Resources card(s) if they are not needed. This will break the layout, and you must have three Additional Resources cards to use this layout. 
+* Make sure to change the default placeholder image for each card by modifying the `mj-image` tag within each card's MJML code.

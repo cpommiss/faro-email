@@ -23,7 +23,7 @@
                     <!-- *** START: Article Image *** -->
                     <mj-image alt="Feature Article Image"
                               padding="10px 0px"
-                              src="https://dummyimage.com/600x244/e2e2e2/9b9b9b.jpg&text=Feature+Article+Image" />
+                              src="http://placeimg.com/600/244/any" />
                     <!-- *** END: Article Image *** -->
 
                     <!-- *** START: Article Excerpt *** -->

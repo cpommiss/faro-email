@@ -28,7 +28,7 @@
                     <!-- *** START: Article Image *** -->
                     <mj-image alt="Secondary Article Image"
                               padding="0px"
-                              src="https://dummyimage.com/193x105/e2e2e2/9b9b9b.jpg&text=Resource+Image" />
+                              src="http://placeimg.com/292/158/any" />
                     <!-- *** END: Article Image *** -->
 
                     <!-- *** START: Article Headline *** -->
@@ -42,7 +42,7 @@
                     <!-- *** START: Article Link *** -->
                     <mj-text mj-class="text__normal color__zenith-blue"
                              padding="30px 15px 10px 15px">
-                        <a href="#" class="link-nostyle">Read Article</a>
+                        <a href="#" class="link-default">Read Article</a>
                     </mj-text>
                     <!-- *** END: Article Link *** -->
                 </mj-column>
@@ -55,7 +55,7 @@
                     <!-- *** START: Article Image *** -->
                     <mj-image alt="Secondary Article Image"
                               padding="0px"
-                              src="https://dummyimage.com/193x105/e2e2e2/9b9b9b.jpg&text=Resource+Image" />
+                              src="http://placeimg.com/292/158/any" />
                     <!-- *** END: Article Image *** -->
 
                     <!-- *** START: Article Headline *** -->
@@ -69,7 +69,7 @@
                     <!-- *** START: Article Link *** -->
                     <mj-text mj-class="text__normal color__zenith-blue"
                              padding="30px 15px 10px 15px">
-                        <a href="#" class="link-nostyle">Read Article</a>
+                        <a href="#" class="link-default">Read Article</a>
                     </mj-text>
                     <!-- *** END: Article Link *** -->
                 </mj-column>

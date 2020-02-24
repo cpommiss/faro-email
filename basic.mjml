@@ -248,7 +248,6 @@
             <mj-class name="block__info-callout--left"
                       padding="0px 20px"
                       width="25%"
-                      border-right="7px #009cde solid"
                       vertical-align="top" />
             <mj-class name="block__info-callout--right"
                       padding="0px 20px"
@@ -274,7 +273,6 @@
             .button-full { padding-left:20px !important; padding-right:20px !important; }
             .button-full-flush { padding-left:0 !important; padding-right:0 !important; }
             .button-full a, .button-full-flush a { display: block !important; }
-            .link-nostyle { color: inherit; }
             .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
             .mobile-visible { display: none !important; }
             .mobile-newsletter-date { display: none !important; }
@@ -287,13 +285,13 @@
                 .button-full > table, .button-full-flush > table { max-width: 230px !important; }
                 .divider-left { padding-left:20px !important; padding-right:20px !important; }
                 .line-height-fix > div { position: relative !important; margin-top: -5px !important; }
+                .mobile-info-callout-border > table > tbody > tr > td { border-right: 7px #009cde solid; }
             }
             @media only screen and (max-width: 697px) {
                 table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
                 td.full-width-mobile { width: auto !important; }
                 .mobile-align-left { text-align: left !important; }
                 .mobile-visible { display: block !important; }
-                .mobile-border-erase > table > tbody > tr > td { border: none !important; }
                 .mobile-newsletter-section > table > tbody > tr > td { padding-top: 15px !important; padding-bottom: 15px !important; padding-left: 15px !important; padding-right: 15px !important; }
                 .mobile-newsletter-section-compact > table > tbody > tr > td { padding-top: 15px !important; padding-bottom: 15px !important; padding-left: 15px !important; padding-right: 15px !important; }
                 .mobile-newsletter-section-flush > table > tbody > tr > td { padding-top: 0 !important; padding-bottom: 0 !important; padding-left: 15px !important; padding-right: 15px !important; }
@@ -314,6 +312,8 @@
             }
         </mj-style>
         <mj-style inline="inline">
+            .link-nostyle { color: inherit !important; }
+            .link-default { color: #009cde; text-decoration: none; }
             div.list ul, div.list ol { padding-inline-start: 20px; -webkit-padding-start: 20px; margin-top: 0; }
             div.list ul li { list-style: disc outside; mso-special-format: bullet; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
             div.list ol li { list-style: decimal outside; mso-special-format: decimal; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }

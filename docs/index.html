@@ -814,7 +814,6 @@
             <mj-class name="block__info-callout--left"
                       padding="0px 20px"
                       width="25%"
-                      border-right="7px #009cde solid"
                       vertical-align="top" />
             <mj-class name="block__info-callout--right"
                       padding="0px 20px"
@@ -840,7 +839,6 @@
             .button-full { padding-left:20px !important; padding-right:20px !important; }
             .button-full-flush { padding-left:0 !important; padding-right:0 !important; }
             .button-full a, .button-full-flush a { display: block !important; }
-            .link-nostyle { color: inherit; }
             .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
             .mobile-visible { display: none !important; }
             .mobile-newsletter-date { display: none !important; }
@@ -853,13 +851,13 @@
                 .button-full > table, .button-full-flush > table { max-width: 230px !important; }
                 .divider-left { padding-left:20px !important; padding-right:20px !important; }
                 .line-height-fix > div { position: relative !important; margin-top: -5px !important; }
+                .mobile-info-callout-border > table > tbody > tr > td { border-right: 7px #009cde solid; }
             }
             @media only screen and (max-width: 697px) {
                 table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
                 td.full-width-mobile { width: auto !important; }
                 .mobile-align-left { text-align: left !important; }
                 .mobile-visible { display: block !important; }
-                .mobile-border-erase > table > tbody > tr > td { border: none !important; }
                 .mobile-newsletter-section > table > tbody > tr > td { padding-top: 15px !important; padding-bottom: 15px !important; padding-left: 15px !important; padding-right: 15px !important; }
                 .mobile-newsletter-section-compact > table > tbody > tr > td { padding-top: 15px !important; padding-bottom: 15px !important; padding-left: 15px !important; padding-right: 15px !important; }
                 .mobile-newsletter-section-flush > table > tbody > tr > td { padding-top: 0 !important; padding-bottom: 0 !important; padding-left: 15px !important; padding-right: 15px !important; }
@@ -880,6 +878,8 @@
             }
         </mj-style>
         <mj-style inline="inline">
+            .link-nostyle { color: inherit !important; }
+            .link-default { color: #009cde; text-decoration: none; }
             div.list ul, div.list ol { padding-inline-start: 20px; -webkit-padding-start: 20px; margin-top: 0; }
             div.list ul li { list-style: disc outside; mso-special-format: bullet; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
             div.list ol li { list-style: decimal outside; mso-special-format: decimal; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
@@ -1174,7 +1174,6 @@
             <span class="nt">&lt;mj-class</span> <span class="na">name=</span><span class="s">"block__info-callout--left"</span>
                       <span class="na">padding=</span><span class="s">"0px 20px"</span>
                       <span class="na">width=</span><span class="s">"25%"</span>
-                      <span class="na">border-right=</span><span class="s">"7px #009cde solid"</span>
                       <span class="na">vertical-align=</span><span class="s">"top"</span> <span class="nt">/&gt;</span>
             <span class="nt">&lt;mj-class</span> <span class="na">name=</span><span class="s">"block__info-callout--right"</span>
                       <span class="na">padding=</span><span class="s">"0px 20px"</span>
@@ -1200,7 +1199,6 @@
             .button-full { padding-left:20px !important; padding-right:20px !important; }
             .button-full-flush { padding-left:0 !important; padding-right:0 !important; }
             .button-full a, .button-full-flush a { display: block !important; }
-            .link-nostyle { color: inherit; }
             .top-image, .top-image &gt; div &gt; table { background-size: cover !important; background-position: center top !important; }
             .mobile-visible { display: none !important; }
             .mobile-newsletter-date { display: none !important; }
@@ -1213,13 +1211,13 @@
                 .button-full &gt; table, .button-full-flush &gt; table { max-width: 230px !important; }
                 .divider-left { padding-left:20px !important; padding-right:20px !important; }
                 .line-height-fix &gt; div { position: relative !important; margin-top: -5px !important; }
+                .mobile-info-callout-border &gt; table &gt; tbody &gt; tr &gt; td { border-right: 7px #009cde solid; }
             }
             @media only screen and (max-width: 697px) {
                 table.full-width-mobile, .emailfooter, .emailheader { width: 100% !important; }
                 td.full-width-mobile { width: auto !important; }
                 .mobile-align-left { text-align: left !important; }
                 .mobile-visible { display: block !important; }
-                .mobile-border-erase &gt; table &gt; tbody &gt; tr &gt; td { border: none !important; }
                 .mobile-newsletter-section &gt; table &gt; tbody &gt; tr &gt; td { padding-top: 15px !important; padding-bottom: 15px !important; padding-left: 15px !important; padding-right: 15px !important; }
                 .mobile-newsletter-section-compact &gt; table &gt; tbody &gt; tr &gt; td { padding-top: 15px !important; padding-bottom: 15px !important; padding-left: 15px !important; padding-right: 15px !important; }
                 .mobile-newsletter-section-flush &gt; table &gt; tbody &gt; tr &gt; td { padding-top: 0 !important; padding-bottom: 0 !important; padding-left: 15px !important; padding-right: 15px !important; }
@@ -1240,6 +1238,8 @@
             }
         <span class="nt">&lt;/mj-style&gt;</span>
         <span class="nt">&lt;mj-style</span> <span class="na">inline=</span><span class="s">"inline"</span><span class="nt">&gt;</span>
+            .link-nostyle { color: inherit !important; }
+            .link-default { color: #009cde; text-decoration: none; }
             div.list ul, div.list ol { padding-inline-start: 20px; -webkit-padding-start: 20px; margin-top: 0; }
             div.list ul li { list-style: disc outside; mso-special-format: bullet; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
             div.list ol li { list-style: decimal outside; mso-special-format: decimal; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
@@ -2693,7 +2693,7 @@
             <span class="c">&lt;!-- *** START: Sub-Headline Text *** --&gt;</span>
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__cta-newsletter-secondary color__white"</span>
                      <span class="na">align=</span><span class="s">"center"</span><span class="nt">&gt;</span>
-                Newsletter <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"hide"</span><span class="nt">&gt;</span>|<span class="nt">&lt;/span&gt;</span> <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"show"</span> <span class="na">style=</span><span class="s">"display:none;"</span><span class="nt">&gt;&lt;br&gt;&lt;/span&gt;</span> December 2019
+                Newsletter <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"hide"</span><span class="nt">&gt;</span>|<span class="nt">&lt;/span&gt;</span> <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"show"</span> <span class="na">style=</span><span class="s">"display:none;"</span><span class="nt">&gt;&lt;br</span> <span class="nt">/&gt;&lt;/span&gt;</span> December 2019
             <span class="nt">&lt;/mj-text&gt;</span>
             <span class="c">&lt;!-- *** END: Sub-Headline Text *** --&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
@@ -2766,7 +2766,7 @@
             <span class="c">&lt;!-- *** START: Article Image *** --&gt;</span>
             <span class="nt">&lt;mj-image</span> <span class="na">alt=</span><span class="s">"Feature Article Image"</span>
                       <span class="na">padding=</span><span class="s">"10px 0px"</span>
-                      <span class="na">src=</span><span class="s">"https://dummyimage.com/600x244/e2e2e2/9b9b9b.jpg&amp;text=Feature+Article+Image"</span> <span class="nt">/&gt;</span>
+                      <span class="na">src=</span><span class="s">"http://placeimg.com/600/244/any"</span> <span class="nt">/&gt;</span>
             <span class="c">&lt;!-- *** END: Article Image *** --&gt;</span>
 
             <span class="c">&lt;!-- *** START: Article Excerpt *** --&gt;</span>
@@ -2944,7 +2944,7 @@
             <span class="c">&lt;!-- *** START: Article Image *** --&gt;</span>
             <span class="nt">&lt;mj-image</span> <span class="na">alt=</span><span class="s">"Secondary Article Image"</span>
                       <span class="na">padding=</span><span class="s">"10px 0px"</span>
-                      <span class="na">src=</span><span class="s">"https://dummyimage.com/280x212/e2e2e2/9b9b9b.jpg&amp;text=Secondary+Article+Image"</span> <span class="nt">/&gt;</span>
+                      <span class="na">src=</span><span class="s">"http://placeimg.com/280/212/any"</span> <span class="nt">/&gt;</span>
             <span class="c">&lt;!-- *** END: Article Image *** --&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
         <span class="nt">&lt;mj-column</span> <span class="na">width=</span><span class="s">"20px"</span>
@@ -3077,7 +3077,7 @@
                 <span class="na">border-bottom=</span><span class="s">"5px #e2e2e2 solid"</span>
                 <span class="na">padding=</span><span class="s">"15px 0px"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;mj-column</span> <span class="na">mj-class=</span><span class="s">"block__info-callout--left"</span>
-                   <span class="na">css-class=</span><span class="s">"mobile-border-erase"</span><span class="nt">&gt;</span>
+                   <span class="na">css-class=</span><span class="s">"mobile-info-callout-border"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;mj-image</span> <span class="na">css-class=</span><span class="s">"mobile-align-left"</span>
                       <span class="na">alt=</span><span class="s">"Quotation mark"</span>
                       <span class="na">width=</span><span class="s">"73px"</span>
@@ -3143,7 +3143,7 @@
                 <span class="na">border-bottom=</span><span class="s">"5px #e2e2e2 solid"</span>
                 <span class="na">padding=</span><span class="s">"15px 0px"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;mj-column</span> <span class="na">mj-class=</span><span class="s">"block__info-callout--left"</span>
-                   <span class="na">css-class=</span><span class="s">"mobile-border-erase"</span>
+                   <span class="na">css-class=</span><span class="s">"mobile-info-callout-border"</span>
                    <span class="na">padding=</span><span class="s">"0px 0px 0px 20px"</span><span class="nt">&gt;</span>
             <span class="c">&lt;!-- *** START: Statistic Amount *** --&gt;</span>
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__info-callout"</span><span class="nt">&gt;</span>
@@ -4254,7 +4254,7 @@
                         <span class="c">&lt;!-- *** START: Event Link *** --&gt;</span>
                         <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__normal color__zenith-blue"</span>
                                  <span class="na">padding=</span><span class="s">"0px 0px 5px 0px"</span><span class="nt">&gt;</span>
-                            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"link-nostyle"</span><span class="nt">&gt;</span>CAPTURING CRASH SCENE DETAILS [BEST PRACTICES]<span class="nt">&lt;/a&gt;</span>
+                            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"link-default"</span><span class="nt">&gt;</span>CAPTURING CRASH SCENE DETAILS [BEST PRACTICES]<span class="nt">&lt;/a&gt;</span>
                         <span class="nt">&lt;/mj-text&gt;</span>
                         <span class="c">&lt;!-- *** START: Event Link *** --&gt;</span>
 
@@ -4296,7 +4296,7 @@
                         <span class="c">&lt;!-- *** START: Event Link *** --&gt;</span>
                         <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__normal color__zenith-blue"</span>
                                  <span class="na">padding=</span><span class="s">"0px 0px 5px 0px"</span><span class="nt">&gt;</span>
-                            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"link-nostyle"</span><span class="nt">&gt;</span>FARO FORENSIC WORKSHOP<span class="nt">&lt;/a&gt;</span>
+                            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"link-default"</span><span class="nt">&gt;</span>FARO FORENSIC WORKSHOP<span class="nt">&lt;/a&gt;</span>
                         <span class="nt">&lt;/mj-text&gt;</span>
                         <span class="c">&lt;!-- *** START: Event Link *** --&gt;</span>
 
@@ -4338,7 +4338,7 @@
                         <span class="c">&lt;!-- *** START: Event Link *** --&gt;</span>
                         <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__normal color__zenith-blue"</span>
                                  <span class="na">padding=</span><span class="s">"0px 0px 5px 0px"</span><span class="nt">&gt;</span>
-                            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"link-nostyle"</span><span class="nt">&gt;</span>AUTODESK UNIVERSITY<span class="nt">&lt;/a&gt;</span>
+                            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"link-default"</span><span class="nt">&gt;</span>AUTODESK UNIVERSITY<span class="nt">&lt;/a&gt;</span>
                         <span class="nt">&lt;/mj-text&gt;</span>
                         <span class="c">&lt;!-- *** START: Event Link *** --&gt;</span>
 
@@ -4379,6 +4379,7 @@
 <ul>
 <li>The calendar has sections for <strong>Webinars</strong>, <strong>Workshops</strong> and <strong>Tradeshows</strong>. Any of these sections can be removed as needed by just removing the <code>mj-text</code> elements pertaining to that section.</li>
 <li>Follow the comments to aid you in adding more events to a specific section.  You can simply copy/paste the code between the <code>START</code> and <code>END</code> comments for each event listing within a section.</li>
+<li>The event links within each section use the <code>link-default</code> CSS class, which pulls in the <strong>Zenith Blue</strong> color (See: <strong><a href="#colors">Colors</a></strong>). If you want to change the color of the link, you can do so by using a <code>style</code> attribute on the <code>a</code> tag of the link text.</li>
 </ul>
 <h2 id='resources-two-across-newsletter'>Resources, Two Across (Newsletter)</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">mj-class=</span><span class="s">"block__newsletter"</span>
             <span class="na">css-class=</span><span class="s">"mobile-newsletter-section"</span><span class="nt">&gt;</span>
@@ -4404,7 +4405,7 @@
             <span class="c">&lt;!-- *** START: Article Image *** --&gt;</span>
             <span class="nt">&lt;mj-image</span> <span class="na">alt=</span><span class="s">"Secondary Article Image"</span>
                       <span class="na">padding=</span><span class="s">"0px"</span>
-                      <span class="na">src=</span><span class="s">"https://dummyimage.com/193x105/e2e2e2/9b9b9b.jpg&amp;text=Resource+Image"</span> <span class="nt">/&gt;</span>
+                      <span class="na">src=</span><span class="s">"http://placeimg.com/292/158/any"</span> <span class="nt">/&gt;</span>
             <span class="c">&lt;!-- *** END: Article Image *** --&gt;</span>
 
             <span class="c">&lt;!-- *** START: Article Headline *** --&gt;</span>
@@ -4418,7 +4419,7 @@
             <span class="c">&lt;!-- *** START: Article Link *** --&gt;</span>
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__normal color__zenith-blue"</span>
                      <span class="na">padding=</span><span class="s">"30px 15px 10px 15px"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"link-nostyle"</span><span class="nt">&gt;</span>Read Article<span class="nt">&lt;/a&gt;</span>
+                <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"link-default"</span><span class="nt">&gt;</span>Read Article<span class="nt">&lt;/a&gt;</span>
             <span class="nt">&lt;/mj-text&gt;</span>
             <span class="c">&lt;!-- *** END: Article Link *** --&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
@@ -4431,7 +4432,7 @@
             <span class="c">&lt;!-- *** START: Article Image *** --&gt;</span>
             <span class="nt">&lt;mj-image</span> <span class="na">alt=</span><span class="s">"Secondary Article Image"</span>
                       <span class="na">padding=</span><span class="s">"0px"</span>
-                      <span class="na">src=</span><span class="s">"https://dummyimage.com/193x105/e2e2e2/9b9b9b.jpg&amp;text=Resource+Image"</span> <span class="nt">/&gt;</span>
+                      <span class="na">src=</span><span class="s">"http://placeimg.com/292/158/any"</span> <span class="nt">/&gt;</span>
             <span class="c">&lt;!-- *** END: Article Image *** --&gt;</span>
 
             <span class="c">&lt;!-- *** START: Article Headline *** --&gt;</span>
@@ -4445,7 +4446,7 @@
             <span class="c">&lt;!-- *** START: Article Link *** --&gt;</span>
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__normal color__zenith-blue"</span>
                      <span class="na">padding=</span><span class="s">"30px 15px 10px 15px"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"link-nostyle"</span><span class="nt">&gt;</span>Read Article<span class="nt">&lt;/a&gt;</span>
+                <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"link-default"</span><span class="nt">&gt;</span>Read Article<span class="nt">&lt;/a&gt;</span>
             <span class="nt">&lt;/mj-text&gt;</span>
             <span class="c">&lt;!-- *** END: Article Link *** --&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
@@ -4464,6 +4465,7 @@
 <li>This layout only allows for two Additional Resources cards to be displayed. Copy/pasting code to create a third, fourth or more cards will break this layout.</li>
 <li>You cannot remove the second Additional Resources card if it is not needed. This will break the layout, and you must have two Additional Resources cards to use this layout. </li>
 <li>Make sure to change the default placeholder image for each card by modifying the <code>mj-image</code> tag within each card&#39;s MJML code.</li>
+<li>The article links (<strong>&quot;Read Article&quot;</strong>) for each card uses the <code>link-default</code> CSS class, which pulls in the <strong>Zenith Blue</strong> color (See: <strong><a href="#colors">Colors</a></strong>). If you want to change the color of the link, you can do so by using a <code>style</code> attribute on the <code>a</code> tag of the link text.</li>
 </ul>
 <h2 id='resources-three-across-newsletter'>Resources, Three Across (Newsletter)</h2><pre class="highlight html tab-html"><code><span class="nt">&lt;mj-wrapper</span> <span class="na">mj-class=</span><span class="s">"block__newsletter"</span>
             <span class="na">css-class=</span><span class="s">"mobile-newsletter-section"</span><span class="nt">&gt;</span>
@@ -4484,12 +4486,12 @@
 
     <span class="nt">&lt;mj-section</span> <span class="na">padding=</span><span class="s">"0px"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;mj-column</span> <span class="na">padding=</span><span class="s">"0px"</span>
-                   <span class="na">width=</span><span class="s">"49%"</span>
+                   <span class="na">width=</span><span class="s">"32%"</span>
                    <span class="na">border=</span><span class="s">"1px #e2e2e2 solid"</span><span class="nt">&gt;</span>
             <span class="c">&lt;!-- *** START: Article Image *** --&gt;</span>
             <span class="nt">&lt;mj-image</span> <span class="na">alt=</span><span class="s">"Secondary Article Image"</span>
                       <span class="na">padding=</span><span class="s">"0px"</span>
-                      <span class="na">src=</span><span class="s">"https://dummyimage.com/193x105/e2e2e2/9b9b9b.jpg&amp;text=Resource+Image"</span> <span class="nt">/&gt;</span>
+                      <span class="na">src=</span><span class="s">"http://placeimg.com/193/105/any"</span> <span class="nt">/&gt;</span>
             <span class="c">&lt;!-- *** END: Article Image *** --&gt;</span>
 
             <span class="c">&lt;!-- *** START: Article Headline *** --&gt;</span>
@@ -4503,7 +4505,7 @@
             <span class="c">&lt;!-- *** START: Article Link *** --&gt;</span>
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__normal color__zenith-blue"</span>
                      <span class="na">padding=</span><span class="s">"30px 15px 10px 15px"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"link-nostyle"</span><span class="nt">&gt;</span>Read Article<span class="nt">&lt;/a&gt;</span>
+                <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"link-default"</span><span class="nt">&gt;</span>Read Article<span class="nt">&lt;/a&gt;</span>
             <span class="nt">&lt;/mj-text&gt;</span>
             <span class="c">&lt;!-- *** END: Article Link *** --&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
@@ -4511,12 +4513,12 @@
             <span class="nt">&lt;mj-spacer</span> <span class="na">height=</span><span class="s">"10px"</span> <span class="nt">/&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
         <span class="nt">&lt;mj-column</span> <span class="na">padding=</span><span class="s">"0px"</span>
-                   <span class="na">width=</span><span class="s">"49%"</span>
+                   <span class="na">width=</span><span class="s">"32%"</span>
                    <span class="na">border=</span><span class="s">"1px #e2e2e2 solid"</span><span class="nt">&gt;</span>
             <span class="c">&lt;!-- *** START: Article Image *** --&gt;</span>
             <span class="nt">&lt;mj-image</span> <span class="na">alt=</span><span class="s">"Secondary Article Image"</span>
                       <span class="na">padding=</span><span class="s">"0px"</span>
-                      <span class="na">src=</span><span class="s">"https://dummyimage.com/193x105/e2e2e2/9b9b9b.jpg&amp;text=Resource+Image"</span> <span class="nt">/&gt;</span>
+                      <span class="na">src=</span><span class="s">"http://placeimg.com/193/105/any"</span> <span class="nt">/&gt;</span>
             <span class="c">&lt;!-- *** END: Article Image *** --&gt;</span>
 
             <span class="c">&lt;!-- *** START: Article Headline *** --&gt;</span>
@@ -4530,7 +4532,34 @@
             <span class="c">&lt;!-- *** START: Article Link *** --&gt;</span>
             <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__normal color__zenith-blue"</span>
                      <span class="na">padding=</span><span class="s">"30px 15px 10px 15px"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"link-nostyle"</span><span class="nt">&gt;</span>Read Article<span class="nt">&lt;/a&gt;</span>
+                <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"link-default"</span><span class="nt">&gt;</span>Read Article<span class="nt">&lt;/a&gt;</span>
+            <span class="nt">&lt;/mj-text&gt;</span>
+            <span class="c">&lt;!-- *** END: Article Link *** --&gt;</span>
+        <span class="nt">&lt;/mj-column&gt;</span>
+        <span class="nt">&lt;mj-column</span> <span class="na">padding=</span><span class="s">"0px"</span> <span class="na">width=</span><span class="s">"2%"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;mj-spacer</span> <span class="na">height=</span><span class="s">"10px"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;/mj-column&gt;</span>
+        <span class="nt">&lt;mj-column</span> <span class="na">padding=</span><span class="s">"0px"</span>
+                   <span class="na">width=</span><span class="s">"32%"</span>
+                   <span class="na">border=</span><span class="s">"1px #e2e2e2 solid"</span><span class="nt">&gt;</span>
+            <span class="c">&lt;!-- *** START: Article Image *** --&gt;</span>
+            <span class="nt">&lt;mj-image</span> <span class="na">alt=</span><span class="s">"Secondary Article Image"</span>
+                      <span class="na">padding=</span><span class="s">"0px"</span>
+                      <span class="na">src=</span><span class="s">"http://placeimg.com/193/105/any"</span> <span class="nt">/&gt;</span>
+            <span class="c">&lt;!-- *** END: Article Image *** --&gt;</span>
+
+            <span class="c">&lt;!-- *** START: Article Headline *** --&gt;</span>
+            <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__normal color__anthracite-gray"</span>
+                     <span class="na">padding=</span><span class="s">"10px 15px"</span>
+                     <span class="na">font-weight=</span><span class="s">"bold"</span><span class="nt">&gt;</span>
+                FARO ScanArm helps users maximize customer satisfaction
+            <span class="nt">&lt;/mj-text&gt;</span>
+            <span class="c">&lt;!-- *** END: Article Headline *** --&gt;</span>
+
+            <span class="c">&lt;!-- *** START: Article Link *** --&gt;</span>
+            <span class="nt">&lt;mj-text</span> <span class="na">mj-class=</span><span class="s">"text__normal color__zenith-blue"</span>
+                     <span class="na">padding=</span><span class="s">"30px 15px 10px 15px"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"link-default"</span><span class="nt">&gt;</span>Read Article<span class="nt">&lt;/a&gt;</span>
             <span class="nt">&lt;/mj-text&gt;</span>
             <span class="c">&lt;!-- *** END: Article Link *** --&gt;</span>
         <span class="nt">&lt;/mj-column&gt;</span>
@@ -4549,6 +4578,7 @@
 <li>This layout only allows for three Additional Resources cards to be displayed. Copy/pasting code to create a fourth, fifth or more cards will break this layout.</li>
 <li>You cannot remove the second or third Additional Resources card(s) if they are not needed. This will break the layout, and you must have three Additional Resources cards to use this layout. </li>
 <li>Make sure to change the default placeholder image for each card by modifying the <code>mj-image</code> tag within each card&#39;s MJML code.</li>
+<li>The article links (<strong>&quot;Read Article&quot;</strong>) for each card uses the <code>link-default</code> CSS class, which pulls in the <strong>Zenith Blue</strong> color (See: <strong><a href="#colors">Colors</a></strong>). If you want to change the color of the link, you can do so by using a <code>style</code> attribute on the <code>a</code> tag of the link text.</li>
 </ul>
 
       </div>

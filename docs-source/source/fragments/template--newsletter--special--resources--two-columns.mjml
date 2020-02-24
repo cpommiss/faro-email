@@ -42,7 +42,7 @@
                     <!-- *** START: Article Link *** -->
                     <mj-text mj-class="text__normal color__zenith-blue"
                              padding="30px 15px 10px 15px">
-                        <a href="#" class="link-nostyle">Read Article</a>
+                        <a href="#" class="link-default">Read Article</a>
                     </mj-text>
                     <!-- *** END: Article Link *** -->
                 </mj-column>
@@ -69,7 +69,7 @@
                     <!-- *** START: Article Link *** -->
                     <mj-text mj-class="text__normal color__zenith-blue"
                              padding="30px 15px 10px 15px">
-                        <a href="#" class="link-nostyle">Read Article</a>
+                        <a href="#" class="link-default">Read Article</a>
                     </mj-text>
                     <!-- *** END: Article Link *** -->
                 </mj-column>

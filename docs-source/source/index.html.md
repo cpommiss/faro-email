@@ -392,7 +392,6 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
             .button-full { padding-left:20px !important; padding-right:20px !important; }
             .button-full-flush { padding-left:0 !important; padding-right:0 !important; }
             .button-full a, .button-full-flush a { display: block !important; }
-            .link-nostyle { color: inherit; }
             .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
             .mobile-visible { display: none !important; }
             .mobile-newsletter-date { display: none !important; }
@@ -432,6 +431,8 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
             }
         </mj-style>
         <mj-style inline="inline">
+          	.link-nostyle { color: inherit !important; }
+          	.link-default { color: #009cde; text-decoration: none; }
             div.list ul, div.list ol { padding-inline-start: 20px; -webkit-padding-start: 20px; margin-top: 0; }
             div.list ul li { list-style: disc outside; mso-special-format: bullet; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
             div.list ol li { list-style: decimal outside; mso-special-format: decimal; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
@@ -759,7 +760,6 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
             .button-full { padding-left:20px !important; padding-right:20px !important; }
             .button-full-flush { padding-left:0 !important; padding-right:0 !important; }
             .button-full a, .button-full-flush a { display: block !important; }
-            .link-nostyle { color: inherit; }
             .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
             .mobile-visible { display: none !important; }
             .mobile-newsletter-date { display: none !important; }
@@ -799,6 +799,8 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
             }
         </mj-style>
         <mj-style inline="inline">
+          	.link-nostyle { color: inherit !important; }
+          	.link-default { color: #009cde; text-decoration: none; }
             div.list ul, div.list ol { padding-inline-start: 20px; -webkit-padding-start: 20px; margin-top: 0; }
             div.list ul li { list-style: disc outside; mso-special-format: bullet; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
             div.list ol li { list-style: decimal outside; mso-special-format: decimal; margin-bottom: 3px; mso-margin-bottom-alt: 3px; }
@@ -3294,7 +3296,7 @@ This code will look like this when rendered:
                         <!-- *** START: Event Link *** -->
                         <mj-text mj-class="text__normal color__zenith-blue"
                                  padding="0px 0px 5px 0px">
-                            <a href="#" class="link-nostyle">CAPTURING CRASH SCENE DETAILS [BEST PRACTICES]</a>
+                            <a href="#" class="link-default">CAPTURING CRASH SCENE DETAILS [BEST PRACTICES]</a>
                         </mj-text>
                         <!-- *** START: Event Link *** -->
 
@@ -3336,7 +3338,7 @@ This code will look like this when rendered:
                         <!-- *** START: Event Link *** -->
                         <mj-text mj-class="text__normal color__zenith-blue"
                                  padding="0px 0px 5px 0px">
-                            <a href="#" class="link-nostyle">FARO FORENSIC WORKSHOP</a>
+                            <a href="#" class="link-default">FARO FORENSIC WORKSHOP</a>
                         </mj-text>
                         <!-- *** START: Event Link *** -->
 
@@ -3378,7 +3380,7 @@ This code will look like this when rendered:
                         <!-- *** START: Event Link *** -->
                         <mj-text mj-class="text__normal color__zenith-blue"
                                  padding="0px 0px 5px 0px">
-                            <a href="#" class="link-nostyle">AUTODESK UNIVERSITY</a>
+                            <a href="#" class="link-default">AUTODESK UNIVERSITY</a>
                         </mj-text>
                         <!-- *** START: Event Link *** -->
 
@@ -3420,6 +3422,7 @@ This code will look like this when rendered:
 
 * The calendar has sections for **Webinars**, **Workshops** and **Tradeshows**. Any of these sections can be removed as needed by just removing the `mj-text` elements pertaining to that section.
 * Follow the comments to aid you in adding more events to a specific section.  You can simply copy/paste the code between the `START` and `END` comments for each event listing within a section.
+* The event links within each section use the `link-default` CSS class, which pulls in the **Zenith Blue** color (See: **[Colors](#colors)**). If you want to change the color of the link, you can do so by using a `style` attribute on the `a` tag of the link text.
 
 ## Resources, Two Across (Newsletter)
 
@@ -3462,7 +3465,7 @@ This code will look like this when rendered:
             <!-- *** START: Article Link *** -->
             <mj-text mj-class="text__normal color__zenith-blue"
                      padding="30px 15px 10px 15px">
-                <a href="#" class="link-nostyle">Read Article</a>
+                <a href="#" class="link-default">Read Article</a>
             </mj-text>
             <!-- *** END: Article Link *** -->
         </mj-column>
@@ -3489,7 +3492,7 @@ This code will look like this when rendered:
             <!-- *** START: Article Link *** -->
             <mj-text mj-class="text__normal color__zenith-blue"
                      padding="30px 15px 10px 15px">
-                <a href="#" class="link-nostyle">Read Article</a>
+                <a href="#" class="link-default">Read Article</a>
             </mj-text>
             <!-- *** END: Article Link *** -->
         </mj-column>
@@ -3509,6 +3512,7 @@ This code will look like this when rendered:
 * This layout only allows for two Additional Resources cards to be displayed. Copy/pasting code to create a third, fourth or more cards will break this layout.
 * You cannot remove the second Additional Resources card if it is not needed. This will break the layout, and you must have two Additional Resources cards to use this layout. 
 * Make sure to change the default placeholder image for each card by modifying the `mj-image` tag within each card's MJML code.
+* The article links (**"Read Article"**) for each card uses the `link-default` CSS class, which pulls in the **Zenith Blue** color (See: **[Colors](#colors)**). If you want to change the color of the link, you can do so by using a `style` attribute on the `a` tag of the link text.
    
 ## Resources, Three Across (Newsletter)
 
@@ -3551,7 +3555,7 @@ This code will look like this when rendered:
             <!-- *** START: Article Link *** -->
             <mj-text mj-class="text__normal color__zenith-blue"
                      padding="30px 15px 10px 15px">
-                <a href="#" class="link-nostyle">Read Article</a>
+                <a href="#" class="link-default">Read Article</a>
             </mj-text>
             <!-- *** END: Article Link *** -->
         </mj-column>
@@ -3578,7 +3582,7 @@ This code will look like this when rendered:
             <!-- *** START: Article Link *** -->
             <mj-text mj-class="text__normal color__zenith-blue"
                      padding="30px 15px 10px 15px">
-                <a href="#" class="link-nostyle">Read Article</a>
+                <a href="#" class="link-default">Read Article</a>
             </mj-text>
             <!-- *** END: Article Link *** -->
         </mj-column>
@@ -3605,7 +3609,7 @@ This code will look like this when rendered:
             <!-- *** START: Article Link *** -->
             <mj-text mj-class="text__normal color__zenith-blue"
                      padding="30px 15px 10px 15px">
-                <a href="#" class="link-nostyle">Read Article</a>
+                <a href="#" class="link-default">Read Article</a>
             </mj-text>
             <!-- *** END: Article Link *** -->
         </mj-column>
@@ -3625,3 +3629,4 @@ This code will look like this when rendered:
 * This layout only allows for three Additional Resources cards to be displayed. Copy/pasting code to create a fourth, fifth or more cards will break this layout.
 * You cannot remove the second or third Additional Resources card(s) if they are not needed. This will break the layout, and you must have three Additional Resources cards to use this layout. 
 * Make sure to change the default placeholder image for each card by modifying the `mj-image` tag within each card's MJML code.
+* The article links (**"Read Article"**) for each card uses the `link-default` CSS class, which pulls in the **Zenith Blue** color (See: **[Colors](#colors)**). If you want to change the color of the link, you can do so by using a `style` attribute on the `a` tag of the link text.

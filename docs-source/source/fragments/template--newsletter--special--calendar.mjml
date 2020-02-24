@@ -47,7 +47,7 @@
                                 <!-- *** START: Event Link *** -->
                                 <mj-text mj-class="text__normal color__zenith-blue"
                                          padding="0px 0px 5px 0px">
-                                    <a href="#" class="link-nostyle">CAPTURING CRASH SCENE DETAILS [BEST PRACTICES]</a>
+                                    <a href="#" class="link-default">CAPTURING CRASH SCENE DETAILS [BEST PRACTICES]</a>
                                 </mj-text>
                                 <!-- *** START: Event Link *** -->
 
@@ -89,7 +89,7 @@
                                 <!-- *** START: Event Link *** -->
                                 <mj-text mj-class="text__normal color__zenith-blue"
                                          padding="0px 0px 5px 0px">
-                                    <a href="#" class="link-nostyle">FARO FORENSIC WORKSHOP</a>
+                                    <a href="#" class="link-default">FARO FORENSIC WORKSHOP</a>
                                 </mj-text>
                                 <!-- *** START: Event Link *** -->
 
@@ -131,7 +131,7 @@
                                 <!-- *** START: Event Link *** -->
                                 <mj-text mj-class="text__normal color__zenith-blue"
                                          padding="0px 0px 5px 0px">
-                                    <a href="#" class="link-nostyle">AUTODESK UNIVERSITY</a>
+                                    <a href="#" class="link-default">AUTODESK UNIVERSITY</a>
                                 </mj-text>
                                 <!-- *** START: Event Link *** -->
 

@@ -12,7 +12,7 @@
                     <!-- *** START: Article Image *** -->
                     <mj-image alt="Secondary Article Image"
                               padding="10px 0px"
-                              src="https://dummyimage.com/280x212/e2e2e2/9b9b9b.jpg&text=Secondary+Article+Image" />
+                              src="http://placeimg.com/280/212/any" />
                     <!-- *** END: Article Image *** -->
                 </mj-column>
                 <mj-column width="20px"

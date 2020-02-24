@@ -1706,7 +1706,7 @@ This code will look like this when rendered:
             <!-- *** START: Article Image *** -->
             <mj-image alt="Feature Article Image"
                       padding="10px 0px"
-                      src="https://dummyimage.com/600x244/e2e2e2/9b9b9b.jpg&text=Feature+Article+Image" />
+                      src="http://placeimg.com/600/244/any" />
             <!-- *** END: Article Image *** -->
 
             <!-- *** START: Article Excerpt *** -->
@@ -1896,7 +1896,7 @@ This code will look like this when rendered:
             <!-- *** START: Article Image *** -->
             <mj-image alt="Secondary Article Image"
                       padding="10px 0px"
-                      src="https://dummyimage.com/280x212/e2e2e2/9b9b9b.jpg&text=Secondary+Article+Image" />
+                      src="http://placeimg.com/280/212/any" />
             <!-- *** END: Article Image *** -->
         </mj-column>
         <mj-column width="20px"
@@ -3450,7 +3450,7 @@ This code will look like this when rendered:
             <!-- *** START: Article Image *** -->
             <mj-image alt="Secondary Article Image"
                       padding="0px"
-                      src="https://dummyimage.com/193x105/e2e2e2/9b9b9b.jpg&text=Resource+Image" />
+                      src="http://placeimg.com/292/158/any" />
             <!-- *** END: Article Image *** -->
 
             <!-- *** START: Article Headline *** -->
@@ -3477,7 +3477,7 @@ This code will look like this when rendered:
             <!-- *** START: Article Image *** -->
             <mj-image alt="Secondary Article Image"
                       padding="0px"
-                      src="https://dummyimage.com/193x105/e2e2e2/9b9b9b.jpg&text=Resource+Image" />
+                      src="http://placeimg.com/292/158/any" />
             <!-- *** END: Article Image *** -->
 
             <!-- *** START: Article Headline *** -->
@@ -3534,12 +3534,12 @@ This code will look like this when rendered:
 
     <mj-section padding="0px">
         <mj-column padding="0px"
-                   width="49%"
+                   width="32%"
                    border="1px #e2e2e2 solid">
             <!-- *** START: Article Image *** -->
             <mj-image alt="Secondary Article Image"
                       padding="0px"
-                      src="https://dummyimage.com/193x105/e2e2e2/9b9b9b.jpg&text=Resource+Image" />
+                      src="http://placeimg.com/193/105/any" />
             <!-- *** END: Article Image *** -->
 
             <!-- *** START: Article Headline *** -->
@@ -3561,12 +3561,39 @@ This code will look like this when rendered:
             <mj-spacer height="10px" />
         </mj-column>
         <mj-column padding="0px"
-                   width="49%"
+                   width="32%"
                    border="1px #e2e2e2 solid">
             <!-- *** START: Article Image *** -->
             <mj-image alt="Secondary Article Image"
                       padding="0px"
-                      src="https://dummyimage.com/193x105/e2e2e2/9b9b9b.jpg&text=Resource+Image" />
+                      src="http://placeimg.com/193/105/any" />
+            <!-- *** END: Article Image *** -->
+
+            <!-- *** START: Article Headline *** -->
+            <mj-text mj-class="text__normal color__anthracite-gray"
+                     padding="10px 15px"
+                     font-weight="bold">
+                FARO ScanArm helps users maximize customer satisfaction
+            </mj-text>
+            <!-- *** END: Article Headline *** -->
+
+            <!-- *** START: Article Link *** -->
+            <mj-text mj-class="text__normal color__zenith-blue"
+                     padding="30px 15px 10px 15px">
+                <a href="#" class="link-nostyle">Read Article</a>
+            </mj-text>
+            <!-- *** END: Article Link *** -->
+        </mj-column>
+        <mj-column padding="0px" width="2%">
+            <mj-spacer height="10px" />
+        </mj-column>
+        <mj-column padding="0px"
+                   width="32%"
+                   border="1px #e2e2e2 solid">
+            <!-- *** START: Article Image *** -->
+            <mj-image alt="Secondary Article Image"
+                      padding="0px"
+                      src="http://placeimg.com/193/105/any" />
             <!-- *** END: Article Image *** -->
 
             <!-- *** START: Article Headline *** -->

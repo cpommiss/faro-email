@@ -28,7 +28,7 @@
                     <!-- *** START: Article Image *** -->
                     <mj-image alt="Secondary Article Image"
                               padding="0px"
-                              src="https://dummyimage.com/193x105/e2e2e2/9b9b9b.jpg&text=Resource+Image" />
+                              src="http://placeimg.com/193/105/any" />
                     <!-- *** END: Article Image *** -->
 
                     <!-- *** START: Article Headline *** -->
@@ -55,7 +55,7 @@
                     <!-- *** START: Article Image *** -->
                     <mj-image alt="Secondary Article Image"
                               padding="0px"
-                              src="https://dummyimage.com/193x105/e2e2e2/9b9b9b.jpg&text=Resource+Image" />
+                              src="http://placeimg.com/193/105/any" />
                     <!-- *** END: Article Image *** -->
 
                     <!-- *** START: Article Headline *** -->
@@ -82,7 +82,7 @@
                     <!-- *** START: Article Image *** -->
                     <mj-image alt="Secondary Article Image"
                               padding="0px"
-                              src="https://dummyimage.com/193x105/e2e2e2/9b9b9b.jpg&text=Resource+Image" />
+                              src="http://placeimg.com/193/105/any" />
                     <!-- *** END: Article Image *** -->
 
                     <!-- *** START: Article Headline *** -->

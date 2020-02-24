@@ -251,7 +251,7 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
             <mj-class name="text__cta-newsletter-secondary"
                       color="#ffffff"
                       font-size="20px"
-                      line-height="20px"
+                      line-height="26px"
                       font-weight="normal"
                       font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
                       padding="0px 20px" />
@@ -345,8 +345,8 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
                       padding="15px 40px" />
             <mj-class name="button__secondary"
                       border-radius="0px"
-                      font-size="15px"
-                      line-height="20px"
+                      font-size="13px"
+                      line-height="17px"
                       font-weight="bold"
                       font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
                       padding="15px 30px" />
@@ -396,6 +396,7 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
             .link-nostyle { color: inherit; }
             .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
             .mobile-visible { display: none !important; }
+            .mobile-newsletter-date { display: none !important; }
 
             sup { font-variant: super; vertical-align: baseline; position: relative; top: -4px; }
 
@@ -427,6 +428,8 @@ Use the builder feature below to generate an e-mail template in MJML for immedia
                 span.rmbtn { color:#ffffff !important; }
                 a.rmbtn { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;text-align:center!important;color:#ffffff !important;font-weight: bold !important;font-size:16px !important;text-decoration: none !important;display:block; padding:15px; width:90%;background-color: #009cde; }
                 .mblnav { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;color:#ffffff !important; font-weight: bold !important;font-size:14px !important;text-decoration: none !important;display:block; padding:15px; width:90%; background-color: #939598; }
+                .show { display:inline !important;}
+                .mobile-newsletter-date { display: block !important; }
             }
         </mj-style>
         <mj-style inline="inline">
@@ -616,7 +619,7 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
             <mj-class name="text__cta-newsletter-secondary"
                       color="#ffffff"
                       font-size="20px"
-                      line-height="20px"
+                      line-height="26px"
                       font-weight="normal"
                       font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
                       padding="0px 20px" />
@@ -710,8 +713,8 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
                       padding="15px 40px" />
             <mj-class name="button__secondary"
                       border-radius="0px"
-                      font-size="15px"
-                      line-height="20px"
+                      font-size="13px"
+                      line-height="17px"
                       font-weight="bold"
                       font-family="'Open Sans', 'Helvetica Neue', Helvetica, sans-serif"
                       padding="15px 30px" />
@@ -761,6 +764,7 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
             .link-nostyle { color: inherit; }
             .top-image, .top-image > div > table { background-size: cover !important; background-position: center top !important; }
             .mobile-visible { display: none !important; }
+            .mobile-newsletter-date { display: none !important; }
 
             sup { font-variant: super; vertical-align: baseline; position: relative; top: -4px; }
 
@@ -792,6 +796,8 @@ See the **[MJML documentation site](https://mjml.io/documentation/)** for more i
                 span.rmbtn { color:#ffffff !important; }
                 a.rmbtn { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;text-align:center!important;color:#ffffff !important;font-weight: bold !important;font-size:16px !important;text-decoration: none !important;display:block; padding:15px; width:90%;background-color: #009cde; }
                 .mblnav { margin-top:8px !important;margin-left: 0 !important;margin-right: 0 !important;color:#ffffff !important; font-weight: bold !important;font-size:14px !important;text-decoration: none !important;display:block; padding:15px; width:90%; background-color: #939598; }
+                .show { display:inline !important;}
+                .mobile-newsletter-date { display: block !important; }
             }
         </mj-style>
         <mj-style inline="inline">

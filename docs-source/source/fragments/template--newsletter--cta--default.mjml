@@ -22,10 +22,13 @@
                     </mj-text>
                     <!-- *** END: Headline Text *** -->
 
+                    <mj-spacer css-class="mobile-newsletter-date"
+                               height="15px" />
+
                     <!-- *** START: Sub-Headline Text *** -->
                     <mj-text mj-class="text__cta-newsletter-secondary color__white"
                              align="center">
-                        Newsletter | December 2019
+                        Newsletter <span class="hide">|</span> <span class="show" style="display:none;"><br></span> December 2019
                     </mj-text>
                     <!-- *** END: Sub-Headline Text *** -->
                 </mj-column>

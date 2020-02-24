@@ -1600,8 +1600,7 @@ This code will look like this when rendered:
 ## Newsletter Default
 
 ```html
-<mj-wrapper mj-class="color__white--bg"
-            css-class="top-image"
+<mj-wrapper css-class="top-image"
             padding="50px 0px 55px 0px"
             background-url="https://img.en25.com/EloquaImages/clients/Faro/%7B8c25baf5-cf06-484c-8163-39b7b77c2da1%7D_bg-newsletter-top-image.jpg"
             background-size="680px"
